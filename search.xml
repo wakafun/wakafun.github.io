@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>落叶人何在，寒云路几层</title>
+      <link href="/2020/04/16/check0416/"/>
+      <url>/2020/04/16/check0416/</url>
+      
+        <content type="html"><![CDATA[<h2 id="每日计划-Check"><a href="#每日计划-Check" class="headerlink" title="每日计划 Check"></a>每日计划 Check</h2><p>造价市政消防    check</p><p>ps    check</p><p>滑板    check</p><p>笛子     no</p><p>Fit      check</p><p>Android       no</p><p>国考          check            </p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> daycheck </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Check </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>TO BE DONE</title>
       <link href="/2020/04/14/to-be-done/"/>
       <url>/2020/04/14/to-be-done/</url>
