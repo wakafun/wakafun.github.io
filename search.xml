@@ -4,16 +4,16 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2020/04/14/hello-blog/"/>
-      <url>/2020/04/14/hello-blog/</url>
+      <title>TO BE DONE</title>
+      <link href="/2020/04/14/to-be-done/"/>
+      <url>/2020/04/14/to-be-done/</url>
       
-        <content type="html"><![CDATA[<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>这是我今后的博客，希望能常来。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h2 id="2020计划"><a href="#2020计划" class="headerlink" title="2020计划"></a>2020计划</h2><p>1.造价工程师</p><p>2.市政实务</p><p>3.驾照</p><p>4.ps</p><p>5.滑板</p><p>6.笛子</p><p>7.Fit</p><p>8.Android</p><p>9.消防工程师</p><p>10.国考</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
           
-          <category> Markdown </category>
+          <category> Plans </category>
           
       </categories>
       
