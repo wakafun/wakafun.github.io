@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wakafun.github.io/"/>
-  <updated>2020-04-18T01:33:40.211Z</updated>
+  <updated>2020-04-20T02:04:42.205Z</updated>
   <id>http://wakafun.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>岂伊地气暖，自有岁寒心</title>
+    <link href="http://wakafun.github.io/2020/04/19/0419/"/>
+    <id>http://wakafun.github.io/2020/04/19/0419/</id>
+    <published>2020-04-19T03:00:00.000Z</published>
+    <updated>2020-04-20T02:04:42.205Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;from docx import Document&lt;/p&gt;
+&lt;p&gt;from jieba import lcut&lt;/p&gt;
+&lt;p&gt;from wordcloud import WordCloud&lt;/p&gt;
+&lt;p&gt;file =
+        
+      
+    
+    </summary>
+    
+    
+      <category term="learn sth." scheme="http://wakafun.github.io/categories/learn-sth/"/>
+    
+    
+      <category term="Python" scheme="http://wakafun.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>忽见陌头杨柳色，悔教夫婿觅封侯</title>

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>岂伊地气暖，自有岁寒心</title>
+      <link href="/2020/04/19/0419/"/>
+      <url>/2020/04/19/0419/</url>
+      
+        <content type="html"><![CDATA[<p>from docx import Document</p><p>from jieba import lcut</p><p>from wordcloud import WordCloud</p><p>file = Document(“D:\\Desktop\\hah.docx”)</p><p>doc = “ “</p><p>for para in file.paragraphs:</p><p>​    doc = doc + para.text</p><p>newdoc = ‘ ‘.join(lcut(doc))</p><p>img = WordCloud(‘C:\\Windows\\Fonts\\FSGB2312.ttf’,width = 500,height = 400,background_color = ‘white’,font_step = 3,random_state = False,prefer_horizontal=0.9)</p><p>img.generate(newdoc)</p><p>img.to_file(‘d:\\Desktop\\tt.png’)</p><hr><p>输出词云图片Python代码</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> learn sth. </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>忽见陌头杨柳色，悔教夫婿觅封侯</title>
       <link href="/2020/04/18/learn0418/"/>
       <url>/2020/04/18/learn0418/</url>
