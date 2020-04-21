@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wakafun.github.io/"/>
-  <updated>2020-04-20T03:12:04.345Z</updated>
+  <updated>2020-04-21T10:48:13.805Z</updated>
   <id>http://wakafun.github.io/</id>
   
   <author>
@@ -15,6 +15,80 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开卷有益</title>
+    <link href="http://wakafun.github.io/2020/04/21/books/"/>
+    <id>http://wakafun.github.io/2020/04/21/books/</id>
+    <published>2020-04-21T10:00:00.000Z</published>
+    <updated>2020-04-21T10:48:13.805Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;七界传说系列&lt;/li&gt;
+&lt;li&gt;史记&lt;/li&gt;
+&lt;li&gt;论语&lt;/li&gt;
+&lt;li&gt;毛泽东文选&lt;/li&gt;
+&lt;li&gt;人性的弱点&lt;/li&gt;
+&lt;li&gt;明朝那些事&lt;/li&gt;
+&lt;li&gt;激荡三十年&lt;/li&gt;
+&lt;li&gt;平凡的世界&lt;/li&gt;
+&lt;li&gt;鲁迅文集&lt;/li&gt;
+&lt;li&gt;&lt;/
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pleasure" scheme="http://wakafun.github.io/categories/pleasure/"/>
+    
+    
+      <category term="Book" scheme="http://wakafun.github.io/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>读书破万卷下笔如有神</title>
+    <link href="http://wakafun.github.io/2020/04/21/webbooks/"/>
+    <id>http://wakafun.github.io/2020/04/21/webbooks/</id>
+    <published>2020-04-21T10:00:00.000Z</published>
+    <updated>2020-04-21T10:45:03.430Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;七界传说系列&lt;/li&gt;
+&lt;li&gt;古龙小说集&lt;/li&gt;
+&lt;li&gt;金庸小说集&lt;/li&gt;
+&lt;li&gt;盘龙&lt;/li&gt;
+&lt;li&gt;星辰变&lt;/li&gt;
+&lt;li&gt;凡人修仙传系列&lt;/li&gt;
+&lt;li&gt;斗破苍穹&lt;/li&gt;
+&lt;li&gt;神墓&lt;/li&gt;
+&lt;li&gt;卫斯理系列&lt;/li&gt;
+&lt;li&gt;搜神
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pleasure" scheme="http://wakafun.github.io/categories/pleasure/"/>
+    
+    
+      <category term="webBook" scheme="http://wakafun.github.io/tags/webBook/"/>
+    
+  </entry>
   
   <entry>
     <title>松风吹解带，山月照弹琴</title>
@@ -44,11 +118,11 @@
   </entry>
   
   <entry>
-    <title>举杯邀明月，对影成三人</title>
-    <link href="http://wakafun.github.io/2020/04/19/kong-bu-pian-ya-zhou/"/>
-    <id>http://wakafun.github.io/2020/04/19/kong-bu-pian-ya-zhou/</id>
+    <title>只在此山中，云深不知处</title>
+    <link href="http://wakafun.github.io/2020/04/19/kong-bu-pian-ou-mei/"/>
+    <id>http://wakafun.github.io/2020/04/19/kong-bu-pian-ou-mei/</id>
     <published>2020-04-19T04:00:00.000Z</published>
-    <updated>2020-04-20T11:47:41.175Z</updated>
+    <updated>2020-04-20T11:52:45.425Z</updated>
     
     <summary type="html">
     
@@ -56,7 +130,7 @@
       
         
         
-          &lt;h2 id=&quot;亚洲恐怖片&quot;&gt;&lt;a href=&quot;#亚洲恐怖片&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;欧美恐怖片&quot;&gt;&lt;a href=&quot;#欧美恐怖片&quot; class=&quot;headerlink&quot;
         
       
     
@@ -71,11 +145,11 @@
   </entry>
   
   <entry>
-    <title>只在此山中，云深不知处</title>
-    <link href="http://wakafun.github.io/2020/04/19/kong-bu-pian-ou-mei/"/>
-    <id>http://wakafun.github.io/2020/04/19/kong-bu-pian-ou-mei/</id>
+    <title>举杯邀明月，对影成三人</title>
+    <link href="http://wakafun.github.io/2020/04/19/kong-bu-pian-ya-zhou/"/>
+    <id>http://wakafun.github.io/2020/04/19/kong-bu-pian-ya-zhou/</id>
     <published>2020-04-19T04:00:00.000Z</published>
-    <updated>2020-04-20T11:52:45.425Z</updated>
+    <updated>2020-04-20T11:47:41.175Z</updated>
     
     <summary type="html">
     
@@ -83,7 +157,7 @@
       
         
         
-          &lt;h2 id=&quot;欧美恐怖片&quot;&gt;&lt;a href=&quot;#欧美恐怖片&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;亚洲恐怖片&quot;&gt;&lt;a href=&quot;#亚洲恐怖片&quot; class=&quot;headerlink&quot;
         
       
     
