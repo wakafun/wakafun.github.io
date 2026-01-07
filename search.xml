@@ -22,9 +22,15 @@
   <entry>
     <title>TVBox使用简介</title>
     <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<p>*打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</p>
+    <content><![CDATA[<ul>
+<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
+</ul>
 <p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
-<p>*‌输入接口地址‌：<br>*手机扫码配置：在手机中输入地址并推送至电视。‌‌<br>*‌验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</p>
+<ul>
+<li>输入接口地址‌：</li>
+<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
+<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
+</ul>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
 
