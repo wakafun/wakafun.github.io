@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>新年新气象</title>
-    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
-    <content><![CDATA[<span id="more"></span>
-
-
+    <title>标高引起的连锁反应</title>
+    <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
+    <content><![CDATA[<ul>
+<li>问：为什么设计图纸一般都会开门见山的写设计说明？</li>
+<li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li>
+</ul>
+<p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p>
+<p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p>
+<p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p>
+<p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p>
+<p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p>
+<p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p>
+<p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p>
 <hr>
-<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
-<hr>
-<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
-<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
+<ul>
+<li>再问：那图中加入表格表示不更明显？</li>
+<li>再答：你猜怎么着，表格我已经提供了</li>
+</ul>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>感悟</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
+        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -45,6 +53,25 @@
       </categories>
       <tags>
         <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新年新气象</title>
+    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
+    <content><![CDATA[<span id="more"></span>
+
+
+<hr>
+<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
+<hr>
+<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
+<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
       </tags>
   </entry>
 </search>
