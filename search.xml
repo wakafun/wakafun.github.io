@@ -1,100 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>标高引起的连锁反应</title>
-    <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
-    <content><![CDATA[<ul>
-<li>问：为什么设计图纸一般都会开门见山的写设计说明？</li>
-<li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li>
-</ul>
-<p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p>
-<p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p>
-<p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p>
-<p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p>
-<p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p>
-<p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p>
-<p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p>
-<hr>
-<ul>
-<li>再问：那图中加入表格表示不更明显？</li>
-<li>再答：你猜怎么着，表格我已经提供了</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>模具定位板</title>
-    <url>/2026/01/14/%E6%A8%A1%E5%85%B7%E5%AE%9A%E4%BD%8D%E6%9D%BF/</url>
-    <content><![CDATA[<p>异形预制构件采用模具制作，模具安装师傅根据地面定位板，将筋板、面板、固定板等按位安装。</p>
-<p>定位板的分割雕刻需考虑组装时的偏差问题，一般拐角处、变截面处及其他复杂地方需要整体雕刻，不能切断，否则会导致误差偏大。例如木模具切割时的毛边，本身的柔性等都会影响模具最终的尺寸。</p>
-<p>定位木板的组装根据图纸尺寸，及时微调，保证最终长度、宽度及水平度符合图纸要求。</p>
-<p>组装完毕需复核尺寸。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>模具</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TVBox使用简介</title>
-    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<ul>
-<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
-</ul>
-<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
-<ul>
-<li>输入接口地址‌：</li>
-<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
-<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
-
-
-<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
-<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
-<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
-<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新年新气象</title>
-    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
-    <content><![CDATA[<span id="more"></span>
-
-
-<hr>
-<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
-<hr>
-<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
-<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-      </tags>
-  </entry>
-  <entry>
     <title></title>
     <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<p>title: 开设模具通用步骤及注意事项<br>tags: 模具<br>categories: 总结</p>
-<h2 id="开设模具通用步骤及注意事项"><a href="#开设模具通用步骤及注意事项" class="headerlink" title="开设模具通用步骤及注意事项"></a>开设模具通用步骤及注意事项</h2><ul>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">title: 开设模具通用步骤及注意事项 </span><br><span class="line">tags: 点滴</span><br><span class="line">categories: 感悟</span><br></pre></td></tr></table></figure>
+
+<ul>
 <li><h3 id="总方向：方便模具工组装和产品制作及脱模"><a href="#总方向：方便模具工组装和产品制作及脱模" class="headerlink" title="总方向：方便模具工组装和产品制作及脱模"></a>总方向：方便模具工组装和产品制作及脱模</h3></li>
 <li><h3 id="根据深化图纸，初步设计开模方案，选择整体-或-分件制作。"><a href="#根据深化图纸，初步设计开模方案，选择整体-或-分件制作。" class="headerlink" title="根据深化图纸，初步设计开模方案，选择整体 或 分件制作。"></a>根据深化图纸，初步设计开模方案，选择整体 或 分件制作。</h3><p>深化图设计另详。仔细查看深化图中的尺寸：长、宽、高、厚、弧度、转角、凹凸、数量、预埋件、吊件、分布筋、周围环境（地上、地下、埋深、排水）等状况，初步确定选择地模 或 平台模，综合考虑适合的开模方案。</p>
 <ul>
@@ -126,5 +37,95 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一般说了不少，那遇到不一般的情况该如何？</span><br><span class="line"></span><br><span class="line">具体问题具体分析了，起个设想，尝试再说。</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>TVBox使用简介</title>
+    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<ul>
+<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
+</ul>
+<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
+<ul>
+<li>输入接口地址‌：</li>
+<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
+<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
+
+
+<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
+<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
+<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
+<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标高引起的连锁反应</title>
+    <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
+    <content><![CDATA[<ul>
+<li>问：为什么设计图纸一般都会开门见山的写设计说明？</li>
+<li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li>
+</ul>
+<p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p>
+<p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p>
+<p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p>
+<p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p>
+<p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p>
+<p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p>
+<p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p>
+<hr>
+<ul>
+<li>再问：那图中加入表格表示不更明显？</li>
+<li>再答：你猜怎么着，表格我已经提供了</li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新年新气象</title>
+    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
+    <content><![CDATA[<span id="more"></span>
+
+
+<hr>
+<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
+<hr>
+<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
+<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>模具定位板</title>
+    <url>/2026/01/14/%E6%A8%A1%E5%85%B7%E5%AE%9A%E4%BD%8D%E6%9D%BF/</url>
+    <content><![CDATA[<p>异形预制构件采用模具制作，模具安装师傅根据地面定位板，将筋板、面板、固定板等按位安装。</p>
+<p>定位板的分割雕刻需考虑组装时的偏差问题，一般拐角处、变截面处及其他复杂地方需要整体雕刻，不能切断，否则会导致误差偏大。例如木模具切割时的毛边，本身的柔性等都会影响模具最终的尺寸。</p>
+<p>定位木板的组装根据图纸尺寸，及时微调，保证最终长度、宽度及水平度符合图纸要求。</p>
+<p>组装完毕需复核尺寸。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>模具</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
   </entry>
 </search>
