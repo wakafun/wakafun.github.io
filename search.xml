@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">title: 开设模具通用步骤及注意事项 </span><br><span class="line">tags: 点滴</span><br><span class="line">categories: 感悟</span><br></pre></td></tr></table></figure>
-
+    <title>TVBox使用简介</title>
+    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<ul>
+<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
+</ul>
+<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
 <ul>
+<li>输入接口地址‌：</li>
+<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
+<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
+
+
+<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
+<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
+<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
+<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新年新气象</title>
+    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
+    <content><![CDATA[<span id="more"></span>
+
+
+<hr>
+<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
+<hr>
+<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
+<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开设模具通用步骤及注意事项</title>
+    <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<ul>
 <li><h3 id="总方向：方便模具工组装和产品制作及脱模"><a href="#总方向：方便模具工组装和产品制作及脱模" class="headerlink" title="总方向：方便模具工组装和产品制作及脱模"></a>总方向：方便模具工组装和产品制作及脱模</h3></li>
 <li><h3 id="根据深化图纸，初步设计开模方案，选择整体-或-分件制作。"><a href="#根据深化图纸，初步设计开模方案，选择整体-或-分件制作。" class="headerlink" title="根据深化图纸，初步设计开模方案，选择整体 或 分件制作。"></a>根据深化图纸，初步设计开模方案，选择整体 或 分件制作。</h3><p>深化图设计另详。仔细查看深化图中的尺寸：长、宽、高、厚、弧度、转角、凹凸、数量、预埋件、吊件、分布筋、周围环境（地上、地下、埋深、排水）等状况，初步确定选择地模 或 平台模，综合考虑适合的开模方案。</p>
 <ul>
@@ -37,33 +82,11 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一般说了不少，那遇到不一般的情况该如何？</span><br><span class="line"></span><br><span class="line">具体问题具体分析了，起个设想，尝试再说。</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>TVBox使用简介</title>
-    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<ul>
-<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
-</ul>
-<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
-<ul>
-<li>输入接口地址‌：</li>
-<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
-<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
-
-
-<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
-<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
-<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
-<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
-]]></content>
       <categories>
-        <category>分享</category>
+        <category>感悟</category>
       </categories>
       <tags>
-        <tag>软件</tag>
+        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -91,25 +114,6 @@
       </categories>
       <tags>
         <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新年新气象</title>
-    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
-    <content><![CDATA[<span id="more"></span>
-
-
-<hr>
-<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
-<hr>
-<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
-<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
