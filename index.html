@@ -112,7 +112,27 @@
 <p>时光之纱将其层层包裹</p>
 <p>我知道它不再会破茧而出了</p>
 <p>{ % audio (<a href="https://wakafun.github.io/music/1.mp3">https://wakafun.github.io/music/1.mp3</a>) % }</p>
+<link rel="stylesheet" href="https://wakafun.github.io/node_modules/aplayer/dist/APlayer.min.css">
+<script src="https://wakafun.github.io/node_modules/aplayer/dist/APlayer.min.js"></script>
 
+<div id='aplayer'></div>
+
+<script>
+    var ap = new APlayer
+    ({
+        element: document.getElementById('aplayer'),
+        showlrc: false,
+        fixed: true,
+        mini: true,
+        audio: {
+            title: '我记得你眼里的依恋',
+            author: '群声',
+            url: 'https://wakafun.github.io/music/1.mp3',
+            pic: ''
+        }
+    });
+    ap.init();
+</script>
       
     </div>
     <footer class="article-footer">
