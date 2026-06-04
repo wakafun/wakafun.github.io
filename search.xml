@@ -1,239 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>TVBox使用简介</title>
-    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
-</ul>
-<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
-<ul>
-<li>输入接口地址‌：</li>
-<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
-<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
-
-
-<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
-<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
-<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
-<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>钓鱼</title>
+      <link href="/2026/06/03/%E9%92%93%E9%B1%BC/"/>
+      <url>/2026/06/03/%E9%92%93%E9%B1%BC/</url>
+      
+        <content type="html"><![CDATA[<p>钓鱼是我一直想要做的事。大概从中学时期起，就想着有一天能拎着鱼竿好好钓它一回。</p><p>但是后来钓了几次发现没那个当初喜欢的感觉了，与想象中的感觉差远了。</p><p>有了好的装备，有了时间，却没了那份热情。</p><p>我试着唤起那份热情，却终究不似。</p><hr><p>我怀念的</p><p>是记忆中那份美好的</p><p>人和事</p><p>希望它永远存在</p><p>可我竟只能远远地看着</p><p>时光之纱将其层层包裹</p><p>我知道它不再会破茧而出了</p><p>% audio (<a href="https://wakafun.github.io/music/1.mp3">https://wakafun.github.io/music/1.mp3</a>) %}</p><link rel="stylesheet" href="https://wakafun.github.io/node_modules/aplayer/dist/APlayer.min.css"><script src="https://wakafun.github.io/node_modules/aplayer/dist/APlayer.min.js"></script><div id='aplayer'></div><script>    var ap = new APlayer    ({        element: document.getElementById('aplayer'),        showlrc: false,        fixed: true,        mini: true,        audio: {            title: '我记得你眼里的依恋',            author: '群声',            url: 'https://wakafun.github.io/music/1.mp3',            pic: ''        }    });    ap.init();</script>]]></content>
+      
+      
       <categories>
-        <category>分享</category>
+          
+          <category> 杂谈 </category>
+          
       </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开设模具通用步骤及注意事项</title>
-    <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li><h3 id="总方向：方便模具工组装和产品制作及脱模"><a href="#总方向：方便模具工组装和产品制作及脱模" class="headerlink" title="总方向：方便模具工组装和产品制作及脱模"></a>总方向：方便模具工组装和产品制作及脱模</h3></li>
-<li><h3 id="根据深化图纸，初步设计开模方案，选择整体-或-分件制作。"><a href="#根据深化图纸，初步设计开模方案，选择整体-或-分件制作。" class="headerlink" title="根据深化图纸，初步设计开模方案，选择整体 或 分件制作。"></a>根据深化图纸，初步设计开模方案，选择整体 或 分件制作。</h3><p>深化图设计另详。仔细查看深化图中的尺寸：长、宽、高、厚、弧度、转角、凹凸、数量、预埋件、吊件、分布筋、周围环境（地上、地下、埋深、排水）等状况，初步确定选择地模 或 平台模，综合考虑适合的开模方案。</p>
-<ul>
-<li>简易法：根据产品通长方向设置定位板、分布筋板并附加面板，适用于规则简单、单一外凸类（或凹凸不大）的产品。</li>
-<li>叠加法：由“简易法”延申而来，在产品局部拐角、突变处，因其特殊形状而增加设置定位板、筋板并附加面板。需要注意的是，有时仍然会遗漏，比如整体产品为长条形的，很自然的就会漏掉“长纵向”加筋板的可能性。谨记：有弧度必有底（筋板）。</li>
-<li>分模法：亦称“活模法”，针对多组产品、“瘦高”形产品，采用分块模具组合成整体方式制作模具，方便对犄角旮旯地方抹灰整平、喷涂，且可重复利用。</li>
-<li>内嵌法：针对凹形产品，当采用其他方法制作模具过于麻烦时，可采用此法。特点是模具外侧平整，仅需内部嵌入相应尺寸的垫板，达到所需的“凹形效果”即可。模具制作时亦方便省事。</li>
-</ul>
-</li>
-<li><h3 id="在与模具工协商确认好方向后，启动开模设计"><a href="#在与模具工协商确认好方向后，启动开模设计" class="headerlink" title="在与模具工协商确认好方向后，启动开模设计"></a>在与模具工协商确认好方向后，启动开模设计</h3><p>先将产品倒置（在CAD中则先将其镜像），然后按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序设计。</p>
-<ul>
-<li><p>定位板：作为模具中的基础，定位板定位尺寸很重要，一步错步步错。一般用15mm板雕刻，设15cm宽，定位口15mm宽，一般为封闭的整体。部分平台模设计时会考虑“卡口设计”，届时需预留1~2mm间隙，以防插不下去，且定位板根据活模特性为分段式。定位口的设置需综合考虑筋板与面板，防止打架。分割及组装参照前篇所述。</p>
-</li>
-<li><p>筋板：作为模具中的支撑骨干，且是面板的基础，也很重要。设计时需考虑让出面板、盖板的厚度，犀牛设计时需采用“偏移面”的方法。一般会在产品的外侧，将筋板侧边开豁口，方便模具工组装。一般用15mm板雕刻。需注意产品的突变处需加设筋板。</p>
-</li>
-<li><p>分模板：根据产品数量、特点选择合适厚度的分模板，一般分为15mm、18mm厚。位置一般从方便分模的地方下移1~3cm断开分模，长度上跟随产品长度，宽度上则根据具体情况设置通长或局部宽度。需注意分模的上下两部分需方便对接，且接头点的缝隙有保证。对于部分过深的产品，是否多次分模可以与模具工商量。</p>
-</li>
-<li><p>面板：面板的分割需考虑产品成型时的缝隙、底部筋板的支撑，尽量少分割且分割处下方有筋板支撑。各个面板的搭接顺序需考虑清楚并于断面图上显现。</p>
-</li>
-<li><p>盖板及封头板厚度根据需要调整，封头要区分封闭头还是分段头，二者挡板不一样。分段封头是否考虑刚性做成封闭的结合实际情况处置。</p>
-</li>
-<li><p>所有模具的分割处理是否垂直切割，根据具体产品而定。一般情况下垂直切割。</p>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">犀牛，即“Rhino”软件，时下很流行的3D建模开模软件，简单易上手。前文所述“偏移面”的方法相较于“偏移曲线”的方法在倾斜曲面上开模更准确。</span><br></pre></td></tr></table></figure>
-</li>
-<li><h3 id="复核产品模具图形及尺寸"><a href="#复核产品模具图形及尺寸" class="headerlink" title="复核产品模具图形及尺寸"></a>复核产品模具图形及尺寸</h3><p>按照顺序回想一遍，参照3D模型及CAD图纸，并互相印证，确保每一步，尤其是节点部位准确无误。尺寸是否正确、是否有遗漏、相互间是否打架等。</p>
-</li>
-<li><h3 id="输出雕刻及出图"><a href="#输出雕刻及出图" class="headerlink" title="输出雕刻及出图"></a>输出雕刻及出图</h3><ul>
-<li>依然按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序输出外框或封闭多段线，分类到5、9、15、18mm等规格并编号，分类2D排版、CAD布局并出图、AI导出、JD程序、板材雕刻。过程中亦需要检查有无错误，比如排版镜像、缺棱掉角、导出尺寸、雕刻异常等。</li>
-<li>整体三维效果图打印，包括模具3D和产品3D图；对应CAD详图打印；底板标注三角尺寸并打印，方便模具工定形；筋板断面图标注各面板编号并打印，需详细指出各个面板的搭接关系、筋板的内外关系；面板、盖板、分隔板的整体布局关系图。</li>
-<li>时常到模具工处看看进展情况并询问是否存在问题，及时发现根源及时解决。</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一般说了不少，那遇到不一般的情况该如何？</span><br><span class="line">具体问题具体分析了，起个设想，尝试再说。</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 二三 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>魔法科学</title>
+      <link href="/2026/03/02/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/"/>
+      <url>/2026/03/02/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
+      
+        <content type="html"><![CDATA[<p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p><hr><p> <a href="www.nerwo.co">奶瓶</a></p><p><a href="https://www.google.com/">Google</a></p><p><a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a></p>]]></content>
+      
+      
       <categories>
-        <category>感悟</category>
+          
+          <category> 杂谈 </category>
+          
       </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>好多天没洗车了</title>
-    <url>/2026/02/20/%E5%A5%BD%E5%A4%9A%E5%A4%A9%E6%B2%A1%E6%B4%97%E8%BD%A6%E4%BA%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>不知不觉都初四了，放假比工作还累的感觉突然就冒了出来。放假前的憧憬，放假第一天的欢愉，已经遥不可及了。</p>
-<p>工作忙的时候一心想着处理事情，等闲下来才有空思考一些有的没的。总想着把些期待放在假期去满足，可真等到那一天又找不到当时的期冀了。</p>
-<p>时间像海绵里的水，挤挤总会有的。原来先贤讲的道理并不通用，起码对我这种人。</p>
-<p>昨天就觉得车子很脏了，今天在阳光照耀下尤其脏的明显。灰蒙蒙的，像角落里的kindle、跑步机、健身卡、颇多书籍。</p>
-<p>等有事顺路去洗车吧，等下雨天吧，等下一次维保吧。也许洗车并不重要，只是有这个事存在，我就有了指导意义。人不是为了洗车而存在的，这个理由无敌了。但是说不通。</p>
-<p>好在车上的灰尘不是大到影响市容、影响行车安全。你不洗也就旁人看见了嘟囔两句，洗车店老板无奈笑笑而已。为什么，因为无关多大利益，无关人身安全及经济利益。但假如真都不洗车了，也许就成了问题。</p>
-<p>以前不太理解什么叫无形的大手，国内顶尖刑侦专家一出手还不手到擒来，循着蛛丝马迹总能抓着根吧。宇宙场理论用在社会上倒也行。</p>
-<hr>
-<p>过两天去维保。</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>飞牛NAS</title>
+      <link href="/2026/02/21/%E9%A3%9E%E7%89%9BNAS/"/>
+      <url>/2026/02/21/%E9%A3%9E%E7%89%9BNAS/</url>
+      
+        <content type="html"><![CDATA[<p>老早就关注了NAS，最近终于落实了。事情不做就一直拖着也没意思。</p><p>飞牛nas简单方便，笔记本装起来倒是没啥难度，就是后面界面老是刷屏报错，找了deepseek帮着处理干净了。</p><p>电视端再配备飞牛影视即可，就是播放体验不太好，等更新吧。</p><hr><p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p><p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/?spm_id_from=333.337.search-card.all.click">只有WiFi也能安装飞牛OS的保姆级教程</a></p>]]></content>
+      
+      
       <categories>
-        <category>感悟</category>
+          
+          <category> 杂谈 </category>
+          
       </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新年新气象</title>
-    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><span id="more"></span>
-
-
-<hr>
-<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
-<hr>
-<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
-<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开设模具通用步骤及注意事项</title>
+      <link href="/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+      <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+      
+        <content type="html"><![CDATA[<ul><li><h3 id="总方向：方便模具工组装和产品制作及脱模"><a href="#总方向：方便模具工组装和产品制作及脱模" class="headerlink" title="总方向：方便模具工组装和产品制作及脱模"></a>总方向：方便模具工组装和产品制作及脱模</h3></li><li><h3 id="根据深化图纸，初步设计开模方案，选择整体-或-分件制作。"><a href="#根据深化图纸，初步设计开模方案，选择整体-或-分件制作。" class="headerlink" title="根据深化图纸，初步设计开模方案，选择整体 或 分件制作。"></a>根据深化图纸，初步设计开模方案，选择整体 或 分件制作。</h3><p>深化图设计另详。仔细查看深化图中的尺寸：长、宽、高、厚、弧度、转角、凹凸、数量、预埋件、吊件、分布筋、周围环境（地上、地下、埋深、排水）等状况，初步确定选择地模 或 平台模，综合考虑适合的开模方案。</p><ul><li>简易法：根据产品通长方向设置定位板、分布筋板并附加面板，适用于规则简单、单一外凸类（或凹凸不大）的产品。</li><li>叠加法：由“简易法”延申而来，在产品局部拐角、突变处，因其特殊形状而增加设置定位板、筋板并附加面板。需要注意的是，有时仍然会遗漏，比如整体产品为长条形的，很自然的就会漏掉“长纵向”加筋板的可能性。谨记：有弧度必有底（筋板）。</li><li>分模法：亦称“活模法”，针对多组产品、“瘦高”形产品，采用分块模具组合成整体方式制作模具，方便对犄角旮旯地方抹灰整平、喷涂，且可重复利用。</li><li>内嵌法：针对凹形产品，当采用其他方法制作模具过于麻烦时，可采用此法。特点是模具外侧平整，仅需内部嵌入相应尺寸的垫板，达到所需的“凹形效果”即可。模具制作时亦方便省事。</li></ul></li><li><h3 id="在与模具工协商确认好方向后，启动开模设计"><a href="#在与模具工协商确认好方向后，启动开模设计" class="headerlink" title="在与模具工协商确认好方向后，启动开模设计"></a>在与模具工协商确认好方向后，启动开模设计</h3><p>先将产品倒置（在CAD中则先将其镜像），然后按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序设计。</p><ul><li><p>定位板：作为模具中的基础，定位板定位尺寸很重要，一步错步步错。一般用15mm板雕刻，设15cm宽，定位口15mm宽，一般为封闭的整体。部分平台模设计时会考虑“卡口设计”，届时需预留1~2mm间隙，以防插不下去，且定位板根据活模特性为分段式。定位口的设置需综合考虑筋板与面板，防止打架。分割及组装参照前篇所述。</p></li><li><p>筋板：作为模具中的支撑骨干，且是面板的基础，也很重要。设计时需考虑让出面板、盖板的厚度，犀牛设计时需采用“偏移面”的方法。一般会在产品的外侧，将筋板侧边开豁口，方便模具工组装。一般用15mm板雕刻。需注意产品的突变处需加设筋板。</p></li><li><p>分模板：根据产品数量、特点选择合适厚度的分模板，一般分为15mm、18mm厚。位置一般从方便分模的地方下移1~3cm断开分模，长度上跟随产品长度，宽度上则根据具体情况设置通长或局部宽度。需注意分模的上下两部分需方便对接，且接头点的缝隙有保证。对于部分过深的产品，是否多次分模可以与模具工商量。</p></li><li><p>面板：面板的分割需考虑产品成型时的缝隙、底部筋板的支撑，尽量少分割且分割处下方有筋板支撑。各个面板的搭接顺序需考虑清楚并于断面图上显现。</p></li><li><p>盖板及封头板厚度根据需要调整，封头要区分封闭头还是分段头，二者挡板不一样。分段封头是否考虑刚性做成封闭的结合实际情况处置。</p></li><li><p>所有模具的分割处理是否垂直切割，根据具体产品而定。一般情况下垂直切割。</p></li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">犀牛，即“Rhino”软件，时下很流行的3D建模开模软件，简单易上手。前文所述“偏移面”的方法相较于“偏移曲线”的方法在倾斜曲面上开模更准确。</span><br></pre></td></tr></table></figure></li><li><h3 id="复核产品模具图形及尺寸"><a href="#复核产品模具图形及尺寸" class="headerlink" title="复核产品模具图形及尺寸"></a>复核产品模具图形及尺寸</h3><p>按照顺序回想一遍，参照3D模型及CAD图纸，并互相印证，确保每一步，尤其是节点部位准确无误。尺寸是否正确、是否有遗漏、相互间是否打架等。</p></li><li><h3 id="输出雕刻及出图"><a href="#输出雕刻及出图" class="headerlink" title="输出雕刻及出图"></a>输出雕刻及出图</h3><ul><li>依然按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序输出外框或封闭多段线，分类到5、9、15、18mm等规格并编号，分类2D排版、CAD布局并出图、AI导出、JD程序、板材雕刻。过程中亦需要检查有无错误，比如排版镜像、缺棱掉角、导出尺寸、雕刻异常等。</li><li>整体三维效果图打印，包括模具3D和产品3D图；对应CAD详图打印；底板标注三角尺寸并打印，方便模具工定形；筋板断面图标注各面板编号并打印，需详细指出各个面板的搭接关系、筋板的内外关系；面板、盖板、分隔板的整体布局关系图。</li><li>时常到模具工处看看进展情况并询问是否存在问题，及时发现根源及时解决。</li></ul><hr><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">一般说了不少，那遇到不一般的情况该如何？</span><br><span class="line">具体问题具体分析了，起个设想，尝试再说。</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
       <categories>
-        <category>杂谈</category>
+          
+          <category> 感悟 </category>
+          
       </categories>
-      <tags>
-        <tag>诗词</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>标高引起的连锁反应</title>
-    <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li>问：为什么设计图纸一般都会开门见山的写设计说明？</li>
-<li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li>
-</ul>
-<p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p>
-<p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p>
-<p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p>
-<p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p>
-<p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p>
-<p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p>
-<p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p>
-<hr>
-<ul>
-<li>再问：那图中加入表格表示不更明显？</li>
-<li>再答：你猜怎么着，表格我已经提供了</li>
-</ul>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 点滴 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标高引起的连锁反应</title>
+      <link href="/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/"/>
+      <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
+      
+        <content type="html"><![CDATA[<ul><li>问：为什么设计图纸一般都会开门见山的写设计说明？</li><li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li></ul><p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p><p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p><p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p><p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p><p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p><p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p><p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p><hr><ul><li>再问：那图中加入表格表示不更明显？</li><li>再答：你猜怎么着，表格我已经提供了</li></ul>]]></content>
+      
+      
       <categories>
-        <category>感悟</category>
+          
+          <category> 感悟 </category>
+          
       </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>钓鱼</title>
-    <url>/2026/06/03/%E9%92%93%E9%B1%BC/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>钓鱼是我一直想要做的事。大概从中学时期起，就想着有一天能拎着鱼竿好好钓它一回。</p>
-<p>但是后来钓了几次发现没那个当初喜欢的感觉了，与想象中的感觉差远了。</p>
-<p>有了好的装备，有了时间，却没了那份热情。</p>
-<p>我试着唤起那份热情，却终究不似。</p>
-<hr>
-<p>我怀念的</p>
-<p>是记忆中那份美好的</p>
-<p>人和事</p>
-<p>希望它永远存在</p>
-<p>可我竟只能远远地看着</p>
-<p>时光之纱将其层层包裹</p>
-<p>我知道它不再会破茧而出了</p>
-<p>% audio (<a href="https://wakafun.github.io/music/1.mp3">https://wakafun.github.io/music/1.mp3</a>) %}</p>
-<link rel="stylesheet" href="https://wakafun.github.io/node_modules/aplayer/dist/APlayer.min.css">
-
-<script src="https://wakafun.github.io/node_modules/aplayer/dist/APlayer.min.js"></script>
-
-<div id='aplayer'></div>
-
-<script>
-    var ap = new APlayer
-    ({
-        element: document.getElementById('aplayer'),
-        showlrc: false,
-        fixed: true,
-        mini: true,
-        audio: {
-            title: '我记得你眼里的依恋',
-            author: '群声',
-            url: 'https://wakafun.github.io/music/1.mp3',
-            pic: ''
-        }
-    });
-    ap.init();
-</script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 点滴 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TVBox使用简介</title>
+      <link href="/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/"/>
+      <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
+      
+        <content type="html"><![CDATA[<ul><li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li></ul><p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p><ul><li>输入接口地址‌：</li><li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li><li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li></ul><hr><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">饭太硬单线：http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：http://肥猫.com</span><br><span class="line">讴歌单线：http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure><p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p><p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p><p><a href="https://wmdz.top/">其他修改类影视app</a></p><p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>]]></content>
+      
+      
       <categories>
-        <category>杂谈</category>
+          
+          <category> 分享 </category>
+          
       </categories>
-      <tags>
-        <tag>二三</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>模具定位板</title>
-    <url>/2026/01/14/%E6%A8%A1%E5%85%B7%E5%AE%9A%E4%BD%8D%E6%9D%BF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>异形预制构件采用模具制作，模具安装师傅根据地面定位板，将筋板、面板、固定板等按位安装。</p>
-<p>定位板的分割雕刻需考虑组装时的偏差问题，一般拐角处、变截面处及其他复杂地方需要整体雕刻，不能切断，否则会导致误差偏大。例如木模具切割时的毛边，本身的柔性等都会影响模具最终的尺寸。</p>
-<p>定位木板的组装根据图纸尺寸，及时微调，保证最终长度、宽度及水平度符合图纸要求。</p>
-<p>组装完毕需复核尺寸。</p>
-<hr>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>新年新气象</title>
+      <link href="/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/"/>
+      <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><hr><p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p><hr><p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p><p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>]]></content>
+      
+      
       <categories>
-        <category>模具</category>
+          
+          <category> 杂谈 </category>
+          
       </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>魔法科学</title>
-    <url>/2026/03/02/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p>
-<hr>
-<p> <a href="www.nerwo.co">奶瓶</a></p>
-<p><a href="https://www.google.com/">Google</a></p>
-<p><a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>飞牛NAS</title>
-    <url>/2026/02/21/%E9%A3%9E%E7%89%9BNAS/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>老早就关注了NAS，最近终于落实了。事情不做就一直拖着也没意思。</p>
-<p>飞牛nas简单方便，笔记本装起来倒是没啥难度，就是后面界面老是刷屏报错，找了deepseek帮着处理干净了。</p>
-<p>电视端再配备飞牛影视即可，就是播放体验不太好，等更新吧。</p>
-<hr>
-<p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p>
-<p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/?spm_id_from=333.337.search-card.all.click">只有WiFi也能安装飞牛OS的保姆级教程</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 诗词 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
