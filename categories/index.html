@@ -203,25 +203,19 @@
   var ap = new APlayer({
     container: document.getElementById('aplayer'),
     showlrc: false,
-    fixed: true,       # 开启全局吸底模式
-    loop: 'all',       # 列表循环
-    autoplay: true,   # 建议关闭自动播放
-    mutex: true,       # 同时只能播放一个
-    order: 'list',     # 播放顺序
+    fixed: true,       
+    loop: 'all',       
+    autoplay: true,   
+    mutex: true,       
+    order: 'list',     
     audio: [
-      {                                      # 第一首歌
+      {                                      
         title: '我记得你眼里的依恋',
         author: '群声',
-        url: '/music/1.mp3',   # 确保路径和文件名完全正确
-        cover: ''                 # 可以是本地路径或网络链接
+        url: '/music/1.mp3',   
+        cover: ''                 
       }
-      #,{                                      # 第二首歌
-     #   title: '第二首歌的名字',
-     #   author: '歌手名',
-     #   url: '/music/第二首歌的文件名.mp3',
-     #   cover: '封面图片URL'
-     # }
-      # 还可以继续加更多歌
+      
     ]
   });
   ap.init();
