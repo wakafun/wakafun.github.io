@@ -29,6 +29,33 @@
       </tags>
   </entry>
   <entry>
+    <title>18年</title>
+    <url>/2026/05/08/18%E5%B9%B4/</url>
+    <content><![CDATA[<p>“十八年后，又是一条好汉。”</p>
+<p>此话一出，端的是潇洒畅快。</p>
+<p>再回首，十八年已过，可是好汉在哪发财呢。</p>
+<hr>
+<p>星河夜雨轻抚掌</p>
+<p>遥指北极笑摘星</p>
+<p>雄关漫道真如铁</p>
+<p>也曾苦学到天明</p>
+<hr>
+<p>那是一段难忘的过往，确实精彩，但也是过往。</p>
+<p>要想发好财，倒不如把如今也过得精彩。</p>
+<hr>
+<p>而今识尽愁滋味</p>
+<p>惊起一滩鸥鹭</p>
+<p>敢问路在何方</p>
+<p>云深不知处</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>浮云</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>插件设计简要</title>
     <url>/2026/10/22/%E6%8F%92%E4%BB%B6%E8%AE%BE%E8%AE%A1%E7%AE%80%E8%A6%81/</url>
     <content><![CDATA[<ul>
@@ -55,30 +82,29 @@
       </tags>
   </entry>
   <entry>
-    <title>18年</title>
-    <url>/2026/05/08/18%E5%B9%B4/</url>
-    <content><![CDATA[<p>“十八年后，又是一条好汉。”</p>
-<p>此话一出，端的是潇洒畅快。</p>
-<p>再回首，十八年已过，可是好汉在哪发财呢。</p>
+    <title>一点错误</title>
+    <url>/2026/07/19/%E4%B8%80%E7%82%B9%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<ul>
+<li>问：人在什么情况下才能不犯错呢？</li>
+<li>答：预知犯错概率很小，但事后发现仍旧犯了错。也许在追求效率的时候，犯错不可避免。</li>
+</ul>
+<p>前些天的晚上接了个项目的计量统计，时间紧迫，造成了2种错误。</p>
+<p>1.图纸尚未全部查看完毕，就草率回答致命提问。</p>
+<p>2.参照别人的计量按图索骥。</p>
+<p>势必造成计量偏差。其时欲快，忽略图纸细节，甚至有些都不能算是细节了。</p>
+<p><img src="/pics/lm1.png" alt="lm1"><br>事后看这个图，起码有点曲面的样子。但因为按照别人的清单计量，真就看不出。</p>
+<p>就像是做题先看答案一样，抹杀了自己所有的思考路径。</p>
 <hr>
-<p>星河夜雨轻抚掌</p>
-<p>遥指北极笑摘星</p>
-<p>雄关漫道真如铁</p>
-<p>也曾苦学到天明</p>
-<hr>
-<p>那是一段难忘的过往，确实精彩，但也是过往。</p>
-<p>要想发好财，倒不如把如今也过得精彩。</p>
-<hr>
-<p>而今识尽愁滋味</p>
-<p>惊起一滩鸥鹭</p>
-<p>敢问路在何方</p>
-<p>云深不知处</p>
+<ul>
+<li>再问：以后还会犯错吗</li>
+<li>再答：也许会的，但会让人前进的错误</li>
+</ul>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>感悟</category>
       </categories>
       <tags>
-        <tag>浮云</tag>
+        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -162,32 +188,6 @@
       </categories>
       <tags>
         <tag>打油</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一点错误</title>
-    <url>/2026/07/19/%E4%B8%80%E7%82%B9%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<ul>
-<li>问：人在什么情况下才能不犯错呢？</li>
-<li>答：预知犯错概率很小，但事后发现仍旧犯了错。也许在追求效率的时候，犯错不可避免。</li>
-</ul>
-<p>前些天的晚上接了个项目的计量统计，时间紧迫，造成了2种错误。</p>
-<p>1.图纸尚未全部查看完毕，就草率回答致命提问。</p>
-<p>2.参照别人的计量按图索骥。</p>
-<p>势必造成计量偏差。其时欲快，忽略图纸细节，甚至有些都不能算是细节了。</p>
-<p><img src="/pics/lm1.png" alt="lm1"><br>事后看这个图，起码有点曲面的样子。但因为按照别人的清单计量，真就看不出。</p>
-<p>就像是做题先看答案一样，抹杀了自己所有的思考路径。</p>
-<hr>
-<ul>
-<li>再问：以后还会犯错吗</li>
-<li>再答：也许会的，但会让人前进的错误</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -309,6 +309,50 @@
       </categories>
       <tags>
         <tag>二三</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机01</title>
+    <url>/2026/10/16/%E9%A3%8E%E6%9C%BA01/</url>
+    <content><![CDATA[<h1 id="风机初识"><a href="#风机初识" class="headerlink" title="风机初识"></a>风机初识</h1><ul>
+<li><p>建筑中的暖通专业，通风与空调分部工程，算是与风机有些牵扯。不过在工程中只是远远看过，关注其质检、施工资料、进度等，而非风机本身的制作过程及相关规范、工艺等。</p>
+</li>
+<li><p>风机组成，乍看比较简单，含外壳、进风口、叶轮、出风口、电机、皮带及轮、支架、底架等部分。然而这些部分的尺寸设计、选材规格、组合方式、连接类型，到细化分图展开、分类下料、材料及辅料清单，背后依据的专业知识、规范技术、厂家标准、现有加工机械、安装可行性等，均需要深入学习、借鉴、总结。</p>
+</li>
+<li><p>部分构件：①机壳，叶轮的保护壳，亦为进出风口的连接基础，一般由前、后面板（预留密封及进风口）+中部弧形板+检修口组成，部分大型机壳需二合一（前+后）拼装。</p>
+<p>​                   ②进风口，也叫集流器，简单来说就是方便吸风，一般由前翼板+弧形腹板+后翼板+加劲肋组成。</p>
+<p>​                   ③叶轮，前板（喇叭口造型）+轮片（鱼腹型）+后板（平板型）</p>
+</li>
+<li><p>部分工具：扳手（开口+梅花+内六角）&#x2F;电动扳手、一字&#x2F;十字螺丝刀、角磨机（磨片+砂轮）、打眼钻头、撬棍、小推车、液压车、铲车</p>
+</li>
+<li><p>部分辅料：不锈钢螺丝&#x2F;螺母&#x2F;平垫片&#x2F;弹垫片（A2&#x2F;4-70）、镀锌系列螺丝、石墨盘根（6* 6、8* 8、10* 10等）、平键、方形螺母（限位用）、圆形螺母、止退垫片、止退螺丝（紧固螺丝）、密封条&#x2F;带、散热轮（螺丝方向统一）、皮带及主副轮（含衬套）、电机槽钢</p>
+</li>
+<li><p>部分材料：碳钢（235&#x2F;355等）、不锈钢（301&#x2F;316等），锰铬合金等，酸洗油膏（注意橡胶手套防护，沾染皮肤会发黄，蜕皮达半月）、黄油（不锈钢螺丝涂抹）</p>
+</li>
+<li><p>部分工艺：酸洗、组件除尘、部分拉丝工艺用拉丝擦子打磨、叶轮焊渣敲除（锤子+楔头）、叶轮动平衡、螺丝初拧（对称均匀）+复拧（电动）+终拧（手动）、皮带主副轮侧方靠尺至齐平（亦需水平无倾斜）</p>
+</li>
+<li><p>部分识图：总图（俯视图、左视图、正视图）、分图（底架、支架、机壳、叶轮、进风口、出风口、轴、轴端盖板、轴盘、密封、联轴箱、皮带式保护罩）</p>
+</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">路漫漫其修远兮</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -475,50 +519,6 @@
       </tags>
   </entry>
   <entry>
-    <title>风机01</title>
-    <url>/2026/10/16/%E9%A3%8E%E6%9C%BA01/</url>
-    <content><![CDATA[<h1 id="风机初识"><a href="#风机初识" class="headerlink" title="风机初识"></a>风机初识</h1><ul>
-<li><p>建筑中的暖通专业，通风与空调分部工程，算是与风机有些牵扯。不过在工程中只是远远看过，关注其质检、施工资料、进度等，而非风机本身的制作过程及相关规范、工艺等。</p>
-</li>
-<li><p>风机组成，乍看比较简单，含外壳、进风口、叶轮、出风口、电机、皮带及轮、支架、底架等部分。然而这些部分的尺寸设计、选材规格、组合方式、连接类型，到细化分图展开、分类下料、材料及辅料清单，背后依据的专业知识、规范技术、厂家标准、现有加工机械、安装可行性等，均需要深入学习、借鉴、总结。</p>
-</li>
-<li><p>部分构件：①机壳，叶轮的保护壳，亦为进出风口的连接基础，一般由前、后面板（预留密封及进风口）+中部弧形板+检修口组成，部分大型机壳需二合一（前+后）拼装。</p>
-<p>​                   ②进风口，也叫集流器，简单来说就是方便吸风，一般由前翼板+弧形腹板+后翼板+加劲肋组成。</p>
-<p>​                   ③叶轮，前板（喇叭口造型）+轮片（鱼腹型）+后板（平板型）</p>
-</li>
-<li><p>部分工具：扳手（开口+梅花+内六角）&#x2F;电动扳手、一字&#x2F;十字螺丝刀、角磨机（磨片+砂轮）、打眼钻头、撬棍、小推车、液压车、铲车</p>
-</li>
-<li><p>部分辅料：不锈钢螺丝&#x2F;螺母&#x2F;平垫片&#x2F;弹垫片（A2&#x2F;4-70）、镀锌系列螺丝、石墨盘根（6* 6、8* 8、10* 10等）、平键、方形螺母（限位用）、圆形螺母、止退垫片、止退螺丝（紧固螺丝）、密封条&#x2F;带、散热轮（螺丝方向统一）、皮带及主副轮（含衬套）、电机槽钢</p>
-</li>
-<li><p>部分材料：碳钢（235&#x2F;355等）、不锈钢（301&#x2F;316等），锰铬合金等，酸洗油膏（注意橡胶手套防护，沾染皮肤会发黄，蜕皮达半月）、黄油（不锈钢螺丝涂抹）</p>
-</li>
-<li><p>部分工艺：酸洗、组件除尘、部分拉丝工艺用拉丝擦子打磨、叶轮焊渣敲除（锤子+楔头）、叶轮动平衡、螺丝初拧（对称均匀）+复拧（电动）+终拧（手动）、皮带主副轮侧方靠尺至齐平（亦需水平无倾斜）</p>
-</li>
-<li><p>部分识图：总图（俯视图、左视图、正视图）、分图（底架、支架、机壳、叶轮、进风口、出风口、轴、轴端盖板、轴盘、密封、联轴箱、皮带式保护罩）</p>
-</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">路漫漫其修远兮</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>风机05</title>
     <url>/2026/10/21/%E9%A3%8E%E6%9C%BA05/</url>
     <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="进风口"><a href="#进风口" class="headerlink" title="进风口"></a>进风口</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图。易得法兰、背板及肋板（角处预留R15焊缝位置），但是肋板的数量及分布如何确定的？应与受力分析有关，待定。</p>
@@ -541,52 +541,6 @@
 <hr>
 <p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p>
 <p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/?spm_id_from=333.337.search-card.all.click">只有WiFi也能安装飞牛OS的保姆级教程</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机07</title>
-    <url>/2026/10/26/%E9%A3%8E%E6%9C%BA07/</url>
-    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="机壳"><a href="#机壳" class="headerlink" title="机壳"></a>机壳</h2><ul>
-<li><p>机壳正反面设置问题，参照总图正视图为上方（此为下料注意事项）</p>
-<ul>
-<li><p>为何出风口边缘倒角10？</p>
-</li>
-<li><p>总图中背板剖面D为77，单拎出来为何放大至80？背面连接密封板的开孔为何比密封尺寸小？应该是冗余保证，范围如何界定？各种密封对应不同参数设计？</p>
-</li>
-<li><p>面板下方宽出15mm，是铆接需要吗？</p>
-</li>
-<li><p>正面板连接进风口孔位设计保持一致，同时，机壳内收15mm，风口外扩15mm，保证衔接。</p>
-</li>
-<li><p>关于螺丝孔位设计，机壳孔位10.3均比密封15和进风口15的小。</p>
-</li>
-<li><p>另外总图中里面机壳的内虚线指的是圆环包面，取其中线分成长板+舌板。须知舌板位置及检修口规格位置设计要求。</p>
-<p><img src="/pics/jk1.png" alt="jk1"></p>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>魔法科学</title>
-    <url>/2026/04/05/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
-    <content><![CDATA[<p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p>
-<hr>
-<p> <a href="https://www.nerwo.co/">奶瓶</a></p>
-<p><a href="https://www.google.com/">Google</a></p>
-<p><a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a></p>
 ]]></content>
       <categories>
         <category>杂谈</category>
@@ -623,13 +577,59 @@
       </tags>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>魔法科学</title>
+    <url>/2026/04/05/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
+    <content><![CDATA[<p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p>
+<hr>
+<p> <a href="https://www.nerwo.co/">奶瓶</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+<p><a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a></p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机07</title>
+    <url>/2026/10/26/%E9%A3%8E%E6%9C%BA07/</url>
+    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="机壳"><a href="#机壳" class="headerlink" title="机壳"></a>机壳</h2><ul>
+<li><p>机壳正反面设置问题，参照总图正视图为上方（此为下料注意事项）</p>
+<ul>
+<li><p>为何出风口边缘倒角10？</p>
+</li>
+<li><p>总图中背板剖面D为77，单拎出来为何放大至80？背面连接密封板的开孔为何比密封尺寸小？应该是冗余保证，范围如何界定？各种密封对应不同参数设计？</p>
+</li>
+<li><p>面板下方宽出15mm，是铆接需要吗？</p>
+</li>
+<li><p>正面板连接进风口孔位设计保持一致，同时，机壳内收15mm，风口外扩15mm，保证衔接。</p>
+</li>
+<li><p>关于螺丝孔位设计，机壳孔位10.3均比密封15和进风口13的小。</p>
+</li>
+<li><p>另外总图中里面机壳的内虚线指的是圆环包面，取其中线分成长板+舌板。须知舌板位置及检修口规格位置设计要求。</p>
+<p><img src="/pics/jk1.png" alt="jk1"></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
   </entry>
   <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
