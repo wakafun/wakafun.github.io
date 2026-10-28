@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>18年</title>
+    <url>/2026/05/08/18%E5%B9%B4/</url>
+    <content><![CDATA[<p>“十八年后，又是一条好汉。”</p>
+<p>此话一出，端的是潇洒畅快。</p>
+<p>再回首，十八年已过，可是好汉在哪发财呢。</p>
+<hr>
+<p>星河夜雨轻抚掌</p>
+<p>遥指北极笑摘星</p>
+<p>雄关漫道真如铁</p>
+<p>也曾苦学到天明</p>
+<hr>
+<p>那是一段难忘的过往，确实精彩，但也是过往。</p>
+<p>要想发好财，倒不如把如今也过得精彩。</p>
+<hr>
+<p>而今识尽愁滋味</p>
+<p>惊起一滩鸥鹭</p>
+<p>敢问路在何方</p>
+<p>云深不知处</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>浮云</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>TVBox使用简介</title>
     <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<ul>
@@ -29,33 +56,6 @@
       </tags>
   </entry>
   <entry>
-    <title>18年</title>
-    <url>/2026/05/08/18%E5%B9%B4/</url>
-    <content><![CDATA[<p>“十八年后，又是一条好汉。”</p>
-<p>此话一出，端的是潇洒畅快。</p>
-<p>再回首，十八年已过，可是好汉在哪发财呢。</p>
-<hr>
-<p>星河夜雨轻抚掌</p>
-<p>遥指北极笑摘星</p>
-<p>雄关漫道真如铁</p>
-<p>也曾苦学到天明</p>
-<hr>
-<p>那是一段难忘的过往，确实精彩，但也是过往。</p>
-<p>要想发好财，倒不如把如今也过得精彩。</p>
-<hr>
-<p>而今识尽愁滋味</p>
-<p>惊起一滩鸥鹭</p>
-<p>敢问路在何方</p>
-<p>云深不知处</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>浮云</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一点错误</title>
     <url>/2026/07/19/%E4%B8%80%E7%82%B9%E9%94%99%E8%AF%AF/</url>
     <content><![CDATA[<ul>
@@ -79,6 +79,32 @@
       </categories>
       <tags>
         <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>插件设计简要</title>
+    <url>/2026/10/22/%E6%8F%92%E4%BB%B6%E8%AE%BE%E8%AE%A1%E7%AE%80%E8%A6%81/</url>
+    <content><![CDATA[<ul>
+<li><p>随着AI的普及，插件设计制作使得非程序员普通人也可上手了。感谢DS</p>
+</li>
+<li><p>环境安装：①Visual Studio社区版②选择.NET程序设计</p>
+</li>
+<li><p>CAD的.net插件设计步骤：</p>
+<p>（1）在AI助手中输入想取得效果的插件描述，比如“请用.net设计CAD插件，以实现对选中的所有对象一次性全部标注”。</p>
+<p>（2）打开VS，选择.net库开发，名称随意（但不能重复），框架选择4.8版本。菜单-项目，NUGet包，搜索AUTOCAD，选择导入24.3.0包；菜单-项目-属性，生成选择X64格式。</p>
+<p>（3）复制第一步代码至VS中，如报错，询问AI并进行下一步。</p>
+<p>（4）没问题后，菜单-生成-生成解决方案，到方案文件夹中找到.dll文件，这个就是成品了。</p>
+<p>（5）打开Autocad，输入netload选择此dll插入，并输入相应命令即可。</p>
+</li>
+<li><p>cad的lisp插件同理，另外其他软件插件类似</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -130,6 +156,33 @@
       </tags>
   </entry>
   <entry>
+    <title>标高引起的连锁反应</title>
+    <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
+    <content><![CDATA[<ul>
+<li>问：为什么设计图纸一般都会开门见山的写设计说明？</li>
+<li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li>
+</ul>
+<p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p>
+<p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p>
+<p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p>
+<p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p>
+<p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p>
+<p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p>
+<p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p>
+<hr>
+<ul>
+<li>再问：那图中加入表格表示不更明显？</li>
+<li>再答：你猜怎么着，表格我已经提供了</li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新年新气象</title>
     <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
     <content><![CDATA[<span id="more"></span>
@@ -149,23 +202,19 @@
       </tags>
   </entry>
   <entry>
-    <title>插件设计简要</title>
-    <url>/2026/10/22/%E6%8F%92%E4%BB%B6%E8%AE%BE%E8%AE%A1%E7%AE%80%E8%A6%81/</url>
+    <title>西门子排版软件简介</title>
+    <url>/2026/10/27/%E8%A5%BF%E9%97%A8%E5%AD%90%E6%8E%92%E7%89%88%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<ul>
-<li><p>随着AI的普及，插件设计制作使得非程序员普通人也可上手了。感谢DS</p>
-</li>
-<li><p>环境安装：①Visual Studio社区版②选择.NET程序设计</p>
-</li>
-<li><p>CAD的.net插件设计步骤：</p>
-<p>（1）在AI助手中输入想取得效果的插件描述，比如“请用.net设计CAD插件，以实现对选中的所有对象一次性全部标注”。</p>
-<p>（2）打开VS，选择.net库开发，名称随意（但不能重复），框架选择4.8版本。菜单-项目，NUGet包，搜索AUTOCAD，选择导入24.3.0包；菜单-项目-属性，生成选择X64格式。</p>
-<p>（3）复制第一步代码至VS中，如报错，询问AI并进行下一步。</p>
-<p>（4）没问题后，菜单-生成-生成解决方案，到方案文件夹中找到.dll文件，这个就是成品了。</p>
-<p>（5）打开Autocad，输入netload选择此dll插入，并输入相应命令即可。</p>
-</li>
-<li><p>cad的lisp插件同理，另外其他软件插件类似</p>
-</li>
+<li>软件下载安装后按步骤操作。‌‌</li>
 </ul>
+<p><img src="/pics/xmz1.png" alt="xmz1"></p>
+<ul>
+<li>其他排版软件类似，如ProNest等。‌‌</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">二维下料自动排布使用教程：（结合自身需求进行相关插件设计补充）</span><br><span class="line">https://www.bilibili.com/video/BV1S7av68EpU</span><br><span class="line">https://www.bilibili.com/video/BV14Khn6mEo8</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.10zv.com/archives/23324">二维优化布局：Siemens Solid Edge 2D Nesting 2021</a></p>
 ]]></content>
       <categories>
         <category>分享</category>
@@ -236,55 +285,6 @@
       </categories>
       <tags>
         <tag>打油</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>西门子排版软件简介</title>
-    <url>/2026/10/27/%E8%A5%BF%E9%97%A8%E5%AD%90%E6%8E%92%E7%89%88%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<ul>
-<li>软件下载安装后按步骤操作。‌‌</li>
-</ul>
-<p><img src="/pics/xmz1.png" alt="xmz1"></p>
-<ul>
-<li>其他排版软件类似，如ProNest等。‌‌</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">二维下料自动排布使用教程：（结合自身需求进行相关插件设计补充）</span><br><span class="line">https://www.bilibili.com/video/BV1S7av68EpU</span><br><span class="line">https://www.bilibili.com/video/BV14Khn6mEo8</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.10zv.com/archives/23324">二维优化布局：Siemens Solid Edge 2D Nesting 2021</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>标高引起的连锁反应</title>
-    <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
-    <content><![CDATA[<ul>
-<li>问：为什么设计图纸一般都会开门见山的写设计说明？</li>
-<li>答：介绍下工程概况、参照规范、一般做法、其他在详图中不能简洁表达的说明。</li>
-</ul>
-<p>那么好像只要在图中表达清楚要做什么、怎么做，设计说明也不太需要了。</p>
-<p>今天发生的事，让我觉得设计说明这东西存在即合理-冗余说明好歹多一份保障。</p>
-<p>一早对方就通知到场的板材尺寸错误，不符合原图标注的“相对标高2.60&#x2F;2.80&#x2F;3.00”，质问怎么下料的。闻言我先是一懵，这都2026年过一周了，合着需要你确认的深化图你根本没看么？<br><img src="/pics/bgt0110.png" alt="bgt0110"><br>上图这么清楚的标注都无视吗？那当时确认什么的？</p>
-<p>退一步讲，来看看原图，平面图确实标注了“相对标高2.60&#x2F;2.80&#x2F;3.00”，但也同时标注了“2600&#x2F;2800&#x2F;3000高×1000×140”，结合下方断面图地面以上标注“2249”，由此理解成板材实际高度就是2600&#x2F;2800&#x2F;3000高不合理吗？<br><img src="/pics/bgt20110.png" alt="bgt20110"></p>
-<p>回到平面图的“相对标高2.60&#x2F;2.80&#x2F;3.00”，此为对方纠结点：“相对标高必然是和地面相对的高度。”我表示理解，但严格来说，相对标高指的是和±0.000的高差，且原图并非采用标准标注符号和3位小数表示，而是汉字“相对标高”加上含2位小数的数字表示。一般来说，仍理解为从地面以上2.6&#x2F;2.8&#x2F;3.0。但是，图纸不是孤立的，需要再加立面和剖面综合来看。结合上图，理解为总高度情有可原。</p>
-<p>那么对方为什么不反省自己不看图纸，反倒怪罪于我呢？</p>
-<p>设计说明的好处就凸显了。它简洁还明了，放到够大，打开图纸就看到那种。若能把规格尺寸明确表示其中，此事当成笑谈了。</p>
-<hr>
-<ul>
-<li>再问：那图中加入表格表示不更明显？</li>
-<li>再答：你猜怎么着，表格我已经提供了</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -369,65 +369,6 @@
 
 
 
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机03</title>
-    <url>/2026/10/19/%E9%A3%8E%E6%9C%BA03/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="轴盘图"><a href="#轴盘图" class="headerlink" title="轴盘图"></a>轴盘图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但平面图中尺寸与剖面对不上。存疑待定。</p>
-<p><img src="/pics/zp1.png" alt="zp1"></p>
-<p>45#材料指的是：45#钢按国家标准分类属于‌优质碳素结构钢‌，数字”45”代表平均含碳量约为0.45%，实际范围在0.42%~0.50%之间。它比普通低碳钢强度更高，但又比高碳钢更容易加工，算是比较平衡的一种材料。</p>
-<p>其余12.5△，指的粗糙度，<strong>“图中未单独标注粗糙度的其余所有表面，其表面粗糙度要求为 Ra 12.5 μm。”</strong></p>
-<p>我们来拆解一下图中的三个元素：</p>
-<ol>
-<li><strong>“其余”</strong>：这是图面标注的“默认规则”。意思是，图纸上大部分零件都画了加工符号，为了图面简洁，没画符号的地方，统一按这个标准执行。</li>
-<li><strong>倒三角形（▽）</strong>：这是表面粗糙度的<strong>基本符号</strong>。这里没有加横线（加横线代表必须通过切削等去除材料的方法获得），通常代表这些表面是<strong>铸造、锻造、冲压</strong>等不去除材料形成的，或者对加工方法没有严格要求。</li>
-<li><strong>数字“12.5”</strong>：代表粗糙度参数 <strong>Ra</strong> 的数值是 <strong>12.5 微米（μm）</strong>。</li>
-</ol>
-<h3 id="💡-12-5-是什么概念？"><a href="#💡-12-5-是什么概念？" class="headerlink" title="💡 12.5 是什么概念？"></a>💡 12.5 是什么概念？</h3><p>在机械加工中，Ra 12.5 属于<strong>比较粗糙</strong>的级别（以前老国标叫 ▽4）。</p>
-<ul>
-<li><strong>外观</strong>：肉眼能明显看到加工留下的刀纹、粗糙的颗粒感，摸起来比较涩手。</li>
-<li><strong>用途</strong>：通常用于风机的<strong>机壳外表面、非配合的支架、底座、法兰的背面</strong>等不影响装配精度和密封性的部位。如果是风机叶轮的表面，通常粗糙度要求会高得多（比如 Ra 3.2 或 1.6，为了减少积灰和保证动平衡）。</li>
-</ul>
-<h3 id="公差"><a href="#公差" class="headerlink" title="公差"></a>公差</h3><p><strong>Ø42 +0.04 &#x2F; +0.02</strong> 的完整意思是：</p>
-<h3 id="1-基础含义"><a href="#1-基础含义" class="headerlink" title="1. 基础含义"></a>1. 基础含义</h3><ul>
-<li><strong>Ø42</strong>：代表这个孔的<strong>基本直径</strong>是 42 毫米。</li>
-<li><strong>+0.04</strong>：是<strong>上偏差</strong>（最大允许尺寸）。</li>
-<li><strong>+0.02</strong>：是<strong>下偏差</strong>（最小允许尺寸）。</li>
-</ul>
-<h3 id="2-加工合格范围"><a href="#2-加工合格范围" class="headerlink" title="2. 加工合格范围"></a>2. 加工合格范围</h3><p>在车间加工这个孔的时候，它的直径不能随便大也不能随便小：</p>
-<ul>
-<li><strong>最大不能超过</strong>：42 + 0.04 &#x3D; <strong>42.04 mm</strong></li>
-<li><strong>最小不能小于</strong>：42 + 0.02 &#x3D; <strong>42.02 mm</strong></li>
-<li><strong>公差带（允许的误差范围）</strong>：0.04 - 0.02 &#x3D; <strong>0.02 mm</strong>（也就是常说的2个“丝”或2个“道”）。</li>
-</ul>
-<h3 id="3-工程上的意思"><a href="#3-工程上的意思" class="headerlink" title="3. 工程上的意思"></a>3. 工程上的意思</h3><ul>
-<li>这是一个<strong>内孔</strong>（看图纸剖面线，中间是空的圆孔）。</li>
-<li>因为偏差全是“+”号，说明这个孔<strong>比标准的42毫米要大一点点</strong>。这种设计通常是为了和一根轴配合时，留出一点<strong>间隙</strong>，保证轴能顺利插进去，或者是用来装配轴承、销钉等标准件。</li>
-</ul>
-<p><strong>⚠️ 注意</strong>：图中 +0.04 和 +0.02 是上下排布的。上面那个是上偏差，下面那个是下偏差。工人在看图纸时，只要量出来的尺寸在 42.02 到 42.04 之间，这件活就算干合格了。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机04</title>
-    <url>/2026/10/20/%E9%A3%8E%E6%9C%BA04/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="叶轮图"><a href="#叶轮图" class="headerlink" title="叶轮图"></a>叶轮图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但轮片是如何确定数量、弧度、长度的？</p>
-<p><img src="/pics/yl1.png" alt="yl1"></p>
-<p>要画出右图的弧形叶片，必须知道<strong>叶片参数</strong>（如圆弧半径 R19、叶片出口角、进出口安装位置）。这通常来源于风机的气动设计（或者是三维模型直接导出）。</p>
-<p>设计师先根据风量风压，选定叶型（R19，12片）。</p>
-<p>产出的几张图，可判别为背板8T、叶轮片5T、内面板5T（应该是预留开孔定位、方便焊接，<strong>不过为什么要边缘留孔？</strong>）、<strong>未知带钩造型（加工辅助？）</strong>、内面板收边8T、轴盘端盖板8T、铝板密封5T。</p>
 ]]></content>
       <categories>
         <category>感悟</category>
@@ -541,6 +482,65 @@
       </tags>
   </entry>
   <entry>
+    <title>风机04</title>
+    <url>/2026/10/20/%E9%A3%8E%E6%9C%BA04/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="叶轮图"><a href="#叶轮图" class="headerlink" title="叶轮图"></a>叶轮图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但轮片是如何确定数量、弧度、长度的？</p>
+<p><img src="/pics/yl1.png" alt="yl1"></p>
+<p>要画出右图的弧形叶片，必须知道<strong>叶片参数</strong>（如圆弧半径 R19、叶片出口角、进出口安装位置）。这通常来源于风机的气动设计（或者是三维模型直接导出）。</p>
+<p>设计师先根据风量风压，选定叶型（R19，12片）。</p>
+<p>产出的几张图，可判别为背板8T、叶轮片5T、内面板5T（应该是预留开孔定位、方便焊接，<strong>不过为什么要边缘留孔？</strong>）、<strong>未知带钩造型（加工辅助？）</strong>、内面板收边8T、轴盘端盖板8T、铝板密封5T。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机03</title>
+    <url>/2026/10/19/%E9%A3%8E%E6%9C%BA03/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="轴盘图"><a href="#轴盘图" class="headerlink" title="轴盘图"></a>轴盘图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但平面图中尺寸与剖面对不上。存疑待定。</p>
+<p><img src="/pics/zp1.png" alt="zp1"></p>
+<p>45#材料指的是：45#钢按国家标准分类属于‌优质碳素结构钢‌，数字”45”代表平均含碳量约为0.45%，实际范围在0.42%~0.50%之间。它比普通低碳钢强度更高，但又比高碳钢更容易加工，算是比较平衡的一种材料。</p>
+<p>其余12.5△，指的粗糙度，<strong>“图中未单独标注粗糙度的其余所有表面，其表面粗糙度要求为 Ra 12.5 μm。”</strong></p>
+<p>我们来拆解一下图中的三个元素：</p>
+<ol>
+<li><strong>“其余”</strong>：这是图面标注的“默认规则”。意思是，图纸上大部分零件都画了加工符号，为了图面简洁，没画符号的地方，统一按这个标准执行。</li>
+<li><strong>倒三角形（▽）</strong>：这是表面粗糙度的<strong>基本符号</strong>。这里没有加横线（加横线代表必须通过切削等去除材料的方法获得），通常代表这些表面是<strong>铸造、锻造、冲压</strong>等不去除材料形成的，或者对加工方法没有严格要求。</li>
+<li><strong>数字“12.5”</strong>：代表粗糙度参数 <strong>Ra</strong> 的数值是 <strong>12.5 微米（μm）</strong>。</li>
+</ol>
+<h3 id="💡-12-5-是什么概念？"><a href="#💡-12-5-是什么概念？" class="headerlink" title="💡 12.5 是什么概念？"></a>💡 12.5 是什么概念？</h3><p>在机械加工中，Ra 12.5 属于<strong>比较粗糙</strong>的级别（以前老国标叫 ▽4）。</p>
+<ul>
+<li><strong>外观</strong>：肉眼能明显看到加工留下的刀纹、粗糙的颗粒感，摸起来比较涩手。</li>
+<li><strong>用途</strong>：通常用于风机的<strong>机壳外表面、非配合的支架、底座、法兰的背面</strong>等不影响装配精度和密封性的部位。如果是风机叶轮的表面，通常粗糙度要求会高得多（比如 Ra 3.2 或 1.6，为了减少积灰和保证动平衡）。</li>
+</ul>
+<h3 id="公差"><a href="#公差" class="headerlink" title="公差"></a>公差</h3><p><strong>Ø42 +0.04 &#x2F; +0.02</strong> 的完整意思是：</p>
+<h3 id="1-基础含义"><a href="#1-基础含义" class="headerlink" title="1. 基础含义"></a>1. 基础含义</h3><ul>
+<li><strong>Ø42</strong>：代表这个孔的<strong>基本直径</strong>是 42 毫米。</li>
+<li><strong>+0.04</strong>：是<strong>上偏差</strong>（最大允许尺寸）。</li>
+<li><strong>+0.02</strong>：是<strong>下偏差</strong>（最小允许尺寸）。</li>
+</ul>
+<h3 id="2-加工合格范围"><a href="#2-加工合格范围" class="headerlink" title="2. 加工合格范围"></a>2. 加工合格范围</h3><p>在车间加工这个孔的时候，它的直径不能随便大也不能随便小：</p>
+<ul>
+<li><strong>最大不能超过</strong>：42 + 0.04 &#x3D; <strong>42.04 mm</strong></li>
+<li><strong>最小不能小于</strong>：42 + 0.02 &#x3D; <strong>42.02 mm</strong></li>
+<li><strong>公差带（允许的误差范围）</strong>：0.04 - 0.02 &#x3D; <strong>0.02 mm</strong>（也就是常说的2个“丝”或2个“道”）。</li>
+</ul>
+<h3 id="3-工程上的意思"><a href="#3-工程上的意思" class="headerlink" title="3. 工程上的意思"></a>3. 工程上的意思</h3><ul>
+<li>这是一个<strong>内孔</strong>（看图纸剖面线，中间是空的圆孔）。</li>
+<li>因为偏差全是“+”号，说明这个孔<strong>比标准的42毫米要大一点点</strong>。这种设计通常是为了和一根轴配合时，留出一点<strong>间隙</strong>，保证轴能顺利插进去，或者是用来装配轴承、销钉等标准件。</li>
+</ul>
+<p><strong>⚠️ 注意</strong>：图中 +0.04 和 +0.02 是上下排布的。上面那个是上偏差，下面那个是下偏差。工人在看图纸时，只要量出来的尺寸在 42.02 到 42.04 之间，这件活就算干合格了。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>风机05</title>
     <url>/2026/10/21/%E9%A3%8E%E6%9C%BA05/</url>
     <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="进风口"><a href="#进风口" class="headerlink" title="进风口"></a>进风口</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图。易得法兰、背板及肋板（角处预留R15焊缝位置），但是肋板的数量及分布如何确定的？应与受力分析有关，待定。</p>
@@ -612,23 +612,6 @@
       </tags>
   </entry>
   <entry>
-    <title>飞牛NAS</title>
-    <url>/2026/02/21/%E9%A3%9E%E7%89%9BNAS/</url>
-    <content><![CDATA[<p>老早就关注了NAS，最近终于落实了。事情不做就一直拖着也没意思。</p>
-<p>飞牛nas简单方便，笔记本装起来倒是没啥难度，就是后面界面老是刷屏报错，找了deepseek帮着处理干净了。</p>
-<p>电视端再配备飞牛影视即可，就是播放体验不太好，等更新吧。</p>
-<hr>
-<p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p>
-<p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/">只有WiFi也能安装飞牛OS的保姆级教程</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>风机08</title>
     <url>/2026/10/27/%E9%A3%8E%E6%9C%BA08/</url>
     <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="检修口"><a href="#检修口" class="headerlink" title="检修口"></a>检修口</h2><ul>
@@ -650,6 +633,23 @@
       </categories>
       <tags>
         <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>飞牛NAS</title>
+    <url>/2026/02/21/%E9%A3%9E%E7%89%9BNAS/</url>
+    <content><![CDATA[<p>老早就关注了NAS，最近终于落实了。事情不做就一直拖着也没意思。</p>
+<p>飞牛nas简单方便，笔记本装起来倒是没啥难度，就是后面界面老是刷屏报错，找了deepseek帮着处理干净了。</p>
+<p>电视端再配备飞牛影视即可，就是播放体验不太好，等更新吧。</p>
+<hr>
+<p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p>
+<p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/">只有WiFi也能安装飞牛OS的保姆级教程</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -678,7 +678,7 @@
 </li>
 <li><p>侧板与顶板压盖关系为顶压侧，而圆的开孔位置却是从顶开始计算的，应是疏忽。</p>
 </li>
-<li><p>侧板主图量测宽为307，而分件改为305。测试若是侧板向内平移一个身位则正好就是305，问题是为什么平移。</p>
+<li><p>侧板主图量测宽为307，而分件改为305。测试若是侧板向内平移一个身位则正好就是305，问题是为什么平移。（要站在底板上，所以内偏。）</p>
 </li>
 <li><p>支架内部设置6厚80高肋板2道。</p>
 </li>
