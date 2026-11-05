@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TVBox使用简介</title>
-    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<ul>
-<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
-</ul>
-<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
-<ul>
-<li>输入接口地址‌：</li>
-<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
-<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
-
-
-<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
-<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
-<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
-<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>18年</title>
     <url>/2026/05/08/18%E5%B9%B4/</url>
     <content><![CDATA[<p>“十八年后，又是一条好汉。”</p>
@@ -56,29 +28,29 @@
       </tags>
   </entry>
   <entry>
-    <title>插件设计简要</title>
-    <url>/2026/10/22/%E6%8F%92%E4%BB%B6%E8%AE%BE%E8%AE%A1%E7%AE%80%E8%A6%81/</url>
+    <title>一点错误</title>
+    <url>/2026/07/19/%E4%B8%80%E7%82%B9%E9%94%99%E8%AF%AF/</url>
     <content><![CDATA[<ul>
-<li><p>随着AI的普及，插件设计制作使得非程序员普通人也可上手了。感谢DS</p>
-</li>
-<li><p>环境安装：①Visual Studio社区版②选择.NET程序设计</p>
-</li>
-<li><p>CAD的.net插件设计步骤：</p>
-<p>（1）在AI助手中输入想取得效果的插件描述，比如“请用.net设计CAD插件，以实现对选中的所有对象一次性全部标注”。</p>
-<p>（2）打开VS，选择.net库开发，名称随意（但不能重复），框架选择4.8版本。菜单-项目，NUGet包，搜索AUTOCAD，选择导入24.3.0包；菜单-项目-属性，生成选择X64格式。</p>
-<p>（3）复制第一步代码至VS中，如报错，询问AI并进行下一步。</p>
-<p>（4）没问题后，菜单-生成-生成解决方案，到方案文件夹中找到.dll文件，这个就是成品了。</p>
-<p>（5）打开Autocad，输入netload选择此dll插入，并输入相应命令即可。</p>
-</li>
-<li><p>cad的lisp插件同理，另外其他软件插件类似</p>
-</li>
+<li>问：人在什么情况下才能不犯错呢？</li>
+<li>答：预知犯错概率很小，但事后发现仍旧犯了错。也许在追求效率的时候，犯错不可避免。</li>
+</ul>
+<p>前些天的晚上接了个项目的计量统计，时间紧迫，造成了2种错误。</p>
+<p>1.图纸尚未全部查看完毕，就草率回答致命提问。</p>
+<p>2.参照别人的计量按图索骥。</p>
+<p>势必造成计量偏差。其时欲快，忽略图纸细节，甚至有些都不能算是细节了。</p>
+<p><img src="/pics/lm1.png" alt="lm1"><br>事后看这个图，起码有点曲面的样子。但因为按照别人的清单计量，真就看不出。</p>
+<p>就像是做题先看答案一样，抹杀了自己所有的思考路径。</p>
+<hr>
+<ul>
+<li>再问：以后还会犯错吗</li>
+<li>再答：也许会的，但会让人前进的错误</li>
 </ul>
 ]]></content>
       <categories>
-        <category>分享</category>
+        <category>感悟</category>
       </categories>
       <tags>
-        <tag>软件</tag>
+        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
@@ -130,6 +102,32 @@
       </tags>
   </entry>
   <entry>
+    <title>插件设计简要</title>
+    <url>/2026/10/22/%E6%8F%92%E4%BB%B6%E8%AE%BE%E8%AE%A1%E7%AE%80%E8%A6%81/</url>
+    <content><![CDATA[<ul>
+<li><p>随着AI的普及，插件设计制作使得非程序员普通人也可上手了。感谢DS</p>
+</li>
+<li><p>环境安装：①Visual Studio社区版②选择.NET程序设计</p>
+</li>
+<li><p>CAD的.net插件设计步骤：</p>
+<p>（1）在AI助手中输入想取得效果的插件描述，比如“请用.net设计CAD插件，以实现对选中的所有对象一次性全部标注”。</p>
+<p>（2）打开VS，选择.net库开发，名称随意（但不能重复），框架选择4.8版本。菜单-项目，NUGet包，搜索AUTOCAD，选择导入24.3.0包；菜单-项目-属性，生成选择X64格式。</p>
+<p>（3）复制第一步代码至VS中，如报错，询问AI并进行下一步。</p>
+<p>（4）没问题后，菜单-生成-生成解决方案，到方案文件夹中找到.dll文件，这个就是成品了。</p>
+<p>（5）打开Autocad，输入netload选择此dll插入，并输入相应命令即可。</p>
+</li>
+<li><p>cad的lisp插件同理，另外其他软件插件类似</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新年新气象</title>
     <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
     <content><![CDATA[<span id="more"></span>
@@ -149,29 +147,47 @@
       </tags>
   </entry>
   <entry>
-    <title>一点错误</title>
-    <url>/2026/07/19/%E4%B8%80%E7%82%B9%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<ul>
-<li>问：人在什么情况下才能不犯错呢？</li>
-<li>答：预知犯错概率很小，但事后发现仍旧犯了错。也许在追求效率的时候，犯错不可避免。</li>
-</ul>
-<p>前些天的晚上接了个项目的计量统计，时间紧迫，造成了2种错误。</p>
-<p>1.图纸尚未全部查看完毕，就草率回答致命提问。</p>
-<p>2.参照别人的计量按图索骥。</p>
-<p>势必造成计量偏差。其时欲快，忽略图纸细节，甚至有些都不能算是细节了。</p>
-<p><img src="/pics/lm1.png" alt="lm1"><br>事后看这个图，起码有点曲面的样子。但因为按照别人的清单计量，真就看不出。</p>
-<p>就像是做题先看答案一样，抹杀了自己所有的思考路径。</p>
-<hr>
-<ul>
-<li>再问：以后还会犯错吗</li>
-<li>再答：也许会的，但会让人前进的错误</li>
-</ul>
+    <title>七律-到韶山</title>
+    <url>/2026/11/05/%E4%B8%83%E5%BE%8B-%E5%88%B0%E9%9F%B6%E5%B1%B1/</url>
+    <content><![CDATA[<h2 id="七律·到韶山"><a href="#七律·到韶山" class="headerlink" title="七律·到韶山"></a>七律·到韶山</h2><p>别梦依稀咒逝川，故园三十二年前。</p>
+<p>红旗卷起农奴戟，黑手高悬霸主鞭。</p>
+<p>为有牺牲多壮志，敢教日月换新天。</p>
+<p>喜看稻菽千重浪，遍地英雄下夕烟。</p>
+<p><img src="/pics/qldss.png" alt="qldss"></p>
 ]]></content>
       <categories>
-        <category>感悟</category>
+        <category>诗词</category>
       </categories>
       <tags>
-        <tag>点滴</tag>
+        <tag>星光</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TVBox使用简介</title>
+    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<ul>
+<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
+</ul>
+<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
+<ul>
+<li>输入接口地址‌：</li>
+<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
+<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
+
+
+<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
+<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
+<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
+<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -288,84 +304,40 @@
       </tags>
   </entry>
   <entry>
-    <title>风机01</title>
-    <url>/2026/10/16/%E9%A3%8E%E6%9C%BA01/</url>
-    <content><![CDATA[<h1 id="风机初识"><a href="#风机初识" class="headerlink" title="风机初识"></a>风机初识</h1><ul>
-<li><p>建筑中的暖通专业，通风与空调分部工程，算是与风机有些牵扯。不过在工程中只是远远看过，关注其质检、施工资料、进度等，而非风机本身的制作过程及相关规范、工艺等。</p>
+    <title>质检小计</title>
+    <url>/2026/11/04/%E8%B4%A8%E6%A3%80%E5%B0%8F%E8%AE%A1/</url>
+    <content><![CDATA[<h2 id="新到材料检查"><a href="#新到材料检查" class="headerlink" title="新到材料检查"></a>新到材料检查</h2><ul>
+<li><p>群内接通知后，按<strong>清单及图纸</strong>核查数量、材质、规格、尺寸，并记录在案。</p>
 </li>
-<li><p>风机组成，乍看比较简单，含外壳、进风口、叶轮、出风口、电机、皮带及轮、支架、底架等部分。然而这些部分的尺寸设计、选材规格、组合方式、连接类型，到细化分图展开、分类下料、材料及辅料清单，背后依据的专业知识、规范技术、厂家标准、现有加工机械、安装可行性等，均需要深入学习、借鉴、总结。</p>
+<li><p>不符合要求的上报退换货。</p>
 </li>
-<li><p>部分构件：①机壳，叶轮的保护壳，亦为进出风口的连接基础，一般由前、后面板（预留密封及进风口）+中部弧形板+检修口组成，部分大型机壳需二合一（前+后）拼装。</p>
-<p>​                   ②进风口，也叫集流器，简单来说就是方便吸风，一般由前翼板+弧形腹板+后翼板+加劲肋组成。</p>
-<p>​                   ③叶轮，前板（喇叭口造型）+轮片（鱼腹型）+后板（平板型）</p>
+</ul>
+<h2 id="工序检查"><a href="#工序检查" class="headerlink" title="工序检查"></a>工序检查</h2><ul>
+<li><p>接通知后，按<strong>清单及图纸</strong>核查各道工序，并记录在案。部分重点如下：</p>
+<ul>
+<li>铆接牵扯焊接的，注意焊接质量（舌口和进风口焊接）。以平滑美观为优（关于铆接具体做哪些部件待细究）</li>
+<li>焊缝气孔、裂缝、假焊、夹渣（喷漆后观感更明显）</li>
+<li>电机中心高度，宁低勿高（即测量中心到底座高度+2mm以内）（底座的平直度？）</li>
+<li>进风口的内外径（防止漏弯）</li>
+<li>打磨的焊瘤、焊渣，整体及部分的平直度</li>
+<li>以上尽量喷漆之前检验出弊病所在，及时处理，尤其喷1遍漆的叶轮，不然喷漆后返工误时</li>
+<li>喷漆测量厚度、均匀性</li>
+<li>组装缝隙、重复检查焊渣情况</li>
+<li>整体观感，思考设计合理性</li>
+</ul>
 </li>
-<li><p>部分工具：扳手（开口+梅花+内六角）&#x2F;电动扳手、一字&#x2F;十字螺丝刀、角磨机（磨片+砂轮）、打眼钻头、撬棍、小推车、液压车、铲车</p>
-</li>
-<li><p>部分辅料：不锈钢螺丝&#x2F;螺母&#x2F;平垫片&#x2F;弹垫片（A2&#x2F;4-70）、镀锌系列螺丝、石墨盘根（6* 6、8* 8、10* 10等）、平键、方形螺母（限位用）、圆形螺母、止退垫片、止退螺丝（紧固螺丝）、密封条&#x2F;带、散热轮（螺丝方向统一）、皮带及主副轮（含衬套）、电机槽钢</p>
-</li>
-<li><p>部分材料：碳钢（235&#x2F;355等）、不锈钢（301&#x2F;316等），锰铬合金等，酸洗油膏（注意橡胶手套防护，沾染皮肤会发黄，蜕皮达半月）、黄油（不锈钢螺丝涂抹）</p>
-</li>
-<li><p>部分工艺：酸洗、组件除尘、部分拉丝工艺用拉丝擦子打磨、叶轮焊渣敲除（锤子+楔头）、叶轮动平衡、螺丝初拧（对称均匀）+复拧（电动）+终拧（手动）、皮带主副轮侧方靠尺至齐平（亦需水平无倾斜）</p>
-</li>
-<li><p>部分识图：总图（俯视图、左视图、正视图）、分图（底架、支架、机壳、叶轮、进风口、出风口、轴、轴端盖板、轴盘、密封、联轴箱、皮带式保护罩）</p>
+</ul>
+<h2 id="入库检查"><a href="#入库检查" class="headerlink" title="入库检查"></a>入库检查</h2><ul>
+<li>接通知后，按<strong>清单及图纸</strong>核查整机各项参数，并记录在案。部分重点如下：<ul>
+<li>底架丝孔、外界法兰平整性及丝孔</li>
+<li>调节门方向一致性</li>
+<li>铭牌参数</li>
+<li>紧固螺丝复查</li>
+</ul>
 </li>
 </ul>
 <hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">路漫漫其修远兮</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机03</title>
-    <url>/2026/10/19/%E9%A3%8E%E6%9C%BA03/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="轴盘图"><a href="#轴盘图" class="headerlink" title="轴盘图"></a>轴盘图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但平面图中尺寸与剖面对不上。存疑待定。</p>
-<p><img src="/pics/zp1.png" alt="zp1"></p>
-<p>45#材料指的是：45#钢按国家标准分类属于‌优质碳素结构钢‌，数字”45”代表平均含碳量约为0.45%，实际范围在0.42%~0.50%之间。它比普通低碳钢强度更高，但又比高碳钢更容易加工，算是比较平衡的一种材料。</p>
-<p>其余12.5△，指的粗糙度，<strong>“图中未单独标注粗糙度的其余所有表面，其表面粗糙度要求为 Ra 12.5 μm。”</strong></p>
-<p>我们来拆解一下图中的三个元素：</p>
-<ol>
-<li><strong>“其余”</strong>：这是图面标注的“默认规则”。意思是，图纸上大部分零件都画了加工符号，为了图面简洁，没画符号的地方，统一按这个标准执行。</li>
-<li><strong>倒三角形（▽）</strong>：这是表面粗糙度的<strong>基本符号</strong>。这里没有加横线（加横线代表必须通过切削等去除材料的方法获得），通常代表这些表面是<strong>铸造、锻造、冲压</strong>等不去除材料形成的，或者对加工方法没有严格要求。</li>
-<li><strong>数字“12.5”</strong>：代表粗糙度参数 <strong>Ra</strong> 的数值是 <strong>12.5 微米（μm）</strong>。</li>
-</ol>
-<h3 id="💡-12-5-是什么概念？"><a href="#💡-12-5-是什么概念？" class="headerlink" title="💡 12.5 是什么概念？"></a>💡 12.5 是什么概念？</h3><p>在机械加工中，Ra 12.5 属于<strong>比较粗糙</strong>的级别（以前老国标叫 ▽4）。</p>
-<ul>
-<li><strong>外观</strong>：肉眼能明显看到加工留下的刀纹、粗糙的颗粒感，摸起来比较涩手。</li>
-<li><strong>用途</strong>：通常用于风机的<strong>机壳外表面、非配合的支架、底座、法兰的背面</strong>等不影响装配精度和密封性的部位。如果是风机叶轮的表面，通常粗糙度要求会高得多（比如 Ra 3.2 或 1.6，为了减少积灰和保证动平衡）。</li>
-</ul>
-<h3 id="公差"><a href="#公差" class="headerlink" title="公差"></a>公差</h3><p><strong>Ø42 +0.04 &#x2F; +0.02</strong> 的完整意思是：</p>
-<h3 id="1-基础含义"><a href="#1-基础含义" class="headerlink" title="1. 基础含义"></a>1. 基础含义</h3><ul>
-<li><strong>Ø42</strong>：代表这个孔的<strong>基本直径</strong>是 42 毫米。</li>
-<li><strong>+0.04</strong>：是<strong>上偏差</strong>（最大允许尺寸）。</li>
-<li><strong>+0.02</strong>：是<strong>下偏差</strong>（最小允许尺寸）。</li>
-</ul>
-<h3 id="2-加工合格范围"><a href="#2-加工合格范围" class="headerlink" title="2. 加工合格范围"></a>2. 加工合格范围</h3><p>在车间加工这个孔的时候，它的直径不能随便大也不能随便小：</p>
-<ul>
-<li><strong>最大不能超过</strong>：42 + 0.04 &#x3D; <strong>42.04 mm</strong></li>
-<li><strong>最小不能小于</strong>：42 + 0.02 &#x3D; <strong>42.02 mm</strong></li>
-<li><strong>公差带（允许的误差范围）</strong>：0.04 - 0.02 &#x3D; <strong>0.02 mm</strong>（也就是常说的2个“丝”或2个“道”）。</li>
-</ul>
-<h3 id="3-工程上的意思"><a href="#3-工程上的意思" class="headerlink" title="3. 工程上的意思"></a>3. 工程上的意思</h3><ul>
-<li>这是一个<strong>内孔</strong>（看图纸剖面线，中间是空的圆孔）。</li>
-<li>因为偏差全是“+”号，说明这个孔<strong>比标准的42毫米要大一点点</strong>。这种设计通常是为了和一根轴配合时，留出一点<strong>间隙</strong>，保证轴能顺利插进去，或者是用来装配轴承、销钉等标准件。</li>
-</ul>
-<p><strong>⚠️ 注意</strong>：图中 +0.04 和 +0.02 是上下排布的。上面那个是上偏差，下面那个是下偏差。工人在看图纸时，只要量出来的尺寸在 42.02 到 42.04 之间，这件活就算干合格了。</p>
+<p>另参照提供厂标，细化检查。</p>
 ]]></content>
       <categories>
         <category>感悟</category>
@@ -421,121 +393,41 @@
       </tags>
   </entry>
   <entry>
-    <title>风机04</title>
-    <url>/2026/10/20/%E9%A3%8E%E6%9C%BA04/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="叶轮图"><a href="#叶轮图" class="headerlink" title="叶轮图"></a>叶轮图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但轮片是如何确定数量、弧度、长度的？</p>
-<p><img src="/pics/yl1.png" alt="yl1"></p>
-<p>要画出右图的弧形叶片，必须知道<strong>叶片参数</strong>（如圆弧半径 R19、叶片出口角、进出口安装位置）。这通常来源于风机的气动设计（或者是三维模型直接导出）。</p>
-<p>设计师先根据风量风压，选定叶型（R19，12片）。</p>
-<p>产出的几张图，可判别为背板8T、叶轮片5T、内面板5T（应该是预留开孔定位、方便焊接，<strong>不过为什么要边缘留孔？</strong>）、<strong>未知带钩造型（加工辅助？）</strong>、内面板收边8T、轴盘端盖板8T、铝板密封5T。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机06</title>
-    <url>/2026/10/23/%E9%A3%8E%E6%9C%BA06/</url>
-    <content><![CDATA[<h1 id="密封"><a href="#密封" class="headerlink" title="密封"></a>密封</h1><p>风机密封的核心分类依据是<strong>密封面是否直接接触</strong>，这直接决定了它的摩擦特性、适用转速与维护方式。</p>
-<p>风机密封可按接触形式划分为<strong>接触式密封</strong>（填料、骨架、机械）与<strong>非接触式密封</strong>（迷宫、碳环、干气、轴承隔离器）两大类，组合密封则是针对复杂工况的工程折中方案。</p>
-<h3 id="1-填料密封"><a href="#1-填料密封" class="headerlink" title="1. 填料密封"></a>1. 填料密封</h3><p>填料密封依靠压盖对毛毡、盘根或PTFE等柔性填料的压紧力实现密封。毛毡具有弹性和吸附能力，可在轴旋转时将润滑油刮回并反复自润滑；PTFE、芳纶等填料的耐温与耐磨性优于毛毡。</p>
-<p><strong>适用边界</strong>：中低转速、中等压力，输送空气、水蒸气等无害低压气体，或轴承箱润滑油侧的常规密封。<br><strong>限制</strong>：接触式摩擦导致功耗与磨损，高速下需频繁调整压紧力或更换填料；压盖过紧会发热，过松则泄漏。</p>
-<h3 id="2-骨架油封"><a href="#2-骨架油封" class="headerlink" title="2. 骨架油封"></a>2. 骨架油封</h3><p>骨架油封由金属骨架、耐油橡胶唇口和自紧弹簧组成，唇口过盈配合形成动态密封带，结构紧凑、安装方便。双唇形结构可在运转和停机状态下均提供密封，防止润滑油与气体互窜。</p>
-<p><strong>适用边界</strong>：低压（通常＜0.05 MPa）、常温洁净空气，或轴承腔的中低转速密封。<br><strong>限制</strong>：橡胶唇口在高温（通常＞120℃）、轴跳动大或表面粗糙度不足时易磨损老化；不适用于高压与强腐蚀介质。</p>
-<h3 id="3-迷宫密封（齿式迷宫）"><a href="#3-迷宫密封（齿式迷宫）" class="headerlink" title="3. 迷宫密封（齿式迷宫）"></a>3. 迷宫密封（齿式迷宫）</h3><p>迷宫密封通过轴与密封齿之间的一系列节流间隙和膨胀空腔，使气体每经过一级即经历一次节流—膨胀，压力和动能逐级衰减，最终压差趋近于零而停止外泄。其非接触特性允许轴微小窜动，零摩擦功耗，寿命长。</p>
-<p><strong>适用边界</strong>：高压、高速转子的级间密封与轴端密封；也常作为组合密封的前置降压级，为下游主密封“减负”。<br><strong>限制</strong>：存在固有间隙泄漏，无法做到“零泄漏”；装配间隙要求严格——过大泄漏增加，过小可能摩擦过热。多用于微正压或微负压洁净气体工况，或对泄漏宽容度较高的场合。</p>
-<h3 id="4-碳环密封"><a href="#4-碳环密封" class="headerlink" title="4. 碳环密封"></a>4. 碳环密封</h3><p>碳石墨环在弹簧预紧下与轴形成动态接触，碳材料的自润滑性可减少摩擦热，耐腐蚀性优异，对轴跳动适应性较强。泄漏量与密封环内外压差和环隙面积正相关。</p>
-<p><strong>适用边界</strong>：含尘或腐蚀性气体的轴端密封；在H₂S风机等场景中，碳环密封常与抽气&#x2F;充气密封组合使用。<br><strong>限制</strong>：高速工况下碳环可能因热应力开裂；需要关注弹簧预紧力与环隙的匹配。</p>
-<h3 id="5-机械密封"><a href="#5-机械密封" class="headerlink" title="5. 机械密封"></a>5. 机械密封</h3><p>机械密封通过动环与静环端面的紧密贴合实现低泄漏密封，密封液在端面间形成油膜以平衡介质压力。适用于高转速、高压及清洁介质，如石油化工、有毒气体输送等领域。</p>
-<p><strong>适用边界</strong>：对泄漏控制要求较高的高速高压工况。<br><strong>限制</strong>：对安装精度敏感，需配套冲洗或冷却系统；干运转或介质含颗粒时端面易损坏，成本显著高于填料密封与骨架油封。</p>
-<h3 id="6-干气密封"><a href="#6-干气密封" class="headerlink" title="6. 干气密封"></a>6. 干气密封</h3><p>干气密封通过引入少量干燥洁净气体，在螺旋槽端面形成高于介质压力的气膜，实现非接触运行，正常运转中无磨损，泄漏量远低于接触式机械密封。其功率消耗仅为接触式机械密封的约5%，理论上寿命可与设备同寿命。</p>
-<p><strong>适用边界</strong>：化工、冶金等含腐蚀性介质，以及对泄漏和寿命要求极高的高端工况。<br><strong>限制</strong>：结构复杂，需配套气路系统；对气体清洁度（颗粒尺寸通常要求＜1 μm）和供气压力稳定性要求极高，成本约为机械密封的2—3倍。</p>
-<h3 id="7-轴承隔离器"><a href="#7-轴承隔离器" class="headerlink" title="7. 轴承隔离器"></a>7. 轴承隔离器</h3><p>轴承隔离器是在复合迷宫密封基础上发展起来的非接触式轴承保护装置，由静环、动环、浮动环组合而成：静环阻油并设回油孔，动环防止外界污染物进入，浮动环兼具蒸汽阻隔作用。运行时动静环不接触，无功率损耗。</p>
-<p><strong>适用边界</strong>：轴承箱的防漏油与防污染，尤其适合对可靠性和清洁度要求较高的高压离心风机轴承箱。<br><strong>限制</strong>：属于轴承保护范畴，不直接承担工艺气体侧的主密封功能。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机05</title>
-    <url>/2026/10/21/%E9%A3%8E%E6%9C%BA05/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="进风口"><a href="#进风口" class="headerlink" title="进风口"></a>进风口</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图。易得法兰、背板及肋板（角处预留R15焊缝位置），但是肋板的数量及分布如何确定的？应与受力分析有关，待定。</p>
-<p><img src="/pics/jfk1.png" alt="jfk1"></p>
-<p>现在怎么画出弧形板呢？按照以往经验来说，可以犀牛三维建模，然后展开再导出至cad。有没有直接出图的方法呢，还真有，吕工提供了比较有意思的方法，剖面延长至相交，内外半径分别画圆，整块圆环就出来了，再取得对应弧长即可。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>质检小计</title>
-    <url>/2026/11/04/%E8%B4%A8%E6%A3%80%E5%B0%8F%E8%AE%A1/</url>
-    <content><![CDATA[<h2 id="新到材料检查"><a href="#新到材料检查" class="headerlink" title="新到材料检查"></a>新到材料检查</h2><ul>
-<li><p>群内接通知后，按<strong>清单及图纸</strong>核查数量、材质、规格、尺寸，并记录在案。</p>
+    <title>风机01</title>
+    <url>/2026/10/16/%E9%A3%8E%E6%9C%BA01/</url>
+    <content><![CDATA[<h1 id="风机初识"><a href="#风机初识" class="headerlink" title="风机初识"></a>风机初识</h1><ul>
+<li><p>建筑中的暖通专业，通风与空调分部工程，算是与风机有些牵扯。不过在工程中只是远远看过，关注其质检、施工资料、进度等，而非风机本身的制作过程及相关规范、工艺等。</p>
 </li>
-<li><p>不符合要求的上报退换货。</p>
+<li><p>风机组成，乍看比较简单，含外壳、进风口、叶轮、出风口、电机、皮带及轮、支架、底架等部分。然而这些部分的尺寸设计、选材规格、组合方式、连接类型，到细化分图展开、分类下料、材料及辅料清单，背后依据的专业知识、规范技术、厂家标准、现有加工机械、安装可行性等，均需要深入学习、借鉴、总结。</p>
 </li>
-</ul>
-<h2 id="工序检查"><a href="#工序检查" class="headerlink" title="工序检查"></a>工序检查</h2><ul>
-<li><p>接通知后，按<strong>清单及图纸</strong>核查各道工序，并记录在案。部分重点如下：</p>
-<ul>
-<li>铆接牵扯焊接的，注意焊接质量（舌口和进风口焊接）。以平滑美观为优（关于铆接具体做哪些部件待细究）</li>
-<li>焊缝气孔、裂缝、假焊、夹渣（喷漆后观感更明显）</li>
-<li>电机中心高度，宁低勿高（即测量中心到底座高度+2mm以内）（底座的平直度？）</li>
-<li>进风口的内外径（防止漏弯）</li>
-<li>打磨的焊瘤、焊渣，整体及部分的平直度</li>
-<li>以上尽量喷漆之前检验出弊病所在，及时处理，尤其喷1遍漆的叶轮，不然喷漆后返工误时</li>
-<li>喷漆测量厚度、均匀性</li>
-<li>组装缝隙、重复检查焊渣情况</li>
-<li>整体观感，思考设计合理性</li>
-</ul>
+<li><p>部分构件：①机壳，叶轮的保护壳，亦为进出风口的连接基础，一般由前、后面板（预留密封及进风口）+中部弧形板+检修口组成，部分大型机壳需二合一（前+后）拼装。</p>
+<p>​                   ②进风口，也叫集流器，简单来说就是方便吸风，一般由前翼板+弧形腹板+后翼板+加劲肋组成。</p>
+<p>​                   ③叶轮，前板（喇叭口造型）+轮片（鱼腹型）+后板（平板型）</p>
 </li>
-</ul>
-<h2 id="入库检查"><a href="#入库检查" class="headerlink" title="入库检查"></a>入库检查</h2><ul>
-<li>接通知后，按<strong>清单及图纸</strong>核查整机各项参数，并记录在案。部分重点如下：<ul>
-<li>底架丝孔、外界法兰平整性及丝孔</li>
-<li>调节门方向一致性</li>
-<li>铭牌参数</li>
-<li>紧固螺丝复查</li>
-</ul>
+<li><p>部分工具：扳手（开口+梅花+内六角）&#x2F;电动扳手、一字&#x2F;十字螺丝刀、角磨机（磨片+砂轮）、打眼钻头、撬棍、小推车、液压车、铲车</p>
+</li>
+<li><p>部分辅料：不锈钢螺丝&#x2F;螺母&#x2F;平垫片&#x2F;弹垫片（A2&#x2F;4-70）、镀锌系列螺丝、石墨盘根（6* 6、8* 8、10* 10等）、平键、方形螺母（限位用）、圆形螺母、止退垫片、止退螺丝（紧固螺丝）、密封条&#x2F;带、散热轮（螺丝方向统一）、皮带及主副轮（含衬套）、电机槽钢</p>
+</li>
+<li><p>部分材料：碳钢（235&#x2F;355等）、不锈钢（301&#x2F;316等），锰铬合金等，酸洗油膏（注意橡胶手套防护，沾染皮肤会发黄，蜕皮达半月）、黄油（不锈钢螺丝涂抹）</p>
+</li>
+<li><p>部分工艺：酸洗、组件除尘、部分拉丝工艺用拉丝擦子打磨、叶轮焊渣敲除（锤子+楔头）、叶轮动平衡、螺丝初拧（对称均匀）+复拧（电动）+终拧（手动）、皮带主副轮侧方靠尺至齐平（亦需水平无倾斜）</p>
+</li>
+<li><p>部分识图：总图（俯视图、左视图、正视图）、分图（底架、支架、机壳、叶轮、进风口、出风口、轴、轴端盖板、轴盘、密封、联轴箱、皮带式保护罩）</p>
 </li>
 </ul>
 <hr>
-<p>另参照提供厂标，细化检查。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机08</title>
-    <url>/2026/10/27/%E9%A3%8E%E6%9C%BA08/</url>
-    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="检修口"><a href="#检修口" class="headerlink" title="检修口"></a>检修口</h2><ul>
-<li><p>本图检修口设计为双层，可能为防爆考虑。法兰宽高180*240，环40，洞口宽100（底层弧形板宽122），悬空高50。盖板同规格覆盖。丝孔D13，均布8个。四周包板按参数计取即可，易得分件产品为：上下左右（外板+内板），底内弧板，法兰及盖板。其中外板与机壳焊接，内板与盖板合一。</p>
-<ul>
-<li><p>内外层间隙设计5mm</p>
-</li>
-<li><p>设计角度选取为45°（考虑操作方便性设计？）</p>
-</li>
-<li><p>其他设计参数必要性说明，或界限范围在哪</p>
-<p><img src="/pics/jxk1.png" alt="jxk1"></p>
-</li>
-</ul>
-</li>
-</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">路漫漫其修远兮</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
 ]]></content>
       <categories>
         <category>感悟</category>
@@ -649,6 +541,160 @@
       </tags>
   </entry>
   <entry>
+    <title>风机03</title>
+    <url>/2026/10/19/%E9%A3%8E%E6%9C%BA03/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="轴盘图"><a href="#轴盘图" class="headerlink" title="轴盘图"></a>轴盘图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但平面图中尺寸与剖面对不上。存疑待定。</p>
+<p><img src="/pics/zp1.png" alt="zp1"></p>
+<p>45#材料指的是：45#钢按国家标准分类属于‌优质碳素结构钢‌，数字”45”代表平均含碳量约为0.45%，实际范围在0.42%~0.50%之间。它比普通低碳钢强度更高，但又比高碳钢更容易加工，算是比较平衡的一种材料。</p>
+<p>其余12.5△，指的粗糙度，<strong>“图中未单独标注粗糙度的其余所有表面，其表面粗糙度要求为 Ra 12.5 μm。”</strong></p>
+<p>我们来拆解一下图中的三个元素：</p>
+<ol>
+<li><strong>“其余”</strong>：这是图面标注的“默认规则”。意思是，图纸上大部分零件都画了加工符号，为了图面简洁，没画符号的地方，统一按这个标准执行。</li>
+<li><strong>倒三角形（▽）</strong>：这是表面粗糙度的<strong>基本符号</strong>。这里没有加横线（加横线代表必须通过切削等去除材料的方法获得），通常代表这些表面是<strong>铸造、锻造、冲压</strong>等不去除材料形成的，或者对加工方法没有严格要求。</li>
+<li><strong>数字“12.5”</strong>：代表粗糙度参数 <strong>Ra</strong> 的数值是 <strong>12.5 微米（μm）</strong>。</li>
+</ol>
+<h3 id="💡-12-5-是什么概念？"><a href="#💡-12-5-是什么概念？" class="headerlink" title="💡 12.5 是什么概念？"></a>💡 12.5 是什么概念？</h3><p>在机械加工中，Ra 12.5 属于<strong>比较粗糙</strong>的级别（以前老国标叫 ▽4）。</p>
+<ul>
+<li><strong>外观</strong>：肉眼能明显看到加工留下的刀纹、粗糙的颗粒感，摸起来比较涩手。</li>
+<li><strong>用途</strong>：通常用于风机的<strong>机壳外表面、非配合的支架、底座、法兰的背面</strong>等不影响装配精度和密封性的部位。如果是风机叶轮的表面，通常粗糙度要求会高得多（比如 Ra 3.2 或 1.6，为了减少积灰和保证动平衡）。</li>
+</ul>
+<h3 id="公差"><a href="#公差" class="headerlink" title="公差"></a>公差</h3><p><strong>Ø42 +0.04 &#x2F; +0.02</strong> 的完整意思是：</p>
+<h3 id="1-基础含义"><a href="#1-基础含义" class="headerlink" title="1. 基础含义"></a>1. 基础含义</h3><ul>
+<li><strong>Ø42</strong>：代表这个孔的<strong>基本直径</strong>是 42 毫米。</li>
+<li><strong>+0.04</strong>：是<strong>上偏差</strong>（最大允许尺寸）。</li>
+<li><strong>+0.02</strong>：是<strong>下偏差</strong>（最小允许尺寸）。</li>
+</ul>
+<h3 id="2-加工合格范围"><a href="#2-加工合格范围" class="headerlink" title="2. 加工合格范围"></a>2. 加工合格范围</h3><p>在车间加工这个孔的时候，它的直径不能随便大也不能随便小：</p>
+<ul>
+<li><strong>最大不能超过</strong>：42 + 0.04 &#x3D; <strong>42.04 mm</strong></li>
+<li><strong>最小不能小于</strong>：42 + 0.02 &#x3D; <strong>42.02 mm</strong></li>
+<li><strong>公差带（允许的误差范围）</strong>：0.04 - 0.02 &#x3D; <strong>0.02 mm</strong>（也就是常说的2个“丝”或2个“道”）。</li>
+</ul>
+<h3 id="3-工程上的意思"><a href="#3-工程上的意思" class="headerlink" title="3. 工程上的意思"></a>3. 工程上的意思</h3><ul>
+<li>这是一个<strong>内孔</strong>（看图纸剖面线，中间是空的圆孔）。</li>
+<li>因为偏差全是“+”号，说明这个孔<strong>比标准的42毫米要大一点点</strong>。这种设计通常是为了和一根轴配合时，留出一点<strong>间隙</strong>，保证轴能顺利插进去，或者是用来装配轴承、销钉等标准件。</li>
+</ul>
+<p><strong>⚠️ 注意</strong>：图中 +0.04 和 +0.02 是上下排布的。上面那个是上偏差，下面那个是下偏差。工人在看图纸时，只要量出来的尺寸在 42.02 到 42.04 之间，这件活就算干合格了。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机05</title>
+    <url>/2026/10/21/%E9%A3%8E%E6%9C%BA05/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="进风口"><a href="#进风口" class="headerlink" title="进风口"></a>进风口</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图。易得法兰、背板及肋板（角处预留R15焊缝位置），但是肋板的数量及分布如何确定的？应与受力分析有关，待定。</p>
+<p><img src="/pics/jfk1.png" alt="jfk1"></p>
+<p>现在怎么画出弧形板呢？按照以往经验来说，可以犀牛三维建模，然后展开再导出至cad。有没有直接出图的方法呢，还真有，吕工提供了比较有意思的方法，剖面延长至相交，内外半径分别画圆，整块圆环就出来了，再取得对应弧长即可。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机04</title>
+    <url>/2026/10/20/%E9%A3%8E%E6%9C%BA04/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="叶轮图"><a href="#叶轮图" class="headerlink" title="叶轮图"></a>叶轮图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但轮片是如何确定数量、弧度、长度的？</p>
+<p><img src="/pics/yl1.png" alt="yl1"></p>
+<p>要画出右图的弧形叶片，必须知道<strong>叶片参数</strong>（如圆弧半径 R19、叶片出口角、进出口安装位置）。这通常来源于风机的气动设计（或者是三维模型直接导出）。</p>
+<p>设计师先根据风量风压，选定叶型（R19，12片）。</p>
+<p>产出的几张图，可判别为背板8T、叶轮片5T、内面板5T（应该是预留开孔定位、方便焊接，<strong>不过为什么要边缘留孔？</strong>）、<strong>未知带钩造型（加工辅助？）</strong>、内面板收边8T、轴盘端盖板8T、铝板密封5T。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机06</title>
+    <url>/2026/10/23/%E9%A3%8E%E6%9C%BA06/</url>
+    <content><![CDATA[<h1 id="密封"><a href="#密封" class="headerlink" title="密封"></a>密封</h1><p>风机密封的核心分类依据是<strong>密封面是否直接接触</strong>，这直接决定了它的摩擦特性、适用转速与维护方式。</p>
+<p>风机密封可按接触形式划分为<strong>接触式密封</strong>（填料、骨架、机械）与<strong>非接触式密封</strong>（迷宫、碳环、干气、轴承隔离器）两大类，组合密封则是针对复杂工况的工程折中方案。</p>
+<h3 id="1-填料密封"><a href="#1-填料密封" class="headerlink" title="1. 填料密封"></a>1. 填料密封</h3><p>填料密封依靠压盖对毛毡、盘根或PTFE等柔性填料的压紧力实现密封。毛毡具有弹性和吸附能力，可在轴旋转时将润滑油刮回并反复自润滑；PTFE、芳纶等填料的耐温与耐磨性优于毛毡。</p>
+<p><strong>适用边界</strong>：中低转速、中等压力，输送空气、水蒸气等无害低压气体，或轴承箱润滑油侧的常规密封。<br><strong>限制</strong>：接触式摩擦导致功耗与磨损，高速下需频繁调整压紧力或更换填料；压盖过紧会发热，过松则泄漏。</p>
+<h3 id="2-骨架油封"><a href="#2-骨架油封" class="headerlink" title="2. 骨架油封"></a>2. 骨架油封</h3><p>骨架油封由金属骨架、耐油橡胶唇口和自紧弹簧组成，唇口过盈配合形成动态密封带，结构紧凑、安装方便。双唇形结构可在运转和停机状态下均提供密封，防止润滑油与气体互窜。</p>
+<p><strong>适用边界</strong>：低压（通常＜0.05 MPa）、常温洁净空气，或轴承腔的中低转速密封。<br><strong>限制</strong>：橡胶唇口在高温（通常＞120℃）、轴跳动大或表面粗糙度不足时易磨损老化；不适用于高压与强腐蚀介质。</p>
+<h3 id="3-迷宫密封（齿式迷宫）"><a href="#3-迷宫密封（齿式迷宫）" class="headerlink" title="3. 迷宫密封（齿式迷宫）"></a>3. 迷宫密封（齿式迷宫）</h3><p>迷宫密封通过轴与密封齿之间的一系列节流间隙和膨胀空腔，使气体每经过一级即经历一次节流—膨胀，压力和动能逐级衰减，最终压差趋近于零而停止外泄。其非接触特性允许轴微小窜动，零摩擦功耗，寿命长。</p>
+<p><strong>适用边界</strong>：高压、高速转子的级间密封与轴端密封；也常作为组合密封的前置降压级，为下游主密封“减负”。<br><strong>限制</strong>：存在固有间隙泄漏，无法做到“零泄漏”；装配间隙要求严格——过大泄漏增加，过小可能摩擦过热。多用于微正压或微负压洁净气体工况，或对泄漏宽容度较高的场合。</p>
+<h3 id="4-碳环密封"><a href="#4-碳环密封" class="headerlink" title="4. 碳环密封"></a>4. 碳环密封</h3><p>碳石墨环在弹簧预紧下与轴形成动态接触，碳材料的自润滑性可减少摩擦热，耐腐蚀性优异，对轴跳动适应性较强。泄漏量与密封环内外压差和环隙面积正相关。</p>
+<p><strong>适用边界</strong>：含尘或腐蚀性气体的轴端密封；在H₂S风机等场景中，碳环密封常与抽气&#x2F;充气密封组合使用。<br><strong>限制</strong>：高速工况下碳环可能因热应力开裂；需要关注弹簧预紧力与环隙的匹配。</p>
+<h3 id="5-机械密封"><a href="#5-机械密封" class="headerlink" title="5. 机械密封"></a>5. 机械密封</h3><p>机械密封通过动环与静环端面的紧密贴合实现低泄漏密封，密封液在端面间形成油膜以平衡介质压力。适用于高转速、高压及清洁介质，如石油化工、有毒气体输送等领域。</p>
+<p><strong>适用边界</strong>：对泄漏控制要求较高的高速高压工况。<br><strong>限制</strong>：对安装精度敏感，需配套冲洗或冷却系统；干运转或介质含颗粒时端面易损坏，成本显著高于填料密封与骨架油封。</p>
+<h3 id="6-干气密封"><a href="#6-干气密封" class="headerlink" title="6. 干气密封"></a>6. 干气密封</h3><p>干气密封通过引入少量干燥洁净气体，在螺旋槽端面形成高于介质压力的气膜，实现非接触运行，正常运转中无磨损，泄漏量远低于接触式机械密封。其功率消耗仅为接触式机械密封的约5%，理论上寿命可与设备同寿命。</p>
+<p><strong>适用边界</strong>：化工、冶金等含腐蚀性介质，以及对泄漏和寿命要求极高的高端工况。<br><strong>限制</strong>：结构复杂，需配套气路系统；对气体清洁度（颗粒尺寸通常要求＜1 μm）和供气压力稳定性要求极高，成本约为机械密封的2—3倍。</p>
+<h3 id="7-轴承隔离器"><a href="#7-轴承隔离器" class="headerlink" title="7. 轴承隔离器"></a>7. 轴承隔离器</h3><p>轴承隔离器是在复合迷宫密封基础上发展起来的非接触式轴承保护装置，由静环、动环、浮动环组合而成：静环阻油并设回油孔，动环防止外界污染物进入，浮动环兼具蒸汽阻隔作用。运行时动静环不接触，无功率损耗。</p>
+<p><strong>适用边界</strong>：轴承箱的防漏油与防污染，尤其适合对可靠性和清洁度要求较高的高压离心风机轴承箱。<br><strong>限制</strong>：属于轴承保护范畴，不直接承担工艺气体侧的主密封功能。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机07</title>
+    <url>/2026/10/26/%E9%A3%8E%E6%9C%BA07/</url>
+    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="机壳"><a href="#机壳" class="headerlink" title="机壳"></a>机壳</h2><ul>
+<li><p>机壳正反面设置问题，参照总图正视图为上方（此为下料注意事项）</p>
+<ul>
+<li><p>为何出风口边缘倒角10？</p>
+</li>
+<li><p>总图中背板剖面D为77，单拎出来为何放大至80？背面连接密封板的开孔为何比密封尺寸小？应该是冗余保证，范围如何界定？各种密封对应不同参数设计？</p>
+</li>
+<li><p>面板下方宽出15mm，是铆接需要吗？</p>
+</li>
+<li><p>正面板连接进风口孔位设计保持一致，同时，机壳内收15mm，风口外扩15mm，保证衔接。</p>
+</li>
+<li><p>关于螺丝孔位设计，机壳孔位10.3均比密封15和进风口13的小。</p>
+</li>
+<li><p>另外总图中里面机壳的内虚线指的是圆环包面，取其中线分成长板+舌板。须知舌板位置及检修口规格位置设计要求。</p>
+<p><img src="/pics/jk1.png" alt="jk1"></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机08</title>
+    <url>/2026/10/27/%E9%A3%8E%E6%9C%BA08/</url>
+    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="检修口"><a href="#检修口" class="headerlink" title="检修口"></a>检修口</h2><ul>
+<li><p>本图检修口设计为双层，可能为防爆考虑。法兰宽高180*240，环40，洞口宽100（底层弧形板宽122），悬空高50。盖板同规格覆盖。丝孔D13，均布8个。四周包板按参数计取即可，易得分件产品为：上下左右（外板+内板），底内弧板，法兰及盖板。其中外板与机壳焊接，内板与盖板合一。</p>
+<ul>
+<li><p>内外层间隙设计5mm</p>
+</li>
+<li><p>设计角度选取为45°（考虑操作方便性设计？）</p>
+</li>
+<li><p>其他设计参数必要性说明，或界限范围在哪</p>
+<p><img src="/pics/jxk1.png" alt="jxk1"></p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>风机09</title>
     <url>/2026/10/28/%E9%A3%8E%E6%9C%BA09/</url>
     <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="支架"><a href="#支架" class="headerlink" title="支架"></a>支架</h2><ul>
@@ -695,58 +741,6 @@
       </tags>
   </entry>
   <entry>
-    <title>风机10</title>
-    <url>/2026/10/29/%E9%A3%8E%E6%9C%BA10/</url>
-    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="出风口方变圆"><a href="#出风口方变圆" class="headerlink" title="出风口方变圆"></a>出风口方变圆</h2><ul>
-<li><p>手动绘制三角形展开较为繁琐，可solidworks建模展开，或利用金林钣金插件直接生成。</p>
-</li>
-<li><p>也可以描述明确需求，用DS编写插件，直接在AUTOCAD中绘制(如下)</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// =====================================================================================</span><br><span class="line">//  方圆（矩形—圆）过渡体展开图 —— AutoCAD .NET 插件</span><br><span class="line">//  命令：DRAWTRANSITION</span><br><span class="line">//</span><br><span class="line">//  编译：.NET 8 类库（net8.0-windows、x64），引用 AutoCAD 的</span><br><span class="line">//        acdbmgd.dll、acmgd.dll、accoremgd.dll</span><br><span class="line">//  加载：NETLOAD 选择生成的 DLL，然后输入 DrawTransition</span><br><span class="line">//</span><br><span class="line">//  操作：依次选择矩形多段线 → 选择圆 → 输入高差 h → 输入圆周分段数 n（4 的倍数）</span><br><span class="line">//        → 指定插入点（即展开图起点 M0）</span><br><span class="line">//</span><br><span class="line">//  绘制内容：</span><br><span class="line">//    · 底边（矩形各边）+ 两条分界线，连成一条连续多段线 P0-M0-V1-V2-V3-V0-M0&#x27;-Pn</span><br><span class="line">//    · 外边缘 P0…Pn 用一段段圆弧（多段线凸度）光顺连接</span><br><span class="line">//    · 所有素线（角点→圆周等分点）用灰色直线，并在每条线上标注实长</span><br><span class="line">//    · 底边各段、两条分界线同样标注长度</span><br><span class="line">// =====================================================================================</span><br><span class="line"></span><br><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.Linq;</span><br><span class="line">using Autodesk.AutoCAD.ApplicationServices;</span><br><span class="line">using Autodesk.AutoCAD.DatabaseServices;</span><br><span class="line">using Autodesk.AutoCAD.EditorInput;</span><br><span class="line">using Autodesk.AutoCAD.Geometry;</span><br><span class="line">using Autodesk.AutoCAD.Runtime;</span><br><span class="line"></span><br><span class="line">namespace SquareToRoundPlugin</span><br><span class="line">&#123;</span><br><span class="line">    /// &lt;summary&gt;</span><br><span class="line">    /// 方圆（矩形—圆）过渡体展开图。</span><br><span class="line">    ///</span><br><span class="line">    /// 展开原理（手工展开法）：</span><br><span class="line">    ///   1. 矩形长边 A、短边 B（B 为短边），圆半径 R，两者同心，高差 h；</span><br><span class="line">    ///   2. 圆周 n 等分（n 为 4 的倍数），每 n/4 段为一个“扇形”，扇形顶点为矩形的一个角点，</span><br><span class="line">    ///      相邻两扇形之间用“以矩形边为底的大三角形”过渡；</span><br><span class="line">    ///   3. 以短边中点 M0 为分界：</span><br><span class="line">    ///        平面投影长 a(i) = 角点到圆周等分点的平面距离</span><br><span class="line">    ///        实长        b(i) = sqrt(a(i)^2 + h^2)          （勾股定理）</span><br><span class="line">    ///        每段弧长    L    = 2πR / n</span><br><span class="line">    ///   4. 展开作图：先画 M0V1 = B/2 的起始横线，再画垂直于它的 M0P0 = H1，</span><br><span class="line">    ///      然后以 P(i-1) 为圆心、L 为半径，以角点为圆心、b(i) 为半径，两圆交会出 P(i)；</span><br><span class="line">    ///   5. 每画完 n/4 个点，用“大三角形”定出下一个矩形角点，如此循环 4 次；</span><br><span class="line">    ///   6. 最后用样条曲线光顺连接 P0 … Pn 得到外边缘，</span><br><span class="line">    ///      底边、两条分界线连成一条多段线，各条素线用直线绘制并标注实长。</span><br><span class="line">    ///</span><br><span class="line">    /// 说明：</span><br><span class="line">    ///   * 矩形与圆同心时，M0P0 恰好垂直于 M0V1，即“起点垂直绘制 H1”；</span><br><span class="line">    ///   * 展开图不闭合：起点一侧的 M0 与终点一侧的 M0&#x27; 之间是展开后自然张开的切口，</span><br><span class="line">    ///     所以不会再出现“最后一段反向”，也不需要画起终点之间的连线；</span><br><span class="line">    ///   * 每段用弧长 L = 2πR/n（n 足够大时与弦长误差可忽略）。</span><br><span class="line">    /// &lt;/summary&gt;</span><br><span class="line">    public class TransitionPiece</span><br><span class="line">    &#123;</span><br><span class="line">        [CommandMethod(&quot;DrawTransition&quot;)]</span><br><span class="line">        public void DrawTransitionPattern()</span><br><span class="line">        &#123;</span><br><span class="line">            Document doc = Application.DocumentManager.MdiActiveDocument;</span><br><span class="line">            if (doc == null) return;</span><br><span class="line">            Editor ed = doc.Editor;</span><br><span class="line">            Database db = doc.Database;</span><br><span class="line"></span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                // ---------- 1. 选择矩形 ----------</span><br><span class="line">                PromptEntityOptions peoRect = new PromptEntityOptions(&quot;\n请选择矩形多段线 (Polyline): &quot;);</span><br><span class="line">                peoRect.SetRejectMessage(&quot;\n只能选择由多段线绘制的矩形。&quot;);</span><br><span class="line">                peoRect.AddAllowedClass(typeof(Polyline), true);</span><br><span class="line">                PromptEntityResult perRect = ed.GetEntity(peoRect);</span><br><span class="line">                if (perRect.Status != PromptStatus.OK) return;</span><br><span class="line"></span><br><span class="line">                // ---------- 2. 选择圆 ----------</span><br><span class="line">                PromptEntityOptions peoCircle = new PromptEntityOptions(&quot;\n请选择圆 (Circle): &quot;);</span><br><span class="line">                peoCircle.SetRejectMessage(&quot;\n只能选择圆 (Circle)。&quot;);</span><br><span class="line">                peoCircle.AddAllowedClass(typeof(Circle), true);</span><br><span class="line">                PromptEntityResult perCircle = ed.GetEntity(peoCircle);</span><br><span class="line">                if (perCircle.Status != PromptStatus.OK) return;</span><br><span class="line"></span><br><span class="line">                // ---------- 3. 输入高差 ----------</span><br><span class="line">                PromptDoubleOptions pdoH = new PromptDoubleOptions(&quot;\n请输入实际高差 h: &quot;);</span><br><span class="line">                pdoH.DefaultValue = 100.0;</span><br><span class="line">                pdoH.AllowNone = false;</span><br><span class="line">                pdoH.AllowNegative = false;</span><br><span class="line">                pdoH.AllowZero = false;</span><br><span class="line">                PromptDoubleResult pdrH = ed.GetDouble(pdoH);</span><br><span class="line">                if (pdrH.Status != PromptStatus.OK) return;</span><br><span class="line">                double h = pdrH.Value;</span><br><span class="line"></span><br><span class="line">                // ---------- 4. 输入分段数 ----------</span><br><span class="line">                PromptIntegerOptions pioN = new PromptIntegerOptions(&quot;\n请输入圆周分段数 n (必须是 4 的倍数，如 36): &quot;);</span><br><span class="line">                pioN.DefaultValue = 36;</span><br><span class="line">                pioN.AllowNone = false;</span><br><span class="line">                PromptIntegerResult pirN = ed.GetInteger(pioN);</span><br><span class="line">                if (pirN.Status != PromptStatus.OK) return;</span><br><span class="line">                int n = pirN.Value;</span><br><span class="line"></span><br><span class="line">                if (n % 4 != 0 || n &lt; 8 || n &gt; 720)</span><br><span class="line">                &#123;</span><br><span class="line">                    ed.WriteMessage(&quot;\n错误：分段数 n 必须是 4 的倍数（8 ~ 720），例如 36。&quot;);</span><br><span class="line">                    return;</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                // ---------- 5. 指定插入点（展开图起点 M0） ----------</span><br><span class="line">                PromptPointOptions ppo = new PromptPointOptions(&quot;\n请指定展开图插入点 (即起点 M0): &quot;);</span><br><span class="line">                PromptPointResult ppr = ed.GetPoint(ppo);</span><br><span class="line">                if (ppr.Status != PromptStatus.OK) return;</span><br><span class="line">                Point3d insertPt = ppr.Value;</span><br><span class="line"></span><br><span class="line">                using (Transaction tr = db.TransactionManager.StartTransaction())</span><br><span class="line">                &#123;</span><br><span class="line">                    Polyline pl = tr.GetObject(perRect.ObjectId, OpenMode.ForRead) as Polyline;</span><br><span class="line">                    Circle cir = tr.GetObject(perCircle.ObjectId, OpenMode.ForRead) as Circle;</span><br><span class="line">                    if (pl == null || cir == null) return;</span><br><span class="line"></span><br><span class="line">                    // ---------- 读取矩形四角点（去掉闭合重复点） ----------</span><br><span class="line">                    List&lt;Point3d&gt; raw = new List&lt;Point3d&gt;();</span><br><span class="line">                    for (int i = 0; i &lt; pl.NumberOfVertices; i++) raw.Add(pl.GetPoint3dAt(i));</span><br><span class="line">                    if (raw.Count &gt; 1 &amp;&amp; raw[0].DistanceTo(raw[raw.Count - 1]) &lt; 1e-6)</span><br><span class="line">                        raw.RemoveAt(raw.Count - 1);</span><br><span class="line">                    if (raw.Count != 4)</span><br><span class="line">                    &#123;</span><br><span class="line">                        ed.WriteMessage(&quot;\n错误：所选多段线不是四边形。&quot;);</span><br><span class="line">                        return;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // 以形心为基准按极角逆时针排序</span><br><span class="line">                    Point3d ctr = new Point3d(raw.Average(p =&gt; p.X), raw.Average(p =&gt; p.Y), 0.0);</span><br><span class="line">                    List&lt;Point3d&gt; ccw = raw.OrderBy(p =&gt; Math.Atan2(p.Y - ctr.Y, p.X - ctr.X)).ToList();</span><br><span class="line"></span><br><span class="line">                    // 令 V0V1 为短边，V0→V1→V2→V3 仍为逆时针</span><br><span class="line">                    int s = (ccw[0].DistanceTo(ccw[1]) &lt;= ccw[1].DistanceTo(ccw[2])) ? 0 : 1;</span><br><span class="line">                    Point3d V0 = ccw[s];</span><br><span class="line">                    Point3d V1 = ccw[(s + 1) % 4];</span><br><span class="line">                    Point3d V2 = ccw[(s + 2) % 4];</span><br><span class="line">                    Point3d V3 = ccw[(s + 3) % 4];</span><br><span class="line"></span><br><span class="line">                    double B = V0.DistanceTo(V1);   // 短边</span><br><span class="line">                    double A = V1.DistanceTo(V2);   // 长边</span><br><span class="line">                    Point3d M0 = new Point3d((V0.X + V1.X) / 2.0, (V0.Y + V1.Y) / 2.0, 0.0);</span><br><span class="line"></span><br><span class="line">                    Point3d C = cir.Center;</span><br><span class="line">                    double R = cir.Radius;</span><br><span class="line"></span><br><span class="line">                    if (Math.Abs(C.X - ctr.X) &gt; 1e-3 * Math.Max(A, B) ||</span><br><span class="line">                        Math.Abs(C.Y - ctr.Y) &gt; 1e-3 * Math.Max(A, B))</span><br><span class="line">                        ed.WriteMessage(&quot;\n提示：圆与矩形不同心，仍按实际尺寸计算。&quot;);</span><br><span class="line"></span><br><span class="line">                    // ---------- 圆周 n 等分（P0 在 M0 的正外侧，与矩形绕向一致） ----------</span><br><span class="line">                    int m = n / 4;</span><br><span class="line">                    double theta0 = Math.Atan2(M0.Y - C.Y, M0.X - C.X);</span><br><span class="line">                    Point3d[] P = new Point3d[n + 1];</span><br><span class="line">                    for (int i = 0; i &lt;= n; i++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        double ang = theta0 + 2.0 * Math.PI * i / n;</span><br><span class="line">                        P[i] = new Point3d(C.X + R * Math.Cos(ang), C.Y + R * Math.Sin(ang), h);</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    Func&lt;Point3d, Point3d, double&gt; TL = (p, q) =&gt;</span><br><span class="line">                    &#123;</span><br><span class="line">                        double dx = p.X - q.X, dy = p.Y - q.Y, dz = p.Z - q.Z;</span><br><span class="line">                        return Math.Sqrt(dx * dx + dy * dy + dz * dz);</span><br><span class="line">                    &#125;;</span><br><span class="line"></span><br><span class="line">                    double L = 2.0 * Math.PI * R / n;      // 每段弧长</span><br><span class="line"></span><br><span class="line">                    // ---------- 逐段交会（平面展开） ----------</span><br><span class="line">                    Point3d[] corners = new Point3d[] &#123; V1, V2, V3, V0 &#125;;</span><br><span class="line">                    Point2d[] fp = new Point2d[n + 1];     // 圆周各点的展开位置 P0..Pn</span><br><span class="line">                    Point2d[] fv = new Point2d[4];         // 矩形各角点的展开位置</span><br><span class="line">                    Point2d fM0 = new Point2d(0.0, 0.0);</span><br><span class="line">                    fv[0] = new Point2d(B / 2.0, 0.0);     // 起始横线段 M0V1 = B/2</span><br><span class="line"></span><br><span class="line">                    double H1 = TL(M0, P[0]);              // 分界处实长</span><br><span class="line">                    double bStart = TL(V1, P[0]);</span><br><span class="line"></span><br><span class="line">                    // 第一个点 P0：M0P0 = H1，V1P0 = bStart，取矩形外侧</span><br><span class="line">                    fp[0] = Intersect(fM0, H1, fv[0], bStart, new Point2d(B / 2.0, -A));</span><br><span class="line"></span><br><span class="line">                    for (int k = 0; k &lt; 4; k++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        for (int i = k * m + 1; i &lt;= (k + 1) * m; i++)</span><br><span class="line">                        &#123;</span><br><span class="line">                            double b = TL(corners[k], P[i]);</span><br><span class="line">                            Point2d opp;</span><br><span class="line">                            if (i == k * m + 1)</span><br><span class="line">                                opp = (k == 0) ? fM0 : fv[k - 1];   // 与上一三角形分居公共边两侧</span><br><span class="line">                            else</span><br><span class="line">                                opp = fp[i - 2];</span><br><span class="line"></span><br><span class="line">                            fp[i] = Intersect(fp[i - 1], L, fv[k], b, opp);</span><br><span class="line">                        &#125;</span><br><span class="line"></span><br><span class="line">                        // 以矩形边为底的大三角形：定出下一个角点</span><br><span class="line">                        if (k &lt; 3)</span><br><span class="line">                        &#123;</span><br><span class="line">                            int e = (k + 1) * m;</span><br><span class="line">                            double bBig = TL(corners[k + 1], P[e]);</span><br><span class="line">                            double edge = corners[k].DistanceTo(corners[k + 1]);</span><br><span class="line">                            fv[k + 1] = Intersect(fv[k], edge, fp[e], bBig, fp[e - 1]);</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // 终点一侧的分界点 M0&#x27;：V0M0&#x27; = B/2，M0&#x27;Pn = H1</span><br><span class="line">                    Point2d fM0b = Intersect(fv[3], B / 2.0, fp[n], H1, fp[n - 1]);</span><br><span class="line"></span><br><span class="line">                    // ---------- 绘制 ----------</span><br><span class="line">                    BlockTableRecord btr = (BlockTableRecord)tr.GetObject(db.CurrentSpaceId, OpenMode.ForWrite);</span><br><span class="line"></span><br><span class="line">                    Func&lt;Point2d, Point3d&gt; W = p =&gt;</span><br><span class="line">                        new Point3d(insertPt.X + p.X, insertPt.Y + p.Y, 0.0);</span><br><span class="line"></span><br><span class="line">                    double txtH = Math.Max(0.025 * Math.Max(A, B), 1e-3);</span><br><span class="line"></span><br><span class="line">                    // (1) 底边 + 两条分界线，连成一条连续多段线：P0-M0-V1-V2-V3-V0-M0&#x27;-Pn</span><br><span class="line">                    Polyline inner = new Polyline();</span><br><span class="line">                    Point2d[] chain = new Point2d[]</span><br><span class="line">                    &#123;</span><br><span class="line">                        fp[0], fM0, fv[0], fv[1], fv[2], fv[3], fM0b, fp[n]</span><br><span class="line">                    &#125;;</span><br><span class="line">                    for (int i = 0; i &lt; chain.Length; i++)</span><br><span class="line">                        inner.AddVertexAt(i, new Point2d(insertPt.X + chain[i].X, insertPt.Y + chain[i].Y),</span><br><span class="line">                                          0.0, 0.0, 0.0);</span><br><span class="line">                    inner.Closed = false;</span><br><span class="line">                    btr.AppendEntity(inner);</span><br><span class="line">                    tr.AddNewlyCreatedDBObject(inner, true);</span><br><span class="line"></span><br><span class="line">                    // (2) 底边、两条分界线的长度标注（标在各段中点）</span><br><span class="line">                    for (int i = 0; i &lt; chain.Length - 1; i++)</span><br><span class="line">                        AddLengthText(btr, tr, W(chain[i]), W(chain[i + 1]), txtH, 0.5);</span><br><span class="line"></span><br><span class="line">                    // (3) 素线：矩形角点 → 该扇形的各圆周等分点，逐条标注实长</span><br><span class="line">                    for (int k = 0; k &lt; 4; k++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        for (int i = k * m; i &lt;= (k + 1) * m; i++)</span><br><span class="line">                        &#123;</span><br><span class="line">                            Point3d pa = W(fv[k]);</span><br><span class="line">                            Point3d pb = W(fp[i]);</span><br><span class="line"></span><br><span class="line">                            Line ln = new Line(pa, pb);</span><br><span class="line">                            ln.ColorIndex = 8;                     // 折弯（素）线用灰色</span><br><span class="line">                            btr.AppendEntity(ln);</span><br><span class="line">                            tr.AddNewlyCreatedDBObject(ln, true);</span><br><span class="line"></span><br><span class="line">                            // 三条一组错开摆放，避免相邻素线密集处文字互相压盖</span><br><span class="line">                            int j = i - k * m;</span><br><span class="line">                            AddLengthText(btr, tr, pa, pb, txtH, 0.42 + 0.18 * (j % 3));</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // (4) 外边缘：P0 … Pn 一段段圆弧（多段线凸度）光顺连接，不用样条拟合</span><br><span class="line">                    Polyline outline = new Polyline();</span><br><span class="line">                    for (int i = 0; i &lt;= n; i++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        double bulge = (i &lt; n) ? ArcBulge(fp, i, n) : 0.0;</span><br><span class="line">                        outline.AddVertexAt(i,</span><br><span class="line">                            new Point2d(insertPt.X + fp[i].X, insertPt.Y + fp[i].Y),</span><br><span class="line">                            bulge, 0.0, 0.0);</span><br><span class="line">                    &#125;</span><br><span class="line">                    outline.Closed = false;</span><br><span class="line">                    btr.AppendEntity(outline);</span><br><span class="line">                    tr.AddNewlyCreatedDBObject(outline, true);</span><br><span class="line"></span><br><span class="line">                    tr.Commit();</span><br><span class="line"></span><br><span class="line">                    ed.WriteMessage(</span><br><span class="line">                        &quot;\n展开图完成：矩形 &#123;0:F2&#125;×&#123;1:F2&#125;，R=&#123;2:F2&#125;，h=&#123;3:F2&#125;，n=&#123;4&#125;（每段 &#123;5:F2&#125;°），弧长 L=&#123;6:F3&#125;，分界实长 H1=&#123;7:F3&#125;；已标注 &#123;8&#125; 条素线、&#123;9&#125; 条底边/分界线&quot;,</span><br><span class="line">                        A, B, R, h, n, 360.0 / n, L, H1, 4 * (m + 1), chain.Length - 1);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (System.Exception ex)</span><br><span class="line">            &#123;</span><br><span class="line">                ed.WriteMessage(&quot;\n发生错误: &quot; + ex.Message);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        /// &lt;summary&gt;</span><br><span class="line">        /// 用相邻三点做 Catmull-Rom 光顺，算出 P(i)→P(i+1) 这段圆弧的多段线凸度（bulge）。</span><br><span class="line">        /// 凸度 = tan(θ/4)，θ 为该段圆弧的圆心角。这样外边缘就是一段段真正的圆弧，</span><br><span class="line">        /// 而不是样条拟合曲线，圆弧在节点处切线连续、顺滑过渡。</span><br><span class="line">        /// &lt;/summary&gt;</span><br><span class="line">        private static double ArcBulge(Point2d[] p, int i, int n)</span><br><span class="line">        &#123;</span><br><span class="line">            Point2d a = p[i];</span><br><span class="line">            Point2d b = p[i + 1];</span><br><span class="line">            Point2d p0 = p[Math.Max(i - 1, 0)];</span><br><span class="line">            Point2d p3 = p[Math.Min(i + 2, n)];</span><br><span class="line"></span><br><span class="line">            // Catmull-Rom 曲线在该段的参数中点</span><br><span class="line">            double mx = 0.5 * (a.X + b.X) + 0.0625 * ((a.X - p0.X) + (b.X - p3.X));</span><br><span class="line">            double my = 0.5 * (a.Y + b.Y) + 0.0625 * ((a.Y - p0.Y) + (b.Y - p3.Y));</span><br><span class="line"></span><br><span class="line">            double dx = b.X - a.X;</span><br><span class="line">            double dy = b.Y - a.Y;</span><br><span class="line">            double c2 = dx * dx + dy * dy;</span><br><span class="line">            if (c2 &lt; 1e-12) return 0.0;</span><br><span class="line"></span><br><span class="line">            double ox = mx - 0.5 * (a.X + b.X);</span><br><span class="line">            double oy = my - 0.5 * (a.Y + b.Y);</span><br><span class="line">            double sLeft = dx * oy - dy * ox;      // 相对弦的左侧矢高（未除弦长）</span><br><span class="line">            return -2.0 * sLeft / c2;              // bulge = 2s/c，符号按逆时针为正</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        /// &lt;summary&gt;</span><br><span class="line">        /// 在直线 a→b 的 f 处、沿线的方向写一个长度标注（文字不颠倒，偏在线的一侧）。</span><br><span class="line">        /// &lt;/summary&gt;</span><br><span class="line">        private static void AddLengthText(BlockTableRecord btr, Transaction tr,</span><br><span class="line">                                          Point3d a, Point3d b, double txtH, double f)</span><br><span class="line">        &#123;</span><br><span class="line">            double dx = b.X - a.X;</span><br><span class="line">            double dy = b.Y - a.Y;</span><br><span class="line">            double len = Math.Sqrt(dx * dx + dy * dy);</span><br><span class="line">            if (len &lt; 1e-6) return;</span><br><span class="line"></span><br><span class="line">            double rot = Math.Atan2(dy, dx);</span><br><span class="line">            if (rot &gt; Math.PI / 2.0 || rot &lt; -Math.PI / 2.0) rot += Math.PI;   // 保证文字可读</span><br><span class="line"></span><br><span class="line">            double nx = -Math.Sin(rot), ny = Math.Cos(rot);   // 文字上方（法向）</span><br><span class="line">            double off = 0.55 * txtH;</span><br><span class="line">            Point3d pos = new Point3d(a.X + f * dx + nx * off,</span><br><span class="line">                                      a.Y + f * dy + ny * off,</span><br><span class="line">                                      0.0);</span><br><span class="line"></span><br><span class="line">            DBText t = new DBText();</span><br><span class="line">            t.SetDatabaseDefaults();</span><br><span class="line">            t.Height = txtH;</span><br><span class="line">            t.TextString = len.ToString(&quot;F1&quot;);</span><br><span class="line">            t.Justify = AttachmentPoint.MiddleCenter;</span><br><span class="line">            t.AlignmentPoint = pos;</span><br><span class="line">            t.Rotation = rot;</span><br><span class="line">            t.ColorIndex = 4;</span><br><span class="line">            btr.AppendEntity(t);</span><br><span class="line">            tr.AddNewlyCreatedDBObject(t, true);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        /// &lt;summary&gt;</span><br><span class="line">        /// 两圆求交，取位于直线 p1→p2 与参考点 refSide 相反一侧的交点。</span><br><span class="line">        /// 展开时相邻三角形分居公共边两侧，用这一条绝对规则即可避免图形向内反折。</span><br><span class="line">        /// &lt;/summary&gt;</span><br><span class="line">        private static Point2d Intersect(Point2d p1, double r1, Point2d p2, double r2, Point2d refSide)</span><br><span class="line">        &#123;</span><br><span class="line">            double dx = p2.X - p1.X;</span><br><span class="line">            double dy = p2.Y - p1.Y;</span><br><span class="line">            double d = Math.Sqrt(dx * dx + dy * dy);</span><br><span class="line">            if (d &lt; 1e-9) return p1;</span><br><span class="line"></span><br><span class="line">            double dmin = Math.Abs(r1 - r2);</span><br><span class="line">            double dmax = r1 + r2;</span><br><span class="line">            double dc = Math.Min(Math.Max(d, dmin), dmax);</span><br><span class="line">            if (dc &lt; 1e-12) return p1;</span><br><span class="line"></span><br><span class="line">            double a = (r1 * r1 - r2 * r2 + dc * dc) / (2.0 * dc);</span><br><span class="line">            double h2 = r1 * r1 - a * a;</span><br><span class="line">            if (h2 &lt; 0.0) h2 = 0.0;</span><br><span class="line">            double hh = Math.Sqrt(h2);</span><br><span class="line"></span><br><span class="line">            double ux = dx / d, uy = dy / d;</span><br><span class="line">            double bx = p1.X + a * ux, by = p1.Y + a * uy;</span><br><span class="line">            double nx = -uy, ny = ux;</span><br><span class="line"></span><br><span class="line">            Point2d c1 = new Point2d(bx + hh * nx, by + hh * ny);</span><br><span class="line">            Point2d c2 = new Point2d(bx - hh * nx, by - hh * ny);</span><br><span class="line"></span><br><span class="line">            double s1 = dx * (c1.Y - p1.Y) - dy * (c1.X - p1.X);</span><br><span class="line">            double s0 = dx * (refSide.Y - p1.Y) - dy * (refSide.X - p1.X);</span><br><span class="line"></span><br><span class="line">            if (Math.Abs(s1) &lt; 1e-9 &amp;&amp; Math.Abs(s0) &lt; 1e-9)</span><br><span class="line">                return (c1.Y &gt;= c2.Y) ? c1 : c2;   // 退化时取上方点</span><br><span class="line"></span><br><span class="line">            return (s1 * s0 &lt; 0.0) ? c1 : c2;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="/pics/fby1.png" alt="fby1"></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机07</title>
-    <url>/2026/10/26/%E9%A3%8E%E6%9C%BA07/</url>
-    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="机壳"><a href="#机壳" class="headerlink" title="机壳"></a>机壳</h2><ul>
-<li><p>机壳正反面设置问题，参照总图正视图为上方（此为下料注意事项）</p>
-<ul>
-<li><p>为何出风口边缘倒角10？</p>
-</li>
-<li><p>总图中背板剖面D为77，单拎出来为何放大至80？背面连接密封板的开孔为何比密封尺寸小？应该是冗余保证，范围如何界定？各种密封对应不同参数设计？</p>
-</li>
-<li><p>面板下方宽出15mm，是铆接需要吗？</p>
-</li>
-<li><p>正面板连接进风口孔位设计保持一致，同时，机壳内收15mm，风口外扩15mm，保证衔接。</p>
-</li>
-<li><p>关于螺丝孔位设计，机壳孔位10.3均比密封15和进风口13的小。</p>
-</li>
-<li><p>另外总图中里面机壳的内虚线指的是圆环包面，取其中线分成长板+舌板。须知舌板位置及检修口规格位置设计要求。</p>
-<p><img src="/pics/jk1.png" alt="jk1"></p>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>魔法科学</title>
     <url>/2026/04/05/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
     <content><![CDATA[<p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p>
@@ -760,6 +754,28 @@
       </categories>
       <tags>
         <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机10</title>
+    <url>/2026/10/29/%E9%A3%8E%E6%9C%BA10/</url>
+    <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="出风口方变圆"><a href="#出风口方变圆" class="headerlink" title="出风口方变圆"></a>出风口方变圆</h2><ul>
+<li><p>手动绘制三角形展开较为繁琐，可solidworks建模展开，或利用金林钣金插件直接生成。</p>
+</li>
+<li><p>也可以描述明确需求，用DS编写插件，直接在AUTOCAD中绘制(如下)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// =====================================================================================</span><br><span class="line">//  方圆（矩形—圆）过渡体展开图 —— AutoCAD .NET 插件</span><br><span class="line">//  命令：DRAWTRANSITION</span><br><span class="line">//</span><br><span class="line">//  编译：.NET 8 类库（net8.0-windows、x64），引用 AutoCAD 的</span><br><span class="line">//        acdbmgd.dll、acmgd.dll、accoremgd.dll</span><br><span class="line">//  加载：NETLOAD 选择生成的 DLL，然后输入 DrawTransition</span><br><span class="line">//</span><br><span class="line">//  操作：选择展开起始边（短边/长边）→ 选择矩形多段线 → 选择圆</span><br><span class="line">//        → 输入高差 h → 输入圆周分段数 n（4 的倍数）→ 指定插入点（即展开图起点 M0）</span><br><span class="line">//</span><br><span class="line">//  绘制内容：</span><br><span class="line">//    · 底边（矩形各边）+ 两条分界线，连成一条连续多段线 P0-M0-角点-角点-角点-角点-M0&#x27;-Pn</span><br><span class="line">//    · 外边缘 P0…Pn 用一段段圆弧（多段线凸度）光顺连接</span><br><span class="line">//    · 所有素线（角点→圆周等分点）用灰色直线，并在每条线上标注实长（2 位小数）</span><br><span class="line">//    · 底边各段、两条分界线同样标注长度（2 位小数）</span><br><span class="line">// =====================================================================================</span><br><span class="line"></span><br><span class="line">using System;</span><br><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.Linq;</span><br><span class="line">using Autodesk.AutoCAD.ApplicationServices;</span><br><span class="line">using Autodesk.AutoCAD.DatabaseServices;</span><br><span class="line">using Autodesk.AutoCAD.EditorInput;</span><br><span class="line">using Autodesk.AutoCAD.Geometry;</span><br><span class="line">using Autodesk.AutoCAD.Runtime;</span><br><span class="line"></span><br><span class="line">namespace SquareToRoundPlugin</span><br><span class="line">&#123;</span><br><span class="line">    /// &lt;summary&gt;</span><br><span class="line">    /// 方圆（矩形—圆）过渡体展开图。</span><br><span class="line">    ///</span><br><span class="line">    /// 展开原理（手工展开法）：</span><br><span class="line">    ///   1. 矩形长边 A、短边 B（B 为短边），圆半径 R，两者同心，高差 h；</span><br><span class="line">    ///   2. 圆周 n 等分（n 为 4 的倍数），每 n/4 段为一个“扇形”，扇形顶点为矩形的一个角点，</span><br><span class="line">    ///      相邻两扇形之间用“以矩形边为底的大三角形”过渡；</span><br><span class="line">    ///   3. 以短边中点（或长边中点）M0 为分界：</span><br><span class="line">    ///        平面投影长 a(i) = 角点到圆周等分点的平面距离</span><br><span class="line">    ///        实长        b(i) = sqrt(a(i)^2 + h^2)          （勾股定理）</span><br><span class="line">    ///        每段弧长    L    = 2πR / n</span><br><span class="line">    ///   4. 展开作图：先画 M0-角点 = 边长/2 的起始横线，再画垂直于它的 M0P0 = H1，</span><br><span class="line">    ///      然后以 P(i-1) 为圆心、L 为半径，以角点为圆心、b(i) 为半径，两圆交会出 P(i)；</span><br><span class="line">    ///   5. 每画完 n/4 个点，用“大三角形”定出下一个矩形角点，如此循环 4 次；</span><br><span class="line">    ///   6. 最后用一段段圆弧光顺连接 P0 … Pn 得到外边缘，</span><br><span class="line">    ///      底边、两条分界线连成一条多段线，各条素线用直线绘制并标注实长。</span><br><span class="line">    ///</span><br><span class="line">    /// 说明：</span><br><span class="line">    ///   * 矩形与圆同心时，M0P0 恰好垂直于起始边，即“起点垂直绘制 H1”；</span><br><span class="line">    ///   * 展开图不闭合：起点一侧的 M0 与终点一侧的 M0&#x27; 之间是展开后自然张开的切口，</span><br><span class="line">    ///     所以不会再出现“最后一段反向”，也不需要画起终点之间的连线；</span><br><span class="line">    ///   * 每段用弧长 L = 2πR/n（n 足够大时与弦长误差可忽略）；</span><br><span class="line">    ///   * 命令开始时可选择从短边中点或长边中点起画；</span><br><span class="line">    ///   * 若所选圆与矩形不同心，自动按“矩形中心 + 原半径”重新定位圆心后展开（不移动原圆）。</span><br><span class="line">    /// &lt;/summary&gt;</span><br><span class="line">    public class TransitionPiece</span><br><span class="line">    &#123;</span><br><span class="line">        [CommandMethod(&quot;DrawTransition&quot;)]</span><br><span class="line">        public void DrawTransitionPattern()</span><br><span class="line">        &#123;</span><br><span class="line">            Document doc = Application.DocumentManager.MdiActiveDocument;</span><br><span class="line">            if (doc == null) return;</span><br><span class="line">            Editor ed = doc.Editor;</span><br><span class="line">            Database db = doc.Database;</span><br><span class="line"></span><br><span class="line">            try</span><br><span class="line">            &#123;</span><br><span class="line">                // ---------- 0. 选择展开起始边 ----------</span><br><span class="line">                PromptKeywordOptions pkoSide = new PromptKeywordOptions(&quot;\n请选择展开起始边 [短边(S)/长边(L)]: &quot;);</span><br><span class="line">                pkoSide.Keywords.Add(&quot;Short&quot;, &quot;Short&quot;, &quot;短边&quot;);</span><br><span class="line">                pkoSide.Keywords.Add(&quot;Long&quot;, &quot;Long&quot;, &quot;长边&quot;);</span><br><span class="line">                pkoSide.Keywords.Default = &quot;Short&quot;;</span><br><span class="line">                pkoSide.AllowNone = true;</span><br><span class="line">                PromptResult pkrSide = ed.GetKeywords(pkoSide);</span><br><span class="line">                if (pkrSide.Status != PromptStatus.OK) return;</span><br><span class="line">                bool fromShort = !pkrSide.StringResult.Equals(&quot;Long&quot;, StringComparison.OrdinalIgnoreCase);</span><br><span class="line"></span><br><span class="line">                // ---------- 1. 选择矩形 ----------</span><br><span class="line">                PromptEntityOptions peoRect = new PromptEntityOptions(&quot;\n请选择矩形多段线 (Polyline): &quot;);</span><br><span class="line">                peoRect.SetRejectMessage(&quot;\n只能选择由多段线绘制的矩形。&quot;);</span><br><span class="line">                peoRect.AddAllowedClass(typeof(Polyline), true);</span><br><span class="line">                PromptEntityResult perRect = ed.GetEntity(peoRect);</span><br><span class="line">                if (perRect.Status != PromptStatus.OK) return;</span><br><span class="line"></span><br><span class="line">                // ---------- 2. 选择圆 ----------</span><br><span class="line">                PromptEntityOptions peoCircle = new PromptEntityOptions(&quot;\n请选择圆 (Circle): &quot;);</span><br><span class="line">                peoCircle.SetRejectMessage(&quot;\n只能选择圆 (Circle)。&quot;);</span><br><span class="line">                peoCircle.AddAllowedClass(typeof(Circle), true);</span><br><span class="line">                PromptEntityResult perCircle = ed.GetEntity(peoCircle);</span><br><span class="line">                if (perCircle.Status != PromptStatus.OK) return;</span><br><span class="line"></span><br><span class="line">                // ---------- 3. 输入高差 ----------</span><br><span class="line">                PromptDoubleOptions pdoH = new PromptDoubleOptions(&quot;\n请输入实际高差 h: &quot;);</span><br><span class="line">                pdoH.DefaultValue = 100.0;</span><br><span class="line">                pdoH.AllowNone = false;</span><br><span class="line">                pdoH.AllowNegative = false;</span><br><span class="line">                pdoH.AllowZero = false;</span><br><span class="line">                PromptDoubleResult pdrH = ed.GetDouble(pdoH);</span><br><span class="line">                if (pdrH.Status != PromptStatus.OK) return;</span><br><span class="line">                double h = pdrH.Value;</span><br><span class="line"></span><br><span class="line">                // ---------- 4. 输入分段数 ----------</span><br><span class="line">                PromptIntegerOptions pioN = new PromptIntegerOptions(&quot;\n请输入圆周分段数 n (必须是 4 的倍数，如 36): &quot;);</span><br><span class="line">                pioN.DefaultValue = 36;</span><br><span class="line">                pioN.AllowNone = false;</span><br><span class="line">                PromptIntegerResult pirN = ed.GetInteger(pioN);</span><br><span class="line">                if (pirN.Status != PromptStatus.OK) return;</span><br><span class="line">                int n = pirN.Value;</span><br><span class="line"></span><br><span class="line">                if (n % 4 != 0 || n &lt; 8 || n &gt; 720)</span><br><span class="line">                &#123;</span><br><span class="line">                    ed.WriteMessage(&quot;\n错误：分段数 n 必须是 4 的倍数（8 ~ 720），例如 36。&quot;);</span><br><span class="line">                    return;</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                // ---------- 5. 指定插入点（展开图起点 M0） ----------</span><br><span class="line">                PromptPointOptions ppo = new PromptPointOptions(&quot;\n请指定展开图插入点 (即起点 M0): &quot;);</span><br><span class="line">                PromptPointResult ppr = ed.GetPoint(ppo);</span><br><span class="line">                if (ppr.Status != PromptStatus.OK) return;</span><br><span class="line">                Point3d insertPt = ppr.Value;</span><br><span class="line"></span><br><span class="line">                using (Transaction tr = db.TransactionManager.StartTransaction())</span><br><span class="line">                &#123;</span><br><span class="line">                    Polyline pl = tr.GetObject(perRect.ObjectId, OpenMode.ForRead) as Polyline;</span><br><span class="line">                    Circle cir = tr.GetObject(perCircle.ObjectId, OpenMode.ForRead) as Circle;</span><br><span class="line">                    if (pl == null || cir == null) return;</span><br><span class="line"></span><br><span class="line">                    // ---------- 读取矩形四角点（去掉闭合重复点） ----------</span><br><span class="line">                    List&lt;Point3d&gt; raw = new List&lt;Point3d&gt;();</span><br><span class="line">                    for (int i = 0; i &lt; pl.NumberOfVertices; i++) raw.Add(pl.GetPoint3dAt(i));</span><br><span class="line">                    if (raw.Count &gt; 1 &amp;&amp; raw[0].DistanceTo(raw[raw.Count - 1]) &lt; 1e-6)</span><br><span class="line">                        raw.RemoveAt(raw.Count - 1);</span><br><span class="line">                    if (raw.Count != 4)</span><br><span class="line">                    &#123;</span><br><span class="line">                        ed.WriteMessage(&quot;\n错误：所选多段线不是四边形。&quot;);</span><br><span class="line">                        return;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // 以形心为基准按极角逆时针排序</span><br><span class="line">                    Point3d ctr = new Point3d(raw.Average(p =&gt; p.X), raw.Average(p =&gt; p.Y), 0.0);</span><br><span class="line">                    List&lt;Point3d&gt; ccw = raw.OrderBy(p =&gt; Math.Atan2(p.Y - ctr.Y, p.X - ctr.X)).ToList();</span><br><span class="line"></span><br><span class="line">                    // 令 V0V1 为短边，V0→V1→V2→V3 仍为逆时针</span><br><span class="line">                    int s = (ccw[0].DistanceTo(ccw[1]) &lt;= ccw[1].DistanceTo(ccw[2])) ? 0 : 1;</span><br><span class="line">                    Point3d V0 = ccw[s];</span><br><span class="line">                    Point3d V1 = ccw[(s + 1) % 4];</span><br><span class="line">                    Point3d V2 = ccw[(s + 2) % 4];</span><br><span class="line">                    Point3d V3 = ccw[(s + 3) % 4];</span><br><span class="line"></span><br><span class="line">                    double B = V0.DistanceTo(V1);   // 短边</span><br><span class="line">                    double A = V1.DistanceTo(V2);   // 长边</span><br><span class="line"></span><br><span class="line">                    // 展开起始边：短边 V0V1 或长边 V1V2；M0 取该边中点，</span><br><span class="line">                    // halfEdge 为起始边长的一半，corners 为逆时针方向的四个角点</span><br><span class="line">                    Point3d M0;</span><br><span class="line">                    Point3d[] corners;</span><br><span class="line">                    double halfEdge;</span><br><span class="line">                    if (fromShort)</span><br><span class="line">                    &#123;</span><br><span class="line">                        M0 = new Point3d((V0.X + V1.X) / 2.0, (V0.Y + V1.Y) / 2.0, 0.0);</span><br><span class="line">                        corners = new Point3d[] &#123; V1, V2, V3, V0 &#125;;</span><br><span class="line">                        halfEdge = B / 2.0;</span><br><span class="line">                    &#125;</span><br><span class="line">                    else</span><br><span class="line">                    &#123;</span><br><span class="line">                        M0 = new Point3d((V1.X + V2.X) / 2.0, (V1.Y + V2.Y) / 2.0, 0.0);</span><br><span class="line">                        corners = new Point3d[] &#123; V2, V3, V0, V1 &#125;;</span><br><span class="line">                        halfEdge = A / 2.0;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    Point3d C = cir.Center;</span><br><span class="line">                    double R = cir.Radius;</span><br><span class="line"></span><br><span class="line">                    // 圆与矩形不同心时：自动改成“矩形中心 + 原半径”的同心圆再展开</span><br><span class="line">                    // （只参与计算，不移动原图元；矩形中心取四角点的形心，即对角线交点）</span><br><span class="line">                    double dCx = C.X - ctr.X;</span><br><span class="line">                    double dCy = C.Y - ctr.Y;</span><br><span class="line">                    double offC = Math.Sqrt(dCx * dCx + dCy * dCy);</span><br><span class="line">                    bool recentered = offC &gt; 1e-6;</span><br><span class="line">                    if (recentered)</span><br><span class="line">                    &#123;</span><br><span class="line">                        C = new Point3d(ctr.X, ctr.Y, 0.0);</span><br><span class="line">                        ed.WriteMessage(</span><br><span class="line">                            &quot;\n提示：圆与矩形不同心（圆心偏差 &#123;0:F3&#125;），已自动按矩形中心、原半径 R=&#123;1:F3&#125; 同心后再展开（原圆未移动）。&quot;,</span><br><span class="line">                            offC, R);</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // ---------- 圆周 n 等分（P0 在 M0 的正外侧，与矩形绕向一致） ----------</span><br><span class="line">                    int m = n / 4;</span><br><span class="line">                    double theta0 = Math.Atan2(M0.Y - C.Y, M0.X - C.X);</span><br><span class="line">                    Point3d[] P = new Point3d[n + 1];</span><br><span class="line">                    for (int i = 0; i &lt;= n; i++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        double ang = theta0 + 2.0 * Math.PI * i / n;</span><br><span class="line">                        P[i] = new Point3d(C.X + R * Math.Cos(ang), C.Y + R * Math.Sin(ang), h);</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    Func&lt;Point3d, Point3d, double&gt; TL = (p, q) =&gt;</span><br><span class="line">                    &#123;</span><br><span class="line">                        double dx = p.X - q.X, dy = p.Y - q.Y, dz = p.Z - q.Z;</span><br><span class="line">                        return Math.Sqrt(dx * dx + dy * dy + dz * dz);</span><br><span class="line">                    &#125;;</span><br><span class="line"></span><br><span class="line">                    double L = 2.0 * Math.PI * R / n;      // 每段弧长</span><br><span class="line"></span><br><span class="line">                    // ---------- 逐段交会（平面展开） ----------</span><br><span class="line">                    Point2d[] fp = new Point2d[n + 1];     // 圆周各点的展开位置 P0..Pn</span><br><span class="line">                    Point2d[] fv = new Point2d[4];         // 矩形各角点的展开位置</span><br><span class="line">                    Point2d fM0 = new Point2d(0.0, 0.0);</span><br><span class="line">                    fv[0] = new Point2d(halfEdge, 0.0);    // 起始横线段 M0-corners[0] = halfEdge</span><br><span class="line"></span><br><span class="line">                    double H1 = TL(M0, P[0]);              // 分界处实长</span><br><span class="line">                    double bStart = TL(corners[0], P[0]);</span><br><span class="line"></span><br><span class="line">                    // 第一个点 P0：M0P0 = H1，corners[0]P0 = bStart，取矩形外侧</span><br><span class="line">                    fp[0] = Intersect(fM0, H1, fv[0], bStart, new Point2d(halfEdge, -(A + B)));</span><br><span class="line"></span><br><span class="line">                    for (int k = 0; k &lt; 4; k++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        for (int i = k * m + 1; i &lt;= (k + 1) * m; i++)</span><br><span class="line">                        &#123;</span><br><span class="line">                            double b = TL(corners[k], P[i]);</span><br><span class="line">                            Point2d opp;</span><br><span class="line">                            if (i == k * m + 1)</span><br><span class="line">                                opp = (k == 0) ? fM0 : fv[k - 1];   // 与上一三角形分居公共边两侧</span><br><span class="line">                            else</span><br><span class="line">                                opp = fp[i - 2];</span><br><span class="line"></span><br><span class="line">                            fp[i] = Intersect(fp[i - 1], L, fv[k], b, opp);</span><br><span class="line">                        &#125;</span><br><span class="line"></span><br><span class="line">                        // 以矩形边为底的大三角形：定出下一个角点</span><br><span class="line">                        if (k &lt; 3)</span><br><span class="line">                        &#123;</span><br><span class="line">                            int e = (k + 1) * m;</span><br><span class="line">                            double bBig = TL(corners[k + 1], P[e]);</span><br><span class="line">                            double edge = corners[k].DistanceTo(corners[k + 1]);</span><br><span class="line">                            fv[k + 1] = Intersect(fv[k], edge, fp[e], bBig, fp[e - 1]);</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // 终点一侧的分界点 M0&#x27;：corners[3]M0&#x27; = halfEdge，M0&#x27;Pn = H1</span><br><span class="line">                    Point2d fM0b = Intersect(fv[3], halfEdge, fp[n], H1, fp[n - 1]);</span><br><span class="line"></span><br><span class="line">                    // ---------- 绘制 ----------</span><br><span class="line">                    BlockTableRecord btr = (BlockTableRecord)tr.GetObject(db.CurrentSpaceId, OpenMode.ForWrite);</span><br><span class="line"></span><br><span class="line">                    Func&lt;Point2d, Point3d&gt; W = p =&gt;</span><br><span class="line">                        new Point3d(insertPt.X + p.X, insertPt.Y + p.Y, 0.0);</span><br><span class="line"></span><br><span class="line">                    double txtH = Math.Max(0.025 * Math.Max(A, B), 1e-3);</span><br><span class="line"></span><br><span class="line">                    // (1) 底边 + 两条分界线，连成一条连续多段线：P0-M0-角点-角点-角点-角点-M0&#x27;-Pn</span><br><span class="line">                    Polyline inner = new Polyline();</span><br><span class="line">                    Point2d[] chain = new Point2d[]</span><br><span class="line">                    &#123;</span><br><span class="line">                        fp[0], fM0, fv[0], fv[1], fv[2], fv[3], fM0b, fp[n]</span><br><span class="line">                    &#125;;</span><br><span class="line">                    for (int i = 0; i &lt; chain.Length; i++)</span><br><span class="line">                        inner.AddVertexAt(i, new Point2d(insertPt.X + chain[i].X, insertPt.Y + chain[i].Y),</span><br><span class="line">                                          0.0, 0.0, 0.0);</span><br><span class="line">                    inner.Closed = false;</span><br><span class="line">                    btr.AppendEntity(inner);</span><br><span class="line">                    tr.AddNewlyCreatedDBObject(inner, true);</span><br><span class="line"></span><br><span class="line">                    // (2) 底边、两条分界线的长度标注（标在各段中点）</span><br><span class="line">                    for (int i = 0; i &lt; chain.Length - 1; i++)</span><br><span class="line">                        AddLengthText(btr, tr, W(chain[i]), W(chain[i + 1]), txtH, 0.5);</span><br><span class="line"></span><br><span class="line">                    // (3) 素线：矩形角点 → 该扇形的各圆周等分点，逐条标注实长</span><br><span class="line">                    for (int k = 0; k &lt; 4; k++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        for (int i = k * m; i &lt;= (k + 1) * m; i++)</span><br><span class="line">                        &#123;</span><br><span class="line">                            Point3d pa = W(fv[k]);</span><br><span class="line">                            Point3d pb = W(fp[i]);</span><br><span class="line"></span><br><span class="line">                            Line ln = new Line(pa, pb);</span><br><span class="line">                            ln.ColorIndex = 8;                     // 折弯（素）线用灰色</span><br><span class="line">                            btr.AppendEntity(ln);</span><br><span class="line">                            tr.AddNewlyCreatedDBObject(ln, true);</span><br><span class="line"></span><br><span class="line">                            // 三条一组错开摆放，避免相邻素线密集处文字互相压盖</span><br><span class="line">                            int j = i - k * m;</span><br><span class="line">                            AddLengthText(btr, tr, pa, pb, txtH, 0.42 + 0.18 * (j % 3));</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    // (4) 外边缘：P0 … Pn 一段段圆弧（多段线凸度）光顺连接，不用样条拟合</span><br><span class="line">                    Polyline outline = new Polyline();</span><br><span class="line">                    for (int i = 0; i &lt;= n; i++)</span><br><span class="line">                    &#123;</span><br><span class="line">                        double bulge = (i &lt; n) ? ArcBulge(fp, i, n) : 0.0;</span><br><span class="line">                        outline.AddVertexAt(i,</span><br><span class="line">                            new Point2d(insertPt.X + fp[i].X, insertPt.Y + fp[i].Y),</span><br><span class="line">                            bulge, 0.0, 0.0);</span><br><span class="line">                    &#125;</span><br><span class="line">                    outline.Closed = false;</span><br><span class="line">                    btr.AppendEntity(outline);</span><br><span class="line">                    tr.AddNewlyCreatedDBObject(outline, true);</span><br><span class="line"></span><br><span class="line">                    tr.Commit();</span><br><span class="line"></span><br><span class="line">                    ed.WriteMessage(</span><br><span class="line">                        &quot;\n展开图完成（从&#123;0&#125;中点起画）：矩形 &#123;1:F2&#125;×&#123;2:F2&#125;，R=&#123;3:F2&#125;，h=&#123;4:F2&#125;，n=&#123;5&#125;（每段 &#123;6:F2&#125;°），&quot; +</span><br><span class="line">                        &quot;弧长 L=&#123;7:F3&#125;，分界实长 H1=&#123;8:F3&#125;；已标注 &#123;9&#125; 条素线、&#123;10&#125; 条底边/分界线&quot;,</span><br><span class="line">                        fromShort ? &quot;短边&quot; : &quot;长边&quot;, A, B, R, h, n, 360.0 / n, L, H1,</span><br><span class="line">                        4 * (m + 1), chain.Length - 1);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            catch (System.Exception ex)</span><br><span class="line">            &#123;</span><br><span class="line">                ed.WriteMessage(&quot;\n发生错误: &quot; + ex.Message);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        /// &lt;summary&gt;</span><br><span class="line">        /// 用相邻三点做 Catmull-Rom 光顺，算出 P(i)→P(i+1) 这段圆弧的多段线凸度（bulge）。</span><br><span class="line">        /// 凸度 = tan(θ/4)，θ 为该段圆弧的圆心角。这样外边缘就是一段段真正的圆弧，</span><br><span class="line">        /// 而不是样条拟合曲线，圆弧在节点处切线连续、顺滑过渡。</span><br><span class="line">        /// &lt;/summary&gt;</span><br><span class="line">        private static double ArcBulge(Point2d[] p, int i, int n)</span><br><span class="line">        &#123;</span><br><span class="line">            Point2d a = p[i];</span><br><span class="line">            Point2d b = p[i + 1];</span><br><span class="line">            Point2d p0 = p[Math.Max(i - 1, 0)];</span><br><span class="line">            Point2d p3 = p[Math.Min(i + 2, n)];</span><br><span class="line"></span><br><span class="line">            // Catmull-Rom 曲线在该段的参数中点</span><br><span class="line">            double mx = 0.5 * (a.X + b.X) + 0.0625 * ((a.X - p0.X) + (b.X - p3.X));</span><br><span class="line">            double my = 0.5 * (a.Y + b.Y) + 0.0625 * ((a.Y - p0.Y) + (b.Y - p3.Y));</span><br><span class="line"></span><br><span class="line">            double dx = b.X - a.X;</span><br><span class="line">            double dy = b.Y - a.Y;</span><br><span class="line">            double c2 = dx * dx + dy * dy;</span><br><span class="line">            if (c2 &lt; 1e-12) return 0.0;</span><br><span class="line"></span><br><span class="line">            double ox = mx - 0.5 * (a.X + b.X);</span><br><span class="line">            double oy = my - 0.5 * (a.Y + b.Y);</span><br><span class="line">            double sLeft = dx * oy - dy * ox;      // 相对弦的左侧矢高（未除弦长）</span><br><span class="line">            return -2.0 * sLeft / c2;              // bulge = 2s/c，符号按逆时针为正</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        /// &lt;summary&gt;</span><br><span class="line">        /// 在直线 a→b 的 f 处、沿线的方向写一个长度标注（文字不颠倒，偏在线的一侧）。</span><br><span class="line">        /// &lt;/summary&gt;</span><br><span class="line">        private static void AddLengthText(BlockTableRecord btr, Transaction tr,</span><br><span class="line">                                          Point3d a, Point3d b, double txtH, double f)</span><br><span class="line">        &#123;</span><br><span class="line">            double dx = b.X - a.X;</span><br><span class="line">            double dy = b.Y - a.Y;</span><br><span class="line">            double len = Math.Sqrt(dx * dx + dy * dy);</span><br><span class="line">            if (len &lt; 1e-6) return;</span><br><span class="line"></span><br><span class="line">            double rot = Math.Atan2(dy, dx);</span><br><span class="line">            if (rot &gt; Math.PI / 2.0 || rot &lt; -Math.PI / 2.0) rot += Math.PI;   // 保证文字可读</span><br><span class="line"></span><br><span class="line">            double nx = -Math.Sin(rot), ny = Math.Cos(rot);   // 文字上方（法向）</span><br><span class="line">            double off = 0.55 * txtH;</span><br><span class="line">            Point3d pos = new Point3d(a.X + f * dx + nx * off,</span><br><span class="line">                                      a.Y + f * dy + ny * off,</span><br><span class="line">                                      0.0);</span><br><span class="line"></span><br><span class="line">            DBText t = new DBText();</span><br><span class="line">            t.SetDatabaseDefaults();</span><br><span class="line">            t.Height = txtH;</span><br><span class="line">            t.TextString = len.ToString(&quot;F2&quot;);</span><br><span class="line">            t.Justify = AttachmentPoint.MiddleCenter;</span><br><span class="line">            t.AlignmentPoint = pos;</span><br><span class="line">            t.Rotation = rot;</span><br><span class="line">            t.ColorIndex = 4;</span><br><span class="line">            btr.AppendEntity(t);</span><br><span class="line">            tr.AddNewlyCreatedDBObject(t, true);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        /// &lt;summary&gt;</span><br><span class="line">        /// 两圆求交，取位于直线 p1→p2 与参考点 refSide 相反一侧的交点。</span><br><span class="line">        /// 展开时相邻三角形分居公共边两侧，用这一条绝对规则即可避免图形向内反折。</span><br><span class="line">        /// &lt;/summary&gt;</span><br><span class="line">        private static Point2d Intersect(Point2d p1, double r1, Point2d p2, double r2, Point2d refSide)</span><br><span class="line">        &#123;</span><br><span class="line">            double dx = p2.X - p1.X;</span><br><span class="line">            double dy = p2.Y - p1.Y;</span><br><span class="line">            double d = Math.Sqrt(dx * dx + dy * dy);</span><br><span class="line">            if (d &lt; 1e-9) return p1;</span><br><span class="line"></span><br><span class="line">            double dmin = Math.Abs(r1 - r2);</span><br><span class="line">            double dmax = r1 + r2;</span><br><span class="line">            double dc = Math.Min(Math.Max(d, dmin), dmax);</span><br><span class="line">            if (dc &lt; 1e-12) return p1;</span><br><span class="line"></span><br><span class="line">            double a = (r1 * r1 - r2 * r2 + dc * dc) / (2.0 * dc);</span><br><span class="line">            double h2 = r1 * r1 - a * a;</span><br><span class="line">            if (h2 &lt; 0.0) h2 = 0.0;</span><br><span class="line">            double hh = Math.Sqrt(h2);</span><br><span class="line"></span><br><span class="line">            double ux = dx / d, uy = dy / d;</span><br><span class="line">            double bx = p1.X + a * ux, by = p1.Y + a * uy;</span><br><span class="line">            double nx = -uy, ny = ux;</span><br><span class="line"></span><br><span class="line">            Point2d c1 = new Point2d(bx + hh * nx, by + hh * ny);</span><br><span class="line">            Point2d c2 = new Point2d(bx - hh * nx, by - hh * ny);</span><br><span class="line"></span><br><span class="line">            double s1 = dx * (c1.Y - p1.Y) - dy * (c1.X - p1.X);</span><br><span class="line">            double s0 = dx * (refSide.Y - p1.Y) - dy * (refSide.X - p1.X);</span><br><span class="line"></span><br><span class="line">            if (Math.Abs(s1) &lt; 1e-9 &amp;&amp; Math.Abs(s0) &lt; 1e-9)</span><br><span class="line">                return (c1.Y &gt;= c2.Y) ? c1 : c2;   // 退化时取上方点</span><br><span class="line"></span><br><span class="line">            return (s1 * s0 &lt; 0.0) ? c1 : c2;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="/pics/fby1.png" alt="fby1"></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
       </tags>
   </entry>
   <entry>
