@@ -28,6 +28,34 @@
       </tags>
   </entry>
   <entry>
+    <title>TVBox使用简介</title>
+    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<ul>
+<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
+</ul>
+<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
+<ul>
+<li>输入接口地址‌：</li>
+<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
+<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
+
+
+<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
+<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
+<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
+<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一点错误</title>
     <url>/2026/07/19/%E4%B8%80%E7%82%B9%E9%94%99%E8%AF%AF/</url>
     <content><![CDATA[<ul>
@@ -44,54 +72,6 @@
 <ul>
 <li>再问：以后还会犯错吗</li>
 <li>再答：也许会的，但会让人前进的错误</li>
-</ul>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开设模具通用步骤及注意事项</title>
-    <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<ul>
-<li><h3 id="总方向：方便模具工组装和产品制作及脱模"><a href="#总方向：方便模具工组装和产品制作及脱模" class="headerlink" title="总方向：方便模具工组装和产品制作及脱模"></a>总方向：方便模具工组装和产品制作及脱模</h3></li>
-<li><h3 id="根据深化图纸，初步设计开模方案，选择整体-或-分件制作。"><a href="#根据深化图纸，初步设计开模方案，选择整体-或-分件制作。" class="headerlink" title="根据深化图纸，初步设计开模方案，选择整体 或 分件制作。"></a>根据深化图纸，初步设计开模方案，选择整体 或 分件制作。</h3><p>深化图设计另详。仔细查看深化图中的尺寸：长、宽、高、厚、弧度、转角、凹凸、数量、预埋件、吊件、分布筋、周围环境（地上、地下、埋深、排水）等状况，初步确定选择地模 或 平台模，综合考虑适合的开模方案。</p>
-<ul>
-<li>简易法：根据产品通长方向设置定位板、分布筋板并附加面板，适用于规则简单、单一外凸类（或凹凸不大）的产品。</li>
-<li>叠加法：由“简易法”延申而来，在产品局部拐角、突变处，因其特殊形状而增加设置定位板、筋板并附加面板。需要注意的是，有时仍然会遗漏，比如整体产品为长条形的，很自然的就会漏掉“长纵向”加筋板的可能性。谨记：有弧度必有底（筋板）。</li>
-<li>分模法：亦称“活模法”，针对多组产品、“瘦高”形产品，采用分块模具组合成整体方式制作模具，方便对犄角旮旯地方抹灰整平、喷涂，且可重复利用。</li>
-<li>内嵌法：针对凹形产品，当采用其他方法制作模具过于麻烦时，可采用此法。特点是模具外侧平整，仅需内部嵌入相应尺寸的垫板，达到所需的“凹形效果”即可。模具制作时亦方便省事。</li>
-</ul>
-</li>
-<li><h3 id="在与模具工协商确认好方向后，启动开模设计"><a href="#在与模具工协商确认好方向后，启动开模设计" class="headerlink" title="在与模具工协商确认好方向后，启动开模设计"></a>在与模具工协商确认好方向后，启动开模设计</h3><p>先将产品倒置（在CAD中则先将其镜像），然后按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序设计。</p>
-<ul>
-<li><p>定位板：作为模具中的基础，定位板定位尺寸很重要，一步错步步错。一般用15mm板雕刻，设15cm宽，定位口15mm宽，一般为封闭的整体。部分平台模设计时会考虑“卡口设计”，届时需预留1~2mm间隙，以防插不下去，且定位板根据活模特性为分段式。定位口的设置需综合考虑筋板与面板，防止打架。分割及组装参照前篇所述。</p>
-</li>
-<li><p>筋板：作为模具中的支撑骨干，且是面板的基础，也很重要。设计时需考虑让出面板、盖板的厚度，犀牛设计时需采用“偏移面”的方法。一般会在产品的外侧，将筋板侧边开豁口，方便模具工组装。一般用15mm板雕刻。需注意产品的突变处需加设筋板。</p>
-</li>
-<li><p>分模板：根据产品数量、特点选择合适厚度的分模板，一般分为15mm、18mm厚。位置一般从方便分模的地方下移1~3cm断开分模，长度上跟随产品长度，宽度上则根据具体情况设置通长或局部宽度。需注意分模的上下两部分需方便对接，且接头点的缝隙有保证。对于部分过深的产品，是否多次分模可以与模具工商量。</p>
-</li>
-<li><p>面板：面板的分割需考虑产品成型时的缝隙、底部筋板的支撑，尽量少分割且分割处下方有筋板支撑。各个面板的搭接顺序需考虑清楚并于断面图上显现。</p>
-</li>
-<li><p>盖板及封头板厚度根据需要调整，封头要区分封闭头还是分段头，二者挡板不一样。分段封头是否考虑刚性做成封闭的结合实际情况处置。</p>
-</li>
-<li><p>所有模具的分割处理是否垂直切割，根据具体产品而定。一般情况下垂直切割。</p>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">犀牛，即“Rhino”软件，时下很流行的3D建模开模软件，简单易上手。前文所述“偏移面”的方法相较于“偏移曲线”的方法在倾斜曲面上开模更准确。</span><br></pre></td></tr></table></figure>
-</li>
-<li><h3 id="复核产品模具图形及尺寸"><a href="#复核产品模具图形及尺寸" class="headerlink" title="复核产品模具图形及尺寸"></a>复核产品模具图形及尺寸</h3><p>按照顺序回想一遍，参照3D模型及CAD图纸，并互相印证，确保每一步，尤其是节点部位准确无误。尺寸是否正确、是否有遗漏、相互间是否打架等。</p>
-</li>
-<li><h3 id="输出雕刻及出图"><a href="#输出雕刻及出图" class="headerlink" title="输出雕刻及出图"></a>输出雕刻及出图</h3><ul>
-<li>依然按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序输出外框或封闭多段线，分类到5、9、15、18mm等规格并编号，分类2D排版、CAD布局并出图、AI导出、JD程序、板材雕刻。过程中亦需要检查有无错误，比如排版镜像、缺棱掉角、导出尺寸、雕刻异常等。</li>
-<li>整体三维效果图打印，包括模具3D和产品3D图；对应CAD详图打印；底板标注三角尺寸并打印，方便模具工定形；筋板断面图标注各面板编号并打印，需详细指出各个面板的搭接关系、筋板的内外关系；面板、盖板、分隔板的整体布局关系图。</li>
-<li>时常到模具工处看看进展情况并询问是否存在问题，及时发现根源及时解决。</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一般说了不少，那遇到不一般的情况该如何？</span><br><span class="line">具体问题具体分析了，起个设想，尝试再说。</span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
       <categories>
@@ -128,25 +108,6 @@
       </tags>
   </entry>
   <entry>
-    <title>新年新气象</title>
-    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
-    <content><![CDATA[<span id="more"></span>
-
-
-<hr>
-<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
-<hr>
-<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
-<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>诗词</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>七律-到韶山</title>
     <url>/2026/11/05/%E4%B8%83%E5%BE%8B-%E5%88%B0%E9%9F%B6%E5%B1%B1/</url>
     <content><![CDATA[<h2 id="七律·到韶山"><a href="#七律·到韶山" class="headerlink" title="七律·到韶山"></a>七律·到韶山</h2><p>别梦依稀咒逝川，故园三十二年前。</p>
@@ -163,31 +124,22 @@
       </tags>
   </entry>
   <entry>
-    <title>TVBox使用简介</title>
-    <url>/2026/01/07/TVBox%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<ul>
-<li>打开设置‌：启动 TVBox，点击配置，进入“配置地址”选项。‌‌</li>
-</ul>
-<p><img src="/pics/TVBox-pzdz.png" alt="TVBox-pzdz"></p>
-<ul>
-<li>输入接口地址‌：</li>
-<li>手机扫码配置：在手机中输入地址并推送至电视。‌‌</li>
-<li>验证与加载‌：配置完成后返回主界面，软件会自动加载源数据。若播放失败，可尝试更换其他接口地址。‌‌</li>
-</ul>
+    <title>新年新气象</title>
+    <url>/2026/01/01/%E6%96%B0%E5%B9%B4%E6%96%B0%E6%B0%94%E8%B1%A1/</url>
+    <content><![CDATA[<span id="more"></span>
+
+
 <hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">饭太硬单线：	http://www.饭太硬.com/tv</span><br><span class="line">肥猫单线：	http://肥猫.com</span><br><span class="line">讴歌单线：	http://tv.nxog.top/m/</span><br><span class="line">巧技接口：       http://cdn.qiaoji8.com/tvbox.json</span><br><span class="line">幸福接口:        http://xn--hwtam458y.icu/%E5%9B%BD%E5%BA%86%E5%B9%B8%E7%A6%8F/hyhr.json</span><br></pre></td></tr></table></figure>
-
-
-<p><a href="https://wwso.lanzoui.com/b0sy0qesb">影视仓</a></p>
-<p><a href="https://github.com/o0HalfLife0o/TVBoxOSC">TVBox</a></p>
-<p><a href="https://wmdz.top/">其他修改类影视app</a></p>
-<p><a href="https://cloud.tencent.com/developer/article/1761078">MarkDown使用简介</a></p>
+<p>冷风肃枯槁<br>不逢江南春<br>飞花流光见<br>白了当年魂</p>
+<hr>
+<p> <a href="https://www.bilibili.com/video/BV1Yb411a7ty?vd_source=1b9bd08a679ca36e548851b85031851f">自定义Blog</a></p>
+<p><a href="https://www.bilibili.com/video/BV16W411t7mq?p=15&vd_source=1b9bd08a679ca36e548851b85031851f">自定义界面</a></p>
 ]]></content>
       <categories>
-        <category>分享</category>
+        <category>杂谈</category>
       </categories>
       <tags>
-        <tag>软件</tag>
+        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
@@ -255,6 +207,54 @@
       </tags>
   </entry>
   <entry>
+    <title>开设模具通用步骤及注意事项</title>
+    <url>/2026/02/07/%E5%BC%80%E8%AE%BE%E6%A8%A1%E5%85%B7%E9%80%9A%E7%94%A8%E6%AD%A5%E9%AA%A4%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<ul>
+<li><h3 id="总方向：方便模具工组装和产品制作及脱模"><a href="#总方向：方便模具工组装和产品制作及脱模" class="headerlink" title="总方向：方便模具工组装和产品制作及脱模"></a>总方向：方便模具工组装和产品制作及脱模</h3></li>
+<li><h3 id="根据深化图纸，初步设计开模方案，选择整体-或-分件制作。"><a href="#根据深化图纸，初步设计开模方案，选择整体-或-分件制作。" class="headerlink" title="根据深化图纸，初步设计开模方案，选择整体 或 分件制作。"></a>根据深化图纸，初步设计开模方案，选择整体 或 分件制作。</h3><p>深化图设计另详。仔细查看深化图中的尺寸：长、宽、高、厚、弧度、转角、凹凸、数量、预埋件、吊件、分布筋、周围环境（地上、地下、埋深、排水）等状况，初步确定选择地模 或 平台模，综合考虑适合的开模方案。</p>
+<ul>
+<li>简易法：根据产品通长方向设置定位板、分布筋板并附加面板，适用于规则简单、单一外凸类（或凹凸不大）的产品。</li>
+<li>叠加法：由“简易法”延申而来，在产品局部拐角、突变处，因其特殊形状而增加设置定位板、筋板并附加面板。需要注意的是，有时仍然会遗漏，比如整体产品为长条形的，很自然的就会漏掉“长纵向”加筋板的可能性。谨记：有弧度必有底（筋板）。</li>
+<li>分模法：亦称“活模法”，针对多组产品、“瘦高”形产品，采用分块模具组合成整体方式制作模具，方便对犄角旮旯地方抹灰整平、喷涂，且可重复利用。</li>
+<li>内嵌法：针对凹形产品，当采用其他方法制作模具过于麻烦时，可采用此法。特点是模具外侧平整，仅需内部嵌入相应尺寸的垫板，达到所需的“凹形效果”即可。模具制作时亦方便省事。</li>
+</ul>
+</li>
+<li><h3 id="在与模具工协商确认好方向后，启动开模设计"><a href="#在与模具工协商确认好方向后，启动开模设计" class="headerlink" title="在与模具工协商确认好方向后，启动开模设计"></a>在与模具工协商确认好方向后，启动开模设计</h3><p>先将产品倒置（在CAD中则先将其镜像），然后按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序设计。</p>
+<ul>
+<li><p>定位板：作为模具中的基础，定位板定位尺寸很重要，一步错步步错。一般用15mm板雕刻，设15cm宽，定位口15mm宽，一般为封闭的整体。部分平台模设计时会考虑“卡口设计”，届时需预留1~2mm间隙，以防插不下去，且定位板根据活模特性为分段式。定位口的设置需综合考虑筋板与面板，防止打架。分割及组装参照前篇所述。</p>
+</li>
+<li><p>筋板：作为模具中的支撑骨干，且是面板的基础，也很重要。设计时需考虑让出面板、盖板的厚度，犀牛设计时需采用“偏移面”的方法。一般会在产品的外侧，将筋板侧边开豁口，方便模具工组装。一般用15mm板雕刻。需注意产品的突变处需加设筋板。</p>
+</li>
+<li><p>分模板：根据产品数量、特点选择合适厚度的分模板，一般分为15mm、18mm厚。位置一般从方便分模的地方下移1~3cm断开分模，长度上跟随产品长度，宽度上则根据具体情况设置通长或局部宽度。需注意分模的上下两部分需方便对接，且接头点的缝隙有保证。对于部分过深的产品，是否多次分模可以与模具工商量。</p>
+</li>
+<li><p>面板：面板的分割需考虑产品成型时的缝隙、底部筋板的支撑，尽量少分割且分割处下方有筋板支撑。各个面板的搭接顺序需考虑清楚并于断面图上显现。</p>
+</li>
+<li><p>盖板及封头板厚度根据需要调整，封头要区分封闭头还是分段头，二者挡板不一样。分段封头是否考虑刚性做成封闭的结合实际情况处置。</p>
+</li>
+<li><p>所有模具的分割处理是否垂直切割，根据具体产品而定。一般情况下垂直切割。</p>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">犀牛，即“Rhino”软件，时下很流行的3D建模开模软件，简单易上手。前文所述“偏移面”的方法相较于“偏移曲线”的方法在倾斜曲面上开模更准确。</span><br></pre></td></tr></table></figure>
+</li>
+<li><h3 id="复核产品模具图形及尺寸"><a href="#复核产品模具图形及尺寸" class="headerlink" title="复核产品模具图形及尺寸"></a>复核产品模具图形及尺寸</h3><p>按照顺序回想一遍，参照3D模型及CAD图纸，并互相印证，确保每一步，尤其是节点部位准确无误。尺寸是否正确、是否有遗漏、相互间是否打架等。</p>
+</li>
+<li><h3 id="输出雕刻及出图"><a href="#输出雕刻及出图" class="headerlink" title="输出雕刻及出图"></a>输出雕刻及出图</h3><ul>
+<li>依然按照定位板（底板）、筋板（支撑板）、分模板（如有）、面板（产品接触板）、盖板（上定位板）、分隔板（挡板）、封头板（堵头）、刮板（一般为弧形）顺序输出外框或封闭多段线，分类到5、9、15、18mm等规格并编号，分类2D排版、CAD布局并出图、AI导出、JD程序、板材雕刻。过程中亦需要检查有无错误，比如排版镜像、缺棱掉角、导出尺寸、雕刻异常等。</li>
+<li>整体三维效果图打印，包括模具3D和产品3D图；对应CAD详图打印；底板标注三角尺寸并打印，方便模具工定形；筋板断面图标注各面板编号并打印，需详细指出各个面板的搭接关系、筋板的内外关系；面板、盖板、分隔板的整体布局关系图。</li>
+<li>时常到模具工处看看进展情况并询问是否存在问题，及时发现根源及时解决。</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一般说了不少，那遇到不一般的情况该如何？</span><br><span class="line">具体问题具体分析了，起个设想，尝试再说。</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>标高引起的连锁反应</title>
     <url>/2026/01/10/%E6%A0%87%E9%AB%98%E5%BC%95%E8%B5%B7%E7%9A%84%E8%BF%9E%E9%94%81%E5%8F%8D%E5%BA%94/</url>
     <content><![CDATA[<ul>
@@ -279,28 +279,6 @@
       </categories>
       <tags>
         <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>西门子排版软件简介</title>
-    <url>/2026/10/27/%E8%A5%BF%E9%97%A8%E5%AD%90%E6%8E%92%E7%89%88%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<ul>
-<li>软件下载安装后按步骤操作。‌‌</li>
-</ul>
-<p><img src="/pics/xmz1.png" alt="xmz1"></p>
-<ul>
-<li>其他排版软件类似，如ProNest等。‌‌</li>
-</ul>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">二维下料自动排布使用教程：（结合自身需求进行相关插件设计补充）</span><br><span class="line">https://www.bilibili.com/video/BV1S7av68EpU</span><br><span class="line">https://www.bilibili.com/video/BV14Khn6mEo8</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.10zv.com/archives/23324">二维优化布局：Siemens Solid Edge 2D Nesting 2021</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -344,6 +322,85 @@
       </categories>
       <tags>
         <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>西门子排版软件简介</title>
+    <url>/2026/10/27/%E8%A5%BF%E9%97%A8%E5%AD%90%E6%8E%92%E7%89%88%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<ul>
+<li>软件下载安装后按步骤操作。‌‌</li>
+</ul>
+<p><img src="/pics/xmz1.png" alt="xmz1"></p>
+<ul>
+<li>其他排版软件类似，如ProNest等。‌‌</li>
+</ul>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">二维下料自动排布使用教程：（结合自身需求进行相关插件设计补充）</span><br><span class="line">https://www.bilibili.com/video/BV1S7av68EpU</span><br><span class="line">https://www.bilibili.com/video/BV14Khn6mEo8</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.10zv.com/archives/23324">二维优化布局：Siemens Solid Edge 2D Nesting 2021</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>机械原理001</title>
+    <url>/2026/11/08/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86001/</url>
+    <content><![CDATA[<h3 id="①-机器有哪些共同特征？机构的共同特征是什么？简述二者之间的关系。"><a href="#①-机器有哪些共同特征？机构的共同特征是什么？简述二者之间的关系。" class="headerlink" title="① 机器有哪些共同特征？机构的共同特征是什么？简述二者之间的关系。"></a>① 机器有哪些共同特征？机构的共同特征是什么？简述二者之间的关系。</h3><p><strong>机器的共同特征：</strong></p>
+<ol>
+<li><strong>人为的实物组合</strong>（由多个实物构件组成）。</li>
+<li>各组成部分之间具有<strong>确定的相对运动</strong>。</li>
+<li>能够实现<strong>能量转换</strong>或<strong>完成有用的机械功</strong>。</li>
+</ol>
+<p><strong>机构的共同特征：</strong></p>
+<ol>
+<li>人为的实物组合。</li>
+<li>各组成部分之间具有确定的相对运动。<br><em>(注：机构不具备能量转换或做有用机械功的总体功能，它主要用于传递运动和力。)</em></li>
+</ol>
+<p><strong>二者之间的关系：</strong></p>
+<ul>
+<li><strong>联系</strong>：从结构和运动学角度看，机器和机构没有区别（都具有实物组合和确定的相对运动），因此通常统称为“机械”。机器中必然包含机构。</li>
+<li><strong>区别</strong>：机器具有做功或能量转换的功能，而机构仅仅是用来传递运动和力。机构是机器的基础，机器是机构在功能上的延伸和应用。</li>
+</ul>
+<hr>
+<h3 id="②-机械有哪几部分组成？各部分的功能是怎样的？"><a href="#②-机械有哪几部分组成？各部分的功能是怎样的？" class="headerlink" title="② 机械有哪几部分组成？各部分的功能是怎样的？"></a>② 机械有哪几部分组成？各部分的功能是怎样的？</h3><p>通常，完整的现代机械由以下四个部分组成：</p>
+<ol>
+<li><strong>原动机（动力部分）</strong>：如电动机、内燃机等。<ul>
+<li><strong>功能</strong>：将非机械能（如电能、热能、化学能）转换为机械能，为整个机械系统提供动力。</li>
+</ul>
+</li>
+<li><strong>传动部分</strong>：如齿轮传动、带传动、链传动、连杆机构等。<ul>
+<li><strong>功能</strong>：将原动机的运动和动力传递给执行部分；同时改变运动的速度、方向或形式（如将旋转运动变为直线运动）。</li>
+</ul>
+</li>
+<li><strong>执行部分（工作机）</strong>：如机床的刀架、起重机的吊钩、机器人的机械臂。<ul>
+<li><strong>功能</strong>：直接完成生产过程或工作任务的机构，是实现机械功能的主体。</li>
+</ul>
+</li>
+<li><strong>控制部分</strong>：如传感器、控制器、离合器、制动器等。<ul>
+<li><strong>功能</strong>：使各组成部分协调工作，控制机器的启动、停止、换向、变速以及工作循环，保证机器安全、准确地运行。</li>
+</ul>
+</li>
+</ol>
+<p><em>(注：部分教材将“控制部分”归入传动或执行中，分为动力、传动、工作三部分，但现代机械控制部分独立特征明显，答四部分最完整。)</em></p>
+<hr>
+<h3 id="③-简述机械原理课程的研究内容。"><a href="#③-简述机械原理课程的研究内容。" class="headerlink" title="③ 简述机械原理课程的研究内容。"></a>③ 简述机械原理课程的研究内容。</h3><p>《机械原理》主要研究机械中机构的结构、运动学和动力学问题，以及常用机构的综合与设计。主要内容包括：</p>
+<ol>
+<li><strong>机构的组成与结构分析</strong>：研究机构的组成原理、运动简图的绘制、机构自由度的计算以及确定运动的条件。</li>
+<li><strong>机构的运动分析</strong>：研究机构在运动过程中各构件的位移、速度、加速度的变化规律。</li>
+<li><strong>机构的动力学分析</strong>：研究机械运转时的受力情况、摩擦与效率、机械的平衡以及机械运转速度波动的调节。</li>
+<li><strong>常用机构的分析与设计</strong>：研究连杆机构、凸轮机构、齿轮机构、间歇运动机构等的运动规律、传力特性及设计方法。</li>
+<li><strong>机械系统运动方案设计</strong>：根据预期的功能要求，进行机构选型、组合与创新设计，拟定机械系统的整体运动方案。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>机械工程</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -541,6 +598,22 @@
       </tags>
   </entry>
   <entry>
+    <title>风机04</title>
+    <url>/2026/10/20/%E9%A3%8E%E6%9C%BA04/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="叶轮图"><a href="#叶轮图" class="headerlink" title="叶轮图"></a>叶轮图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但轮片是如何确定数量、弧度、长度的？</p>
+<p><img src="/pics/yl1.png" alt="yl1"></p>
+<p>要画出右图的弧形叶片，必须知道<strong>叶片参数</strong>（如圆弧半径 R19、叶片出口角、进出口安装位置）。这通常来源于风机的气动设计（或者是三维模型直接导出）。</p>
+<p>设计师先根据风量风压，选定叶型（R19，12片）。</p>
+<p>产出的几张图，可判别为背板8T、叶轮片5T、内面板5T（应该是预留开孔定位、方便焊接，<strong>不过为什么要边缘留孔？</strong>）、<strong>未知带钩造型（加工辅助？）</strong>、内面板收边8T、轴盘端盖板8T、铝板密封5T。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>风机03</title>
     <url>/2026/10/19/%E9%A3%8E%E6%9C%BA03/</url>
     <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="轴盘图"><a href="#轴盘图" class="headerlink" title="轴盘图"></a>轴盘图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但平面图中尺寸与剖面对不上。存疑待定。</p>
@@ -584,36 +657,6 @@
       </tags>
   </entry>
   <entry>
-    <title>风机05</title>
-    <url>/2026/10/21/%E9%A3%8E%E6%9C%BA05/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="进风口"><a href="#进风口" class="headerlink" title="进风口"></a>进风口</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图。易得法兰、背板及肋板（角处预留R15焊缝位置），但是肋板的数量及分布如何确定的？应与受力分析有关，待定。</p>
-<p><img src="/pics/jfk1.png" alt="jfk1"></p>
-<p>现在怎么画出弧形板呢？按照以往经验来说，可以犀牛三维建模，然后展开再导出至cad。有没有直接出图的方法呢，还真有，吕工提供了比较有意思的方法，剖面延长至相交，内外半径分别画圆，整块圆环就出来了，再取得对应弧长即可。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>风机04</title>
-    <url>/2026/10/20/%E9%A3%8E%E6%9C%BA04/</url>
-    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="叶轮图"><a href="#叶轮图" class="headerlink" title="叶轮图"></a>叶轮图</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图，但轮片是如何确定数量、弧度、长度的？</p>
-<p><img src="/pics/yl1.png" alt="yl1"></p>
-<p>要画出右图的弧形叶片，必须知道<strong>叶片参数</strong>（如圆弧半径 R19、叶片出口角、进出口安装位置）。这通常来源于风机的气动设计（或者是三维模型直接导出）。</p>
-<p>设计师先根据风量风压，选定叶型（R19，12片）。</p>
-<p>产出的几张图，可判别为背板8T、叶轮片5T、内面板5T（应该是预留开孔定位、方便焊接，<strong>不过为什么要边缘留孔？</strong>）、<strong>未知带钩造型（加工辅助？）</strong>、内面板收边8T、轴盘端盖板8T、铝板密封5T。</p>
-]]></content>
-      <categories>
-        <category>感悟</category>
-      </categories>
-      <tags>
-        <tag>点滴</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>风机06</title>
     <url>/2026/10/23/%E9%A3%8E%E6%9C%BA06/</url>
     <content><![CDATA[<h1 id="密封"><a href="#密封" class="headerlink" title="密封"></a>密封</h1><p>风机密封的核心分类依据是<strong>密封面是否直接接触</strong>，这直接决定了它的摩擦特性、适用转速与维护方式。</p>
@@ -632,6 +675,20 @@
 <p><strong>适用边界</strong>：化工、冶金等含腐蚀性介质，以及对泄漏和寿命要求极高的高端工况。<br><strong>限制</strong>：结构复杂，需配套气路系统；对气体清洁度（颗粒尺寸通常要求＜1 μm）和供气压力稳定性要求极高，成本约为机械密封的2—3倍。</p>
 <h3 id="7-轴承隔离器"><a href="#7-轴承隔离器" class="headerlink" title="7. 轴承隔离器"></a>7. 轴承隔离器</h3><p>轴承隔离器是在复合迷宫密封基础上发展起来的非接触式轴承保护装置，由静环、动环、浮动环组合而成：静环阻油并设回油孔，动环防止外界污染物进入，浮动环兼具蒸汽阻隔作用。运行时动静环不接触，无功率损耗。</p>
 <p><strong>适用边界</strong>：轴承箱的防漏油与防污染，尤其适合对可靠性和清洁度要求较高的高压离心风机轴承箱。<br><strong>限制</strong>：属于轴承保护范畴，不直接承担工艺气体侧的主密封功能。</p>
+]]></content>
+      <categories>
+        <category>感悟</category>
+      </categories>
+      <tags>
+        <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>风机05</title>
+    <url>/2026/10/21/%E9%A3%8E%E6%9C%BA05/</url>
+    <content><![CDATA[<h1 id="识图"><a href="#识图" class="headerlink" title="识图"></a>识图</h1><h2 id="进风口"><a href="#进风口" class="headerlink" title="进风口"></a>进风口</h2><p>其剖面图在主图中可见，分离出来后，绘制平面图。易得法兰、背板及肋板（角处预留R15焊缝位置），但是肋板的数量及分布如何确定的？应与受力分析有关，待定。</p>
+<p><img src="/pics/jfk1.png" alt="jfk1"></p>
+<p>现在怎么画出弧形板呢？按照以往经验来说，可以犀牛三维建模，然后展开再导出至cad。有没有直接出图的方法呢，还真有，吕工提供了比较有意思的方法，剖面延长至相交，内外半径分别画圆，整块圆环就出来了，再取得对应弧长即可。</p>
 ]]></content>
       <categories>
         <category>感悟</category>
@@ -695,6 +752,23 @@
       </tags>
   </entry>
   <entry>
+    <title>飞牛NAS</title>
+    <url>/2026/02/21/%E9%A3%9E%E7%89%9BNAS/</url>
+    <content><![CDATA[<p>老早就关注了NAS，最近终于落实了。事情不做就一直拖着也没意思。</p>
+<p>飞牛nas简单方便，笔记本装起来倒是没啥难度，就是后面界面老是刷屏报错，找了deepseek帮着处理干净了。</p>
+<p>电视端再配备飞牛影视即可，就是播放体验不太好，等更新吧。</p>
+<hr>
+<p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p>
+<p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/">只有WiFi也能安装飞牛OS的保姆级教程</a></p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>风机09</title>
     <url>/2026/10/28/%E9%A3%8E%E6%9C%BA09/</url>
     <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="支架"><a href="#支架" class="headerlink" title="支架"></a>支架</h2><ul>
@@ -724,39 +798,6 @@
       </tags>
   </entry>
   <entry>
-    <title>飞牛NAS</title>
-    <url>/2026/02/21/%E9%A3%9E%E7%89%9BNAS/</url>
-    <content><![CDATA[<p>老早就关注了NAS，最近终于落实了。事情不做就一直拖着也没意思。</p>
-<p>飞牛nas简单方便，笔记本装起来倒是没啥难度，就是后面界面老是刷屏报错，找了deepseek帮着处理干净了。</p>
-<p>电视端再配备飞牛影视即可，就是播放体验不太好，等更新吧。</p>
-<hr>
-<p> <a href="https://www.fnnas.com/">飞牛 fnOS</a></p>
-<p><a href="https://www.bilibili.com/video/BV1j9Gkz8E7k/">只有WiFi也能安装飞牛OS的保姆级教程</a></p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>魔法科学</title>
-    <url>/2026/04/05/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
-    <content><![CDATA[<p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p>
-<hr>
-<p> <a href="https://www.nerwo.co/">奶瓶</a></p>
-<p><a href="https://www.google.com/">Google</a></p>
-<p><a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>风机10</title>
     <url>/2026/10/29/%E9%A3%8E%E6%9C%BA10/</url>
     <content><![CDATA[<h1 id="识图分析"><a href="#识图分析" class="headerlink" title="识图分析"></a>识图分析</h1><h2 id="出风口方变圆"><a href="#出风口方变圆" class="headerlink" title="出风口方变圆"></a>出风口方变圆</h2><ul>
@@ -776,6 +817,22 @@
       </categories>
       <tags>
         <tag>点滴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>魔法科学</title>
+    <url>/2026/04/05/%E9%AD%94%E6%B3%95%E7%A7%91%E5%AD%A6/</url>
+    <content><![CDATA[<p>梯子老生常谈了，电脑版常用软件clash和sstap，手机版影梭ssr和小火箭。线路方面有免费节点和付费订阅。免费的限制较多，订阅的推荐奶瓶。毒药机场有较多描述，根据个人需求选择。</p>
+<hr>
+<p> <a href="https://www.nerwo.co/">奶瓶</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+<p><a href="https://www.duyaoss.com/">DuyaoSS-机场测速和简介</a></p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
