@@ -1,0 +1,350 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>机械原理002 | 譬如朝露</title><meta name="author" content="WakaFun"><meta name="copyright" content="WakaFun"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="① 何谓“零件”和“构件”？试举例说明其区别。 零件：是机械中制造的基本单元，即加工制造后不可再拆分的单元体。例如：一颗螺栓、一个螺母、一根轴、一个齿轮。 构件：是机械中运动的基本单元，是参与相对运动的独立刚体（或系统）。 区别：零件是制造单元，构件是运动单元。 举例：内燃机中的连杆是一个构件，但它是由于连杆体、连杆盖、螺栓、螺母等多个零件刚性连接组装而成的，它们在机器工作时作为一个整体一起运动。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机械原理002">
+<meta property="og:url" content="http://wakafun.github.io/2026/11/09/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86002/index.html">
+<meta property="og:site_name" content="譬如朝露">
+<meta property="og:description" content="① 何谓“零件”和“构件”？试举例说明其区别。 零件：是机械中制造的基本单元，即加工制造后不可再拆分的单元体。例如：一颗螺栓、一个螺母、一根轴、一个齿轮。 构件：是机械中运动的基本单元，是参与相对运动的独立刚体（或系统）。 区别：零件是制造单元，构件是运动单元。 举例：内燃机中的连杆是一个构件，但它是由于连杆体、连杆盖、螺栓、螺母等多个零件刚性连接组装而成的，它们在机器工作时作为一个整体一起运动。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://wakafun.github.io/img/10.jpg">
+<meta property="article:published_time" content="2026-11-09T14:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-09T13:50:56.319Z">
+<meta property="article:author" content="WakaFun">
+<meta property="article:tag" content="学习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://wakafun.github.io/img/10.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "机械原理002",
+  "url": "http://wakafun.github.io/2026/11/09/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86002/",
+  "image": "http://wakafun.github.io/img/10.jpg",
+  "datePublished": "2026-11-09T14:00:00.000Z",
+  "dateModified": "2026-11-09T13:50:56.319Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "WakaFun",
+      "url": "http://wakafun.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://wakafun.github.io/2026/11/09/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86002/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '机械原理002',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/url(/img/1.webp));"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">26</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-th"></i><span> 类别</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/10.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">譬如朝露</span></a><a class="nav-page-title" href="/"><span class="site-name">机械原理002</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-th"></i><span> 类别</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">机械原理002</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-11-09T14:00:00.000Z" title="发表于 2026-11-09 22:00:00">2026-11-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-11-09T13:50:56.319Z" title="更新于 2026-11-09 21:50:56">2026-11-09</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B/">机械工程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h3 id="①-何谓“零件”和“构件”？试举例说明其区别。"><a href="#①-何谓“零件”和“构件”？试举例说明其区别。" class="headerlink" title="① 何谓“零件”和“构件”？试举例说明其区别。"></a>① 何谓“零件”和“构件”？试举例说明其区别。</h3><ul>
+<li><strong>零件</strong>：是机械中<strong>制造</strong>的基本单元，即加工制造后不可再拆分的单元体。例如：一颗螺栓、一个螺母、一根轴、一个齿轮。</li>
+<li><strong>构件</strong>：是机械中<strong>运动</strong>的基本单元，是参与相对运动的独立刚体（或系统）。</li>
+<li><strong>区别</strong>：<strong>零件是制造单元，构件是运动单元。</strong></li>
+<li><strong>举例</strong>：内燃机中的<strong>连杆</strong>是一个构件，但它是由于连杆体、连杆盖、螺栓、螺母等多个零件刚性连接组装而成的，它们在机器工作时作为一个整体一起运动。因此，多个零件刚性连接在一起可以形成一个构件；而单独的一个零件（如一根轴）如果没有与其他零件刚性连接，它本身也可以直接作为一个构件。</li>
+</ul>
+<h3 id="②-“构件是由多个零件组成的”，“一个零件不能成为构件”的说法是否正确？构件和零件的本质区别是什么？"><a href="#②-“构件是由多个零件组成的”，“一个零件不能成为构件”的说法是否正确？构件和零件的本质区别是什么？" class="headerlink" title="② “构件是由多个零件组成的”，“一个零件不能成为构件”的说法是否正确？构件和零件的本质区别是什么？"></a>② “构件是由多个零件组成的”，“一个零件不能成为构件”的说法是否正确？构件和零件的本质区别是什么？</h3><ul>
+<li><strong>这两种说法都不正确。</strong><ul>
+<li>“构件是由多个零件组成的”：不完全正确。构件可以由多个零件刚性连接组成，也可以<strong>由一个单独的零件</strong>（如一根曲轴、一个齿轮）直接作为一个独立运动的单元体（构件）。</li>
+<li>“一个零件不能成为构件”：错误。一个独立的零件完全可以单独作为一个构件参与运动。</li>
+</ul>
+</li>
+<li><strong>本质区别</strong>：<strong>零件是加工制造的单元，构件是运动的单元。</strong></li>
+</ul>
+<h3 id="③-何谓“运动副”？满足什么条件两个构件间才能构成运动副？"><a href="#③-何谓“运动副”？满足什么条件两个构件间才能构成运动副？" class="headerlink" title="③ 何谓“运动副”？满足什么条件两个构件间才能构成运动副？"></a>③ 何谓“运动副”？满足什么条件两个构件间才能构成运动副？</h3><ul>
+<li><strong>运动副</strong>：由两个构件直接接触而组成的可动连接，称为运动副（如转动副、移动副、齿轮副等）。运动副限制了两构件之间的某些相对运动（引入约束）。</li>
+<li><strong>构成条件</strong>：<ol>
+<li>两个构件必须<strong>直接接触</strong>（点、线或面接触）。</li>
+<li>两个构件之间必须有<strong>相对运动</strong>（不能是固定连接或焊接）。</li>
+</ol>
+</li>
+</ul>
+<h3 id="④-何谓“运动链”？具备什么条件，运动链才具有运动的可能性？具备什么条件后才具有运动的确定性？具备什么条件，运动链才能成为机构？"><a href="#④-何谓“运动链”？具备什么条件，运动链才具有运动的可能性？具备什么条件后才具有运动的确定性？具备什么条件，运动链才能成为机构？" class="headerlink" title="④ 何谓“运动链”？具备什么条件，运动链才具有运动的可能性？具备什么条件后才具有运动的确定性？具备什么条件，运动链才能成为机构？"></a>④ 何谓“运动链”？具备什么条件，运动链才具有运动的可能性？具备什么条件后才具有运动的确定性？具备什么条件，运动链才能成为机构？</h3><ul>
+<li><strong>运动链</strong>：两个以上的构件通过运动副连接而成的系统称为运动链。</li>
+<li><strong>具有运动的可能性</strong>：当运动链的**自由度大于0（F&gt;0*F*&gt;0）**时，各构件之间才具有相对运动的可能性。</li>
+<li><strong>具有运动的确定性</strong>：当运动链的<strong>自由度等于原动件（驱动件）的数目</strong>时（通常 F&#x3D;1<em>F</em>&#x3D;1 且有一个原动件），该运动链才具有确定的相对运动。</li>
+<li><strong>成为机构</strong>：在具备运动可能性和确定性的基础上，<strong>固定其中一个构件作为机架（相对静止）</strong>，并<strong>给定一个或几个原动件</strong>时，该运动链才成为机构（机构是具有确定相对运动的构件系统）。</li>
+</ul>
+<hr>
+<h3 id="1-机构运动简图有什么用途？它着重表达机构的哪些特征？"><a href="#1-机构运动简图有什么用途？它着重表达机构的哪些特征？" class="headerlink" title="1. 机构运动简图有什么用途？它着重表达机构的哪些特征？"></a>1. 机构运动简图有什么用途？它着重表达机构的哪些特征？</h3><ul>
+<li><strong>用途</strong>：<ol>
+<li><strong>便于运动学和动力学分析</strong>：机构运动简图去除了构件繁杂的外形和结构，只保留与运动有关的尺寸，便于进行位移、速度、加速度等运动学分析以及受力分析。</li>
+<li><strong>作为工程交流的语言</strong>：它是设计和改进机械的原始资料，便于工程技术人员之间进行交流、方案比较和记录。</li>
+<li><strong>设计新机构</strong>：在机械创新设计中，通常先画出运动简图进行方案论证。</li>
+</ol>
+</li>
+<li><strong>着重表达的特征</strong>：<ol>
+<li><strong>运动副的类型</strong>：如转动副、移动副、高副（齿轮、凸轮等）。</li>
+<li><strong>构件的连接关系</strong>：各构件之间是通过何种运动副连接的，以及连接的次序。</li>
+<li><strong>运动学尺寸</strong>：如两转动副中心的距离、移动副的导路方向、高副的轮廓曲线形状等（这些都是影响机构运动的几何尺寸）。<br><em>（注：它不表达构件的真实外形、截面尺寸、材料、强度等与运动无关的因素。）</em></li>
+</ol>
+</li>
+</ul>
+<hr>
+<h3 id="2-绘制机构运动简图的步骤是什么？应注意哪些事项？"><a href="#2-绘制机构运动简图的步骤是什么？应注意哪些事项？" class="headerlink" title="2. 绘制机构运动简图的步骤是什么？应注意哪些事项？"></a>2. 绘制机构运动简图的步骤是什么？应注意哪些事项？</h3><ul>
+<li><strong>绘制步骤</strong>：<ol>
+<li><strong>分析机构工作原理与运动</strong>：了解机器的工作原理，分清哪些是机架、原动件（驱动件）和从动件。</li>
+<li><strong>确定运动副类型</strong>：分析各构件间的相对运动性质，识别出所有的运动副（低副、高副）。</li>
+<li><strong>选择投影面</strong>：通常选择与机构中多数构件运动平面相平行的平面作为投影面。</li>
+<li><strong>选择比例尺</strong>：根据实际尺寸和图幅大小，选择合适的长度比例尺（μl&#x3D;实际长度&#x2F;图上长度<em>μ**l</em>&#x3D;实际长度&#x2F;图上长度）。</li>
+<li><strong>绘制草图</strong>：先画机架和原动件，然后按照运动传递顺序，依次画出各个构件和运动副。使用国家标准规定的运动简图符号表示。</li>
+<li><strong>标注与核对</strong>：给各构件标注序号（1, 2, 3…），给运动副标注字母（A, B, C…），固定转轴（O1, O2…）并用箭头标出原动件的运动方向。最后核对是否与实物运动一致。</li>
+</ol>
+</li>
+<li><strong>应注意的事项</strong>：<ol>
+<li><strong>保持运动特征一致</strong>：必须准确识别运动副性质（如复合铰链、局部自由度、虚约束等特殊情况），不能漏画或多画构件。</li>
+<li><strong>合理选定视图平面</strong>：一定要选择能清楚表达各构件运动关系的平面，必要时可采用展开画法或旋转投影法。</li>
+<li><strong>分清固定件与活动件</strong>：机架（固定件）用规定符号画出（通常加斜线），绝不能把活动构件误当机架。</li>
+<li><strong>按比例绘制</strong>：对于平面机构，凡与运动有关的尺寸（如杆长、中心距）必须按选定的比例尺绘制，不能随意画长短。</li>
+<li><strong>符号规范</strong>：尽量使用国家标准（GB&#x2F;T 4460-2013）规定的标准符号。</li>
+</ol>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://wakafun.github.io">WakaFun</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://wakafun.github.io/2026/11/09/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86002/">http://wakafun.github.io/2026/11/09/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86002/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://wakafun.github.io" target="_blank">譬如朝露</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a></div><div class="post-share"><div class="social-share" data-image="/img/10.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/11/08/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86001/" title="机械原理001"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/14.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">机械原理001</div></div><div class="info-2"><div class="info-item-1">① 机器有哪些共同特征？机构的共同特征是什么？简述二者之间的关系。机器的共同特征：  人为的实物组合（由多个实物构件组成）。 各组成部分之间具有确定的相对运动。 能够实现能量转换或完成有用的机械功。  机构的共同特征：  人为的实物组合。 各组成部分之间具有确定的相对运动。(注：机构不具备能量转换或做有用机械功的总体功能，它主要用于传递运动和力。)  二者之间的关系：  联系：从结构和运动学角度看，机器和机构没有区别（都具有实物组合和确定的相对运动），因此通常统称为“机械”。机器中必然包含机构。 区别：机器具有做功或能量转换的功能，而机构仅仅是用来传递运动和力。机构是机器的基础，机器是机构在功能上的延伸和应用。   ② 机械有哪几部分组成？各部分的功能是怎样的？通常，完整的现代机械由以下四个部分组成：  原动机（动力部分）：如电动机、内燃机等。 功能：将非机械能（如电能、热能、化学能）转换为机械能，为整个机械系统提供动力。   传动部分：如齿轮传动、带传动、链传动、连杆机构等。 功能：将原动机的运动和动力传递给执行部分；同时改变运动的速度、方向或形式（如将旋转运动变为直线运动）。...</div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">WakaFun</div><div class="author-info-description">天行健，君子以自强不息</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">26</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/wakafun"><i class="fab fa-github"></i><span>月牙天冲</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/wakafun" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://x.com/wakafun2" target="_blank" title="X"><i class="fab fa-x" style="color: #24292e;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A0-%E4%BD%95%E8%B0%93%E2%80%9C%E9%9B%B6%E4%BB%B6%E2%80%9D%E5%92%8C%E2%80%9C%E6%9E%84%E4%BB%B6%E2%80%9D%EF%BC%9F%E8%AF%95%E4%B8%BE%E4%BE%8B%E8%AF%B4%E6%98%8E%E5%85%B6%E5%8C%BA%E5%88%AB%E3%80%82"><span class="toc-text">① 何谓“零件”和“构件”？试举例说明其区别。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A1-%E2%80%9C%E6%9E%84%E4%BB%B6%E6%98%AF%E7%94%B1%E5%A4%9A%E4%B8%AA%E9%9B%B6%E4%BB%B6%E7%BB%84%E6%88%90%E7%9A%84%E2%80%9D%EF%BC%8C%E2%80%9C%E4%B8%80%E4%B8%AA%E9%9B%B6%E4%BB%B6%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E6%9E%84%E4%BB%B6%E2%80%9D%E7%9A%84%E8%AF%B4%E6%B3%95%E6%98%AF%E5%90%A6%E6%AD%A3%E7%A1%AE%EF%BC%9F%E6%9E%84%E4%BB%B6%E5%92%8C%E9%9B%B6%E4%BB%B6%E7%9A%84%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">② “构件是由多个零件组成的”，“一个零件不能成为构件”的说法是否正确？构件和零件的本质区别是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A2-%E4%BD%95%E8%B0%93%E2%80%9C%E8%BF%90%E5%8A%A8%E5%89%AF%E2%80%9D%EF%BC%9F%E6%BB%A1%E8%B6%B3%E4%BB%80%E4%B9%88%E6%9D%A1%E4%BB%B6%E4%B8%A4%E4%B8%AA%E6%9E%84%E4%BB%B6%E9%97%B4%E6%89%8D%E8%83%BD%E6%9E%84%E6%88%90%E8%BF%90%E5%8A%A8%E5%89%AF%EF%BC%9F"><span class="toc-text">③ 何谓“运动副”？满足什么条件两个构件间才能构成运动副？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A3-%E4%BD%95%E8%B0%93%E2%80%9C%E8%BF%90%E5%8A%A8%E9%93%BE%E2%80%9D%EF%BC%9F%E5%85%B7%E5%A4%87%E4%BB%80%E4%B9%88%E6%9D%A1%E4%BB%B6%EF%BC%8C%E8%BF%90%E5%8A%A8%E9%93%BE%E6%89%8D%E5%85%B7%E6%9C%89%E8%BF%90%E5%8A%A8%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7%EF%BC%9F%E5%85%B7%E5%A4%87%E4%BB%80%E4%B9%88%E6%9D%A1%E4%BB%B6%E5%90%8E%E6%89%8D%E5%85%B7%E6%9C%89%E8%BF%90%E5%8A%A8%E7%9A%84%E7%A1%AE%E5%AE%9A%E6%80%A7%EF%BC%9F%E5%85%B7%E5%A4%87%E4%BB%80%E4%B9%88%E6%9D%A1%E4%BB%B6%EF%BC%8C%E8%BF%90%E5%8A%A8%E9%93%BE%E6%89%8D%E8%83%BD%E6%88%90%E4%B8%BA%E6%9C%BA%E6%9E%84%EF%BC%9F"><span class="toc-text">④ 何谓“运动链”？具备什么条件，运动链才具有运动的可能性？具备什么条件后才具有运动的确定性？具备什么条件，运动链才能成为机构？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E7%AE%80%E5%9B%BE%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8%E9%80%94%EF%BC%9F%E5%AE%83%E7%9D%80%E9%87%8D%E8%A1%A8%E8%BE%BE%E6%9C%BA%E6%9E%84%E7%9A%84%E5%93%AA%E4%BA%9B%E7%89%B9%E5%BE%81%EF%BC%9F"><span class="toc-text">1. 机构运动简图有什么用途？它着重表达机构的哪些特征？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%BB%98%E5%88%B6%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E7%AE%80%E5%9B%BE%E7%9A%84%E6%AD%A5%E9%AA%A4%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E5%BA%94%E6%B3%A8%E6%84%8F%E5%93%AA%E4%BA%9B%E4%BA%8B%E9%A1%B9%EF%BC%9F"><span class="toc-text">2. 绘制机构运动简图的步骤是什么？应注意哪些事项？</span></a></li></ol></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By WakaFun</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const initValine = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyValine = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const valineConfig = {
+      el: '#vcomment',
+      appId: 'cekwtsszRrqqKMtMjdLiupUH-gzGzoHsz',
+      appKey: 'GhU7Qkr4O8f71veh6MVxSv5F',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      visitor: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || window.location.pathname
+    }
+
+    new Valine(valineConfig)
+  }
+
+  const loadValine = async (el, path) => {
+    if (typeof Valine === 'function') {
+      initValine(el, path)
+    } else {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js')
+      initValine(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Valine' === 'Valine'
+      ? window.shuoshuoComment = { loadComment: loadValine }
+      : window.loadOtherComment = loadValine
+    return
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="25" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/metingjs/dist/Meting.min.js"></script><script>(() => {
+  const destroyAplayer = () => {
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        if (!window.aplayers[i].options.fixed) {
+          window.aplayers[i].destroy()
+        }
+      }
+    }
+  }
+
+  const runMetingJS = () => {
+    typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+  }
+
+  btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
+  btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      false
+        ? pjax.loadUrl('/404.html')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
