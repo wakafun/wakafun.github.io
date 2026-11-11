@@ -1,0 +1,345 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>机械原理004 | 譬如朝露</title><meta name="author" content="WakaFun"><meta name="copyright" content="WakaFun"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="① 机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？ 机构的组成：机构是由若干个构件通过运动副连接而成的系统。根据阿苏尔机构组成原理，任何机构都可以看作是由若干个基本杆组（自由度为零的运动链）依次连接到原动件和机架上组成的。 结构分析的目的： 了解机构的组成，确定机构的级别； 为机构的运动分析和动力分析奠定基础； 根据机构级别，选择合适的分析方法和解析方程（级别越低，分析越简单）。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机械原理004">
+<meta property="og:url" content="http://wakafun.github.io/2026/11/11/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86004/index.html">
+<meta property="og:site_name" content="譬如朝露">
+<meta property="og:description" content="① 机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？ 机构的组成：机构是由若干个构件通过运动副连接而成的系统。根据阿苏尔机构组成原理，任何机构都可以看作是由若干个基本杆组（自由度为零的运动链）依次连接到原动件和机架上组成的。 结构分析的目的： 了解机构的组成，确定机构的级别； 为机构的运动分析和动力分析奠定基础； 根据机构级别，选择合适的分析方法和解析方程（级别越低，分析越简单）。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://wakafun.github.io/img/9.jpg">
+<meta property="article:published_time" content="2026-11-11T14:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-11T12:45:19.834Z">
+<meta property="article:author" content="WakaFun">
+<meta property="article:tag" content="学习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://wakafun.github.io/img/9.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "机械原理004",
+  "url": "http://wakafun.github.io/2026/11/11/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86004/",
+  "image": "http://wakafun.github.io/img/9.jpg",
+  "datePublished": "2026-11-11T14:00:00.000Z",
+  "dateModified": "2026-11-11T12:45:19.834Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "WakaFun",
+      "url": "http://wakafun.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://wakafun.github.io/2026/11/11/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86004/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '机械原理004',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/url(/img/1.webp));"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-th"></i><span> 类别</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/9.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">譬如朝露</span></a><a class="nav-page-title" href="/"><span class="site-name">机械原理004</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-th"></i><span> 类别</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">机械原理004</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-11-11T14:00:00.000Z" title="发表于 2026-11-11 22:00:00">2026-11-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-11-11T12:45:19.834Z" title="更新于 2026-11-11 20:45:19">2026-11-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B/">机械工程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h3 id="①-机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？"><a href="#①-机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？" class="headerlink" title="① 机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？"></a>① 机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？</h3><ul>
+<li><strong>机构的组成</strong>：机构是由若干个<strong>构件</strong>通过<strong>运动副</strong>连接而成的系统。根据阿苏尔机构组成原理，任何机构都可以看作是由若干个<strong>基本杆组</strong>（自由度为零的运动链）依次连接到<strong>原动件</strong>和<strong>机架</strong>上组成的。</li>
+<li><strong>结构分析的目的</strong>：<ol>
+<li>了解机构的组成，确定机构的<strong>级别</strong>；</li>
+<li>为机构的运动分析和动力分析奠定基础；</li>
+<li>根据机构级别，选择合适的分析方法和解析方程（级别越低，分析越简单）。</li>
+</ol>
+</li>
+<li><strong>应用场合</strong>：<ol>
+<li><strong>机构创新设计</strong>：利用基本杆组拼接出满足特定运动要求的新机构；</li>
+<li><strong>运动与动力学分析</strong>：在计算机辅助工程（CAE）中，按杆组进行模块化编程分析；</li>
+<li><strong>判定机构运动确定性</strong>：通过自由度计算判断机构是否具有确定的运动。</li>
+</ol>
+</li>
+</ul>
+<h3 id="②-杆组有何特点？如何确定杆组的级别？试举例说明。"><a href="#②-杆组有何特点？如何确定杆组的级别？试举例说明。" class="headerlink" title="② 杆组有何特点？如何确定杆组的级别？试举例说明。"></a>② 杆组有何特点？如何确定杆组的级别？试举例说明。</h3><ul>
+<li><strong>特点</strong>：<ol>
+<li>自由度为零（(F &#x3D; 3n - 2p_L - p_H &#x3D; 0)）；</li>
+<li>是<strong>不能再拆分</strong>的运动链（如果继续拆，自由度将小于0，无法成为独立的运动链）。</li>
+</ol>
+</li>
+<li><strong>级别确定</strong>：杆组的级别由杆组中<strong>最高级别的封闭环</strong>（即含有最多运动副的构件组成的环）决定。通常也就是看杆组中包含的<strong>最高级别</strong>的构件。</li>
+<li><strong>举例说明</strong>：<ul>
+<li><strong>Ⅱ级组</strong>：最常见，由2个构件和3个低副组成（如两杆三副），包括 RRR、RRP、RPR、PRP 等形式。级别为Ⅱ级。</li>
+<li><strong>Ⅲ级组</strong>：由4个构件和6个低副组成，且包含一个具有3个运动副的构件（三副构件），构成一个具有三个内副的封闭多边形。级别为Ⅲ级。</li>
+</ul>
+</li>
+</ul>
+<h3 id="③-怎样确定机构的级别？影响机构级别变化的因素是什么？"><a href="#③-怎样确定机构的级别？影响机构级别变化的因素是什么？" class="headerlink" title="③ 怎样确定机构的级别？影响机构级别变化的因素是什么？"></a>③ 怎样确定机构的级别？影响机构级别变化的因素是什么？</h3><ul>
+<li><strong>机构级别的确定</strong>：将机构中的高副低代后，从远离原动件处开始拆杆组，直到剩下原动件和机架。<strong>拆出的所有杆组中级别最高的杆组，其级别即为该机构的级别</strong>。</li>
+<li><strong>影响级别变化的因素</strong>：<strong>原动件（主动件）的选择</strong>。同一机构，若选择不同的构件作为原动件，拆出的杆组结构可能不同，从而导致机构的级别发生变化。在分析机构时，通常以包含原动件的级别最高来定义。</li>
+</ul>
+<h3 id="④-高副低代的目的、原则和方法是什么？"><a href="#④-高副低代的目的、原则和方法是什么？" class="headerlink" title="④ 高副低代的目的、原则和方法是什么？"></a>④ 高副低代的目的、原则和方法是什么？</h3><ul>
+<li><strong>目的</strong>：将含有高副的平面机构转化为只含低副的机构，以便于使用标准的低副机构结构分析理论（如拆杆组）和运动学分析方法。</li>
+<li><strong>原则</strong>：<ol>
+<li><strong>自由度不变</strong>：代替前后，机构的自由度必须完全相同；</li>
+<li><strong>瞬时运动不变</strong>：代替前后，机构的瞬时速度、加速度必须相同（即保持高副接触点处的曲率中心和相对运动关系不变）。</li>
+</ol>
+</li>
+<li><strong>方法</strong>：用一个虚拟的构件（假想杆）和两个低副（通常为转动副）来代替一个高副。该虚拟构件的长度等于高副两接触轮廓在接触点处的曲率半径之和（外接触）或之差（内接触）；两个低副分别位于两轮廓的曲率中心。如果是点接触或直线接触（如凸轮平底从动件），曲率中心在无穷远处，其中一个低副可转化为移动副。</li>
+</ul>
+<h3 id="⑤-试叙述对机构进行结构分析时，拆杆组的原则和步骤。"><a href="#⑤-试叙述对机构进行结构分析时，拆杆组的原则和步骤。" class="headerlink" title="⑤ 试叙述对机构进行结构分析时，拆杆组的原则和步骤。"></a>⑤ 试叙述对机构进行结构分析时，拆杆组的原则和步骤。</h3><ul>
+<li><strong>拆杆组原则</strong>：<ol>
+<li><strong>从远到近</strong>：必须从<strong>远离原动件</strong>的一端开始试拆；</li>
+<li><strong>先易后难</strong>：先尝试拆除最简单的Ⅱ级组，若拆不出再试拆Ⅲ级组或更高级别杆组；</li>
+<li><strong>剩余完整</strong>：拆去一个杆组后，剩余的机构必须仍是一个完整的机构，且自由度不变（即拆下的部分自由度必须为零）。</li>
+</ol>
+</li>
+<li><strong>拆杆组步骤</strong>：<ol>
+<li>计算机构自由度，确定原动件（并标出运动方向）；</li>
+<li>若存在高副，先进行<strong>高副低代</strong>；</li>
+<li>去除机构中的局部自由度和虚约束；</li>
+<li>从远离原动件的一端开始，按原则逐步试拆基本杆组；</li>
+<li>一直拆到只剩下原动件和机架为止；</li>
+<li>统计拆出的所有杆组，确定最高级别，最终确定整个机构的级别。</li>
+</ol>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://wakafun.github.io">WakaFun</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://wakafun.github.io/2026/11/11/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86004/">http://wakafun.github.io/2026/11/11/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86004/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://wakafun.github.io" target="_blank">譬如朝露</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a></div><div class="post-share"><div class="social-share" data-image="/img/9.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/11/10/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86003/" title="机械原理003"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">机械原理003</div></div><div class="info-2"><div class="info-item-1">1. 运动链成为机构的条件是什么？运动链要成为机构，必须具备以下条件：  有固定件（机架）：必须有一个构件被固定作为参考坐标系。 有原动件：必须有接受外界给定运动的构件。 自由度大于零：机构的自由度 (F &gt; 0)。 最核心条件：原动件的数目必须等于机构的自由度数目。只有这样，机构才能具有确定的相对运动。  2. 当一个运动链中的原动件数目与其自由度数目不一致时，会出现什么情况？ 当原动件数目 &lt; 自由度数目时：机构的运动将不确定。因为有多余的自由度没有被约束，机构会在多个可能的运动状态中游移（运动呈随机性）。 当原动件数目 &gt; 自由度数目时：机构会卡死或产生破坏。因为驱动力过多，导致构件之间产生过大的应力，轻则无法运动（变成刚性桁架），重则导致最薄弱的构件发生断裂或损坏。  3. 计算机构自由度时应注意哪些事项？在运用公式 (F &#x3D; 3n - 2P_L - P_H)（平面机构）计算时，必须注意以下三大易错点：  复合铰链：当 (m) 个构件在同一处通过转动副连接时，该处构成的转动副数目应为 (m-1) 个。千万不能只算作一个运动副。 局部自由度：某些...</div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">WakaFun</div><div class="author-info-description">天行健，君子以自强不息</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/wakafun"><i class="fab fa-github"></i><span>月牙天冲</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/wakafun" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://x.com/wakafun2" target="_blank" title="X"><i class="fab fa-x" style="color: #24292e;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A0-%E6%9C%BA%E6%9E%84%E6%98%AF%E6%80%8E%E6%A0%B7%E7%BB%84%E6%88%90%E7%9A%84%EF%BC%9F%E7%BB%93%E6%9E%84%E5%88%86%E6%9E%90%E7%9A%84%E7%9B%AE%E7%9A%84%E4%BB%80%E4%B9%88%EF%BC%9F%E5%AE%83%E4%BB%AC%E5%88%86%E5%88%AB%E7%94%A8%E4%BA%8E%E4%BB%80%E4%B9%88%E5%9C%BA%E5%90%88%EF%BC%9F"><span class="toc-text">① 机构是怎样组成的？结构分析的目的什么？它们分别用于什么场合？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A1-%E6%9D%86%E7%BB%84%E6%9C%89%E4%BD%95%E7%89%B9%E7%82%B9%EF%BC%9F%E5%A6%82%E4%BD%95%E7%A1%AE%E5%AE%9A%E6%9D%86%E7%BB%84%E7%9A%84%E7%BA%A7%E5%88%AB%EF%BC%9F%E8%AF%95%E4%B8%BE%E4%BE%8B%E8%AF%B4%E6%98%8E%E3%80%82"><span class="toc-text">② 杆组有何特点？如何确定杆组的级别？试举例说明。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A2-%E6%80%8E%E6%A0%B7%E7%A1%AE%E5%AE%9A%E6%9C%BA%E6%9E%84%E7%9A%84%E7%BA%A7%E5%88%AB%EF%BC%9F%E5%BD%B1%E5%93%8D%E6%9C%BA%E6%9E%84%E7%BA%A7%E5%88%AB%E5%8F%98%E5%8C%96%E7%9A%84%E5%9B%A0%E7%B4%A0%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">③ 怎样确定机构的级别？影响机构级别变化的因素是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A3-%E9%AB%98%E5%89%AF%E4%BD%8E%E4%BB%A3%E7%9A%84%E7%9B%AE%E7%9A%84%E3%80%81%E5%8E%9F%E5%88%99%E5%92%8C%E6%96%B9%E6%B3%95%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">④ 高副低代的目的、原则和方法是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A4-%E8%AF%95%E5%8F%99%E8%BF%B0%E5%AF%B9%E6%9C%BA%E6%9E%84%E8%BF%9B%E8%A1%8C%E7%BB%93%E6%9E%84%E5%88%86%E6%9E%90%E6%97%B6%EF%BC%8C%E6%8B%86%E6%9D%86%E7%BB%84%E7%9A%84%E5%8E%9F%E5%88%99%E5%92%8C%E6%AD%A5%E9%AA%A4%E3%80%82"><span class="toc-text">⑤ 试叙述对机构进行结构分析时，拆杆组的原则和步骤。</span></a></li></ol></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By WakaFun</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const initValine = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyValine = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const valineConfig = {
+      el: '#vcomment',
+      appId: 'cekwtsszRrqqKMtMjdLiupUH-gzGzoHsz',
+      appKey: 'GhU7Qkr4O8f71veh6MVxSv5F',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      visitor: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || window.location.pathname
+    }
+
+    new Valine(valineConfig)
+  }
+
+  const loadValine = async (el, path) => {
+    if (typeof Valine === 'function') {
+      initValine(el, path)
+    } else {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js')
+      initValine(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Valine' === 'Valine'
+      ? window.shuoshuoComment = { loadComment: loadValine }
+      : window.loadOtherComment = loadValine
+    return
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="25" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/metingjs/dist/Meting.min.js"></script><script>(() => {
+  const destroyAplayer = () => {
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        if (!window.aplayers[i].options.fixed) {
+          window.aplayers[i].destroy()
+        }
+      }
+    }
+  }
+
+  const runMetingJS = () => {
+    typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+  }
+
+  btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
+  btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      false
+        ? pjax.loadUrl('/404.html')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
