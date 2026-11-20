@@ -1,0 +1,347 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>机械原理007 | 譬如朝露</title><meta name="author" content="WakaFun"><meta name="copyright" content="WakaFun"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="栏杆机构运动分析+运动分析① 机构运动分析包括哪些内容？对机构进行运动分析的目的什么？ 包括内容：主要包括机构的位置（位移）分析、速度分析和加速度分析。（有时也包括高阶导数如跃度分析）。 目的： 确定机构中各构件的运动规律（如位移、速度、加速度），以判断机构是否能满足预期的运动要求。 为机构的动力学分析（如求解惯性力、运动副反力、平衡、强度设计）提供基础数据。 为机构的优化设计和创新设计提供依据。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机械原理007">
+<meta property="og:url" content="http://wakafun.github.io/2026/11/20/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86007/index.html">
+<meta property="og:site_name" content="譬如朝露">
+<meta property="og:description" content="栏杆机构运动分析+运动分析① 机构运动分析包括哪些内容？对机构进行运动分析的目的什么？ 包括内容：主要包括机构的位置（位移）分析、速度分析和加速度分析。（有时也包括高阶导数如跃度分析）。 目的： 确定机构中各构件的运动规律（如位移、速度、加速度），以判断机构是否能满足预期的运动要求。 为机构的动力学分析（如求解惯性力、运动副反力、平衡、强度设计）提供基础数据。 为机构的优化设计和创新设计提供依据。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://wakafun.github.io/img/10.jpg">
+<meta property="article:published_time" content="2026-11-20T12:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-20T14:38:52.584Z">
+<meta property="article:author" content="WakaFun">
+<meta property="article:tag" content="学习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://wakafun.github.io/img/10.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "机械原理007",
+  "url": "http://wakafun.github.io/2026/11/20/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86007/",
+  "image": "http://wakafun.github.io/img/10.jpg",
+  "datePublished": "2026-11-20T12:00:00.000Z",
+  "dateModified": "2026-11-20T14:38:52.584Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "WakaFun",
+      "url": "http://wakafun.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://wakafun.github.io/2026/11/20/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86007/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '机械原理007',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/url(/img/1.webp));"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-th"></i><span> 类别</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/10.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">譬如朝露</span></a><a class="nav-page-title" href="/"><span class="site-name">机械原理007</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-th"></i><span> 类别</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">机械原理007</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-11-20T12:00:00.000Z" title="发表于 2026-11-20 20:00:00">2026-11-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-11-20T14:38:52.584Z" title="更新于 2026-11-20 22:38:52">2026-11-20</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B/">机械工程</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="栏杆机构运动分析-运动分析"><a href="#栏杆机构运动分析-运动分析" class="headerlink" title="栏杆机构运动分析+运动分析"></a>栏杆机构运动分析+运动分析</h2><h3 id="①-机构运动分析包括哪些内容？对机构进行运动分析的目的什么？"><a href="#①-机构运动分析包括哪些内容？对机构进行运动分析的目的什么？" class="headerlink" title="① 机构运动分析包括哪些内容？对机构进行运动分析的目的什么？"></a>① 机构运动分析包括哪些内容？对机构进行运动分析的目的什么？</h3><ul>
+<li><strong>包括内容</strong>：主要包括机构的<strong>位置（位移）分析、速度分析</strong>和<strong>加速度分析</strong>。（有时也包括高阶导数如跃度分析）。</li>
+<li><strong>目的</strong>：<ol>
+<li>确定机构中各构件的运动规律（如位移、速度、加速度），以判断机构是否能满足预期的运动要求。</li>
+<li>为机构的动力学分析（如求解惯性力、运动副反力、平衡、强度设计）提供基础数据。</li>
+<li>为机构的优化设计和创新设计提供依据。</li>
+</ol>
+</li>
+</ul>
+<h3 id="②-什么是速度瞬心？相对速度瞬心和绝对速度瞬心有什么区别？"><a href="#②-什么是速度瞬心？相对速度瞬心和绝对速度瞬心有什么区别？" class="headerlink" title="② 什么是速度瞬心？相对速度瞬心和绝对速度瞬心有什么区别？"></a>② 什么是速度瞬心？相对速度瞬心和绝对速度瞬心有什么区别？</h3><ul>
+<li><strong>速度瞬心</strong>：指两个作平面相对运动的构件上，瞬时相对速度为零的重合点。在该点处，两构件的绝对速度相等。</li>
+<li><strong>区别</strong>：<ul>
+<li><strong>绝对速度瞬心</strong>：如果两个构件中有一个是机架（静止不动），则该瞬心称为绝对瞬心，此时该点的绝对速度为零。</li>
+<li><strong>相对速度瞬心</strong>：如果两个构件都在运动，则该瞬心称为相对瞬心，此时该点的绝对速度不为零（但两构件在该点的相对速度为零）。</li>
+</ul>
+</li>
+</ul>
+<h3 id="③-三心定理怎样表述？"><a href="#③-三心定理怎样表述？" class="headerlink" title="③ 三心定理怎样表述？"></a>③ 三心定理怎样表述？</h3><p><strong>三心定理</strong>（Kennedy’s Theorem）：三个彼此作平面平行运动的构件共有三个速度瞬心，且这三个瞬心必定位于同一直线上。</p>
+<h3 id="④-在进行机构运动分析时，速度瞬心法的优点及局限是什么？"><a href="#④-在进行机构运动分析时，速度瞬心法的优点及局限是什么？" class="headerlink" title="④ 在进行机构运动分析时，速度瞬心法的优点及局限是什么？"></a>④ 在进行机构运动分析时，速度瞬心法的优点及局限是什么？</h3><ul>
+<li><strong>优点</strong>：概念清晰，几何作图直观；对于简单的机构（特别是求特定点的速度）非常简便快捷，不需要建立复杂的数学模型。</li>
+<li><strong>局限</strong>：<ol>
+<li>只能用于<strong>速度分析</strong>，不能直接用于加速度分析。</li>
+<li>对于多杆复杂机构，需要确定的瞬心数量很多，作图繁琐且容易产生累积误差。</li>
+<li>当瞬心落在图纸范围之外或处于无穷远时，作图求解困难。</li>
+<li>对于含有高副的机构，瞬心的确定需要结合高副的接触性质（纯滚动、纯滑动或滚动兼滑动）来判断，有时比较复杂。</li>
+</ol>
+</li>
+</ul>
+<h3 id="⑤-什么是杆组法？用杆组法对连杆机构进行运动分析的依据是什么？"><a href="#⑤-什么是杆组法？用杆组法对连杆机构进行运动分析的依据是什么？" class="headerlink" title="⑤ 什么是杆组法？用杆组法对连杆机构进行运动分析的依据是什么？"></a>⑤ 什么是杆组法？用杆组法对连杆机构进行运动分析的依据是什么？</h3><ul>
+<li><strong>杆组法</strong>：将复杂机构拆解为若干个自由度为零的基本运动链（即阿苏尔杆组，简称杆组）和一个基本机构（原动件+机架），然后分别对这些杆组进行分析，从而实现整个机构的分析。</li>
+<li><strong>依据</strong>：<strong>机构组成原理</strong>。任何机构都可以看作是由若干个基本杆组依次连接到原动件和机架上所组成的系统。因为基本杆组的自由度为零（(F &#x3D; 3n - 2p_l - p_h &#x3D; 0)），所以其运动状态完全取决于其外接运动副的运动状态。只要知道了外接副的运动，就可以独立求解杆组内各点的运动。</li>
+</ul>
+<h3 id="⑥-利用杆组法进行机构运动分析的基本思路是什么？"><a href="#⑥-利用杆组法进行机构运动分析的基本思路是什么？" class="headerlink" title="⑥ 利用杆组法进行机构运动分析的基本思路是什么？"></a>⑥ 利用杆组法进行机构运动分析的基本思路是什么？</h3><p><strong>“先分解，后组合；由已知，求未知”</strong>。</p>
+<ol>
+<li>先计算自由度，并将机构分解为基本机构和若干基本杆组。</li>
+<li>对基本机构（原动件）进行运动分析，求出原动件上相关点的运动参数（已知条件）。</li>
+<li>按照运动传递的顺序（通常从靠近原动件的杆组开始），依次取出各个杆组。</li>
+<li>根据杆组外端运动副的已知运动参数，建立该杆组的运动学方程（位置、速度、加速度），求解杆组内部未知的运动参数。</li>
+<li>将前一个杆组求出的结果作为下一个杆组的已知输入，如此循环，直至所有构件分析完毕。</li>
+</ol>
+<h3 id="⑦-用杆组法对复杂多杆Ⅱ级机构进行运动分析的具体步骤是什么？"><a href="#⑦-用杆组法对复杂多杆Ⅱ级机构进行运动分析的具体步骤是什么？" class="headerlink" title="⑦ 用杆组法对复杂多杆Ⅱ级机构进行运动分析的具体步骤是什么？"></a>⑦ 用杆组法对复杂多杆Ⅱ级机构进行运动分析的具体步骤是什么？</h3><ol>
+<li><strong>机构组成分析</strong>：计算机构自由度，将机构拆分为基本机构和若干个<strong>Ⅱ级基本杆组</strong>（如RRR、RRP、RPR、PRP等）。</li>
+<li><strong>建立坐标系</strong>：建立统一的直角坐标系。</li>
+<li><strong>原动件分析</strong>：根据已知运动规律（如匀速转动），求出原动件（通常为曲柄）上相关铰接点的位置、速度、加速度。</li>
+<li><strong>依次求解杆组（位置分析）</strong>：从靠近原动件的杆组开始，根据杆组的几何约束条件（如杆长不变、移动副共线等），建立位置方程，求出各铰接点的位置。通常使用解析法（如矢量方程法、复数法）。</li>
+<li><strong>速度分析</strong>：将位置方程对时间求一阶导数，代入已知速度，求解杆组内各点的速度和构件的角速度。</li>
+<li><strong>加速度分析</strong>：将速度方程对时间求一阶导数（即位置方程求二阶导数），代入已知加速度，求解杆组内各点的加速度和构件的角加速度。</li>
+<li><strong>循环与汇总</strong>：重复步骤4-6，依次求解下一个杆组，直到所有构件的运动参数全部求出。</li>
+<li><strong>校验</strong>：根据需要绘制运动线图或进行位移、速度、加速度曲线校验。</li>
+</ol>
+<hr>
+<p>运动分析先设1固定点，刚化反转求出另1点即可。若用解析法，则根据方程参数为5，需取设5组数据（1未知待求；X,Y,M,N），确定精确位置。</p>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/pics/jxyl0071.png" alt="jxyl0071"></p>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/pics/jxyl0072.png" alt="jxyl0072"></p>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/pics/jxyl0073.png" alt="jxyl0073"></p>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/pics/jxyl0074.png" alt="jxyl0074"></p>
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/pics/jxyl0075.png" alt="jxyl0075"></p>
+<hr>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1n441127Rx/?spm_id_from=333.788.videopod.episodes&p=17">平面连杆机构的运动分析</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1n441127Rx/?spm_id_from=333.788.videopod.episodes&p=18">平面连杆机构运动设计-1</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://wakafun.github.io">WakaFun</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://wakafun.github.io/2026/11/20/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86007/">http://wakafun.github.io/2026/11/20/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86007/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://wakafun.github.io" target="_blank">譬如朝露</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a></div><div class="post-share"><div class="social-share" data-image="/img/10.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/11/19/%E5%9F%B9%E8%AE%AD%E7%BA%AA%E8%A6%811119/" title="培训纪要1119"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/8.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">培训纪要1119</div></div><div class="info-2"><div class="info-item-1">机壳+支架拆分 机壳有哪些分类，依据是什么  高压&#x2F;中压&#x2F;低压 封闭防渗&#x2F;开放式 其他   机壳拆分注意事项  厚度要求，总图与厂标比对 尺寸要求，为了方便铆接而必须让步的尺寸 机壳上的部件分析：①检修门的设置方位、尺寸依据，嵌入式的选择必要性②蜗舌分段&#x2F;折线设置依据③螺丝&#x2F;丝孔设置及配合依据④与其他部位接触地方需要注意的点提醒，比如下口⑤排污口的尺寸、位置限定⑥其他情况（保温等）   支架拆分注意事项  支架分类？吊耳设置？内部加强筋焊接与螺丝打架问题？ 厚度、尺寸要求，参照总图及后续安装工艺（比如限位块的摆放合不合适） 让步尺寸（比如宁低勿高，比如板材是有厚度的）、定位虚线设置（目的何在，一般是为了方便铆接）   其他问题  焊缝&#x2F;铆接缝的预留尺寸？ 安装孔设置，要方便伸手安装     老师讲课的时候，有问题要当场提。 </div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">WakaFun</div><div class="author-info-description">天行健，君子以自强不息</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/wakafun"><i class="fab fa-github"></i><span>月牙天冲</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/wakafun" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://x.com/wakafun2" target="_blank" title="X"><i class="fab fa-x" style="color: #24292e;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%8F%E6%9D%86%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90-%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90"><span class="toc-text">栏杆机构运动分析+运动分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A0-%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90%E5%8C%85%E6%8B%AC%E5%93%AA%E4%BA%9B%E5%86%85%E5%AE%B9%EF%BC%9F%E5%AF%B9%E6%9C%BA%E6%9E%84%E8%BF%9B%E8%A1%8C%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90%E7%9A%84%E7%9B%AE%E7%9A%84%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">① 机构运动分析包括哪些内容？对机构进行运动分析的目的什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A1-%E4%BB%80%E4%B9%88%E6%98%AF%E9%80%9F%E5%BA%A6%E7%9E%AC%E5%BF%83%EF%BC%9F%E7%9B%B8%E5%AF%B9%E9%80%9F%E5%BA%A6%E7%9E%AC%E5%BF%83%E5%92%8C%E7%BB%9D%E5%AF%B9%E9%80%9F%E5%BA%A6%E7%9E%AC%E5%BF%83%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F"><span class="toc-text">② 什么是速度瞬心？相对速度瞬心和绝对速度瞬心有什么区别？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A2-%E4%B8%89%E5%BF%83%E5%AE%9A%E7%90%86%E6%80%8E%E6%A0%B7%E8%A1%A8%E8%BF%B0%EF%BC%9F"><span class="toc-text">③ 三心定理怎样表述？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A3-%E5%9C%A8%E8%BF%9B%E8%A1%8C%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90%E6%97%B6%EF%BC%8C%E9%80%9F%E5%BA%A6%E7%9E%AC%E5%BF%83%E6%B3%95%E7%9A%84%E4%BC%98%E7%82%B9%E5%8F%8A%E5%B1%80%E9%99%90%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">④ 在进行机构运动分析时，速度瞬心法的优点及局限是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A4-%E4%BB%80%E4%B9%88%E6%98%AF%E6%9D%86%E7%BB%84%E6%B3%95%EF%BC%9F%E7%94%A8%E6%9D%86%E7%BB%84%E6%B3%95%E5%AF%B9%E8%BF%9E%E6%9D%86%E6%9C%BA%E6%9E%84%E8%BF%9B%E8%A1%8C%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90%E7%9A%84%E4%BE%9D%E6%8D%AE%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">⑤ 什么是杆组法？用杆组法对连杆机构进行运动分析的依据是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A5-%E5%88%A9%E7%94%A8%E6%9D%86%E7%BB%84%E6%B3%95%E8%BF%9B%E8%A1%8C%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%80%9D%E8%B7%AF%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">⑥ 利用杆组法进行机构运动分析的基本思路是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%91%A6-%E7%94%A8%E6%9D%86%E7%BB%84%E6%B3%95%E5%AF%B9%E5%A4%8D%E6%9D%82%E5%A4%9A%E6%9D%86%E2%85%A1%E7%BA%A7%E6%9C%BA%E6%9E%84%E8%BF%9B%E8%A1%8C%E8%BF%90%E5%8A%A8%E5%88%86%E6%9E%90%E7%9A%84%E5%85%B7%E4%BD%93%E6%AD%A5%E9%AA%A4%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="toc-text">⑦ 用杆组法对复杂多杆Ⅱ级机构进行运动分析的具体步骤是什么？</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By WakaFun</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><script src="/js/tw_cn.js?v=5.5.4"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const initValine = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyValine = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const valineConfig = {
+      el: '#vcomment',
+      appId: 'cekwtsszRrqqKMtMjdLiupUH-gzGzoHsz',
+      appKey: 'GhU7Qkr4O8f71veh6MVxSv5F',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      visitor: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || window.location.pathname
+    }
+
+    new Valine(valineConfig)
+  }
+
+  const loadValine = async (el, path) => {
+    if (typeof Valine === 'function') {
+      initValine(el, path)
+    } else {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js')
+      initValine(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Valine' === 'Valine'
+      ? window.shuoshuoComment = { loadComment: loadValine }
+      : window.loadOtherComment = loadValine
+    return
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="25" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/metingjs/dist/Meting.min.js"></script><script>(() => {
+  const destroyAplayer = () => {
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        if (!window.aplayers[i].options.fixed) {
+          window.aplayers[i].destroy()
+        }
+      }
+    }
+  }
+
+  const runMetingJS = () => {
+    typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+  }
+
+  btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
+  btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      false
+        ? pjax.loadUrl('/404.html')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
